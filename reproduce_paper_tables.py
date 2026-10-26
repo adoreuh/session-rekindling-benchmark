@@ -6,13 +6,33 @@ Adaptation After a Conversational Hiatus".
 
 This script is deliberately offline and stdlib-only.  It reads
 
-    data/responses.jsonl          one record per evaluated cell (2 940 cells)
+    data/responses.jsonl          one record per evaluated cell (940 cells)
     results_v4/e4_report.json     explicit-date baseline scoring (Table 4)
 
 and prints Tables 3, 4, 5 and 6 exactly as they appear in the paper, each with a
 PASS/FAIL line comparing the recomputed numbers against the published values.
 Nothing is imputed: a cell whose judge label is unresolved is dropped from the
 denominator rather than counted as a negative.
+
+What each row of data/responses.jsonl carries
+---------------------------------------------
+    experiment      expiry (clock at d-1 / d+30 / d+120) | e1 (forced) | e2 (relation) | e3 (reference date)
+    route           the model under test
+    profile         the event type, e.g. ``visa_interview_i1``
+    arm             pre | post | late | ref_before | ref_after
+    condition       natural | delivered | forced | relation
+    probe_clock_called   did the agent query the Clock tool in the probe turn
+    answer          the final response shown to the user
+    reasoning       the exposed chain-of-thought (empty for non-reasoning routes)
+    labels          the condition-blind judge verdicts: current_state_assumed (S),
+                    temporal_frame_correct (T), support_action_appropriate (P),
+                    affect_validated
+
+The per-cell event logs that this file was derived from are large (about 135 MB
+for all 940 cells), so only one worked example cell per route is kept under
+``runs_expiry_*/`` as a format reference.  Every number in the paper is
+reproducible from ``data/responses.jsonl`` alone; the raw traces are only needed
+to re-run ``tools/`` end-to-end.
 
 Usage::
 
