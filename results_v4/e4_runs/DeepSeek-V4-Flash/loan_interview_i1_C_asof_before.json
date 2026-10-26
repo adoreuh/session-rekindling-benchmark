@@ -1,0 +1,337 @@
+{
+  "cell": {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer Chinese. Need determine based on current date 2026-04-14, event 2026-04-29. Since 2026-04-29 is after current date (14 < 29), so yes, should be treated as \"将要发生\" (upcoming). Need answer \"是\".",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 124,
+      "completion_tokens": 68,
+      "total_tokens": 192,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 124,
+      "input_tokens": 124,
+      "output_tokens": 68
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790729137345807aee62071c6276565fb8410c8c5179657976",
+    "system_fingerprint": "",
+    "latency_s": 1.752,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.764
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.168
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.042
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.954
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.514
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.929
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.105
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      }
+    ],
+    "raw": {
+      "id": "021790729137345807aee62071c6276565fb8410c8c5179657976",
+      "object": "chat.completion",
+      "created": 1790729138,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 68,
+        "total_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 66
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 66
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 124,
+        "input_tokens": 124,
+        "output_tokens": 68
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine based on current date 2026-04-14, event 2026-04-29. Since 2026-04-29 is after current date (14 < 29), so yes, should be treated as \"将要发生\" (upcoming). Need answer \"是\"."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 2,
+      "total_tokens": 61,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "completion_tokens_details": {
+        "text_tokens": 2
+      },
+      "output_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "input_tokens": 59,
+      "output_tokens": 2
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-6c00ef19-3dcd-92d8-907d-2db20907a91b",
+    "system_fingerprint": "",
+    "latency_s": 0.407,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-6c00ef19-3dcd-92d8-907d-2db20907a91b",
+      "object": "chat.completion",
+      "created": 1790728082,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 2,
+        "total_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "completion_tokens_details": {
+          "text_tokens": 2
+        },
+        "output_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "input_tokens": 59,
+        "output_tokens": 2
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

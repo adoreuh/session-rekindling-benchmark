@@ -1,0 +1,137 @@
+{
+  "cell": {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 2,
+      "total_tokens": 61,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "completion_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "output_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens": 59,
+      "output_tokens": 2
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-00fc1410-bc72-98a2-885f-15ce8777c90f",
+    "system_fingerprint": "",
+    "latency_s": 2.761,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-00fc1410-bc72-98a2-885f-15ce8777c90f",
+      "object": "chat.completion",
+      "created": 1790728197,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 2,
+        "total_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "completion_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "output_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens": 59,
+        "output_tokens": 2
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

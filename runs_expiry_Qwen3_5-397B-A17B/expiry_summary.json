@@ -1,0 +1,156 @@
+[
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 424,
+        "branch_id": "probe",
+        "delivered": [
+          "kindergarten_interview_i1_original_confirmation",
+          "kindergarten_interview_i1_preparation_notes",
+          "kindergarten_interview_i1_unrelated_invitation",
+          "kindergarten_interview_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "e4081da361ca3b45d5c7ef040f1e3a9bb12756426863cf49c414df7e4e6dc593",
+          "4abed1feca771e0d7e0667e5848f8345b1bd538cb8f102bc6a439ca038ae78c7"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "f9aa3f87911105abd729e24abbe4a256c8f5682f139ef3b43d182e62b7809455",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "kindergarten_interview_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "a7e4e55202037c85a6f42b2f33d4a5bc0c6262d3e6da16e181ca2b5f9ef7fcb3",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        26
+      ],
+      "parent_prefix_digests": [
+        "05a0c023807311d74a45762cb9a4a6cab1640b96da0d6f1fa02d649b71428d58"
+      ]
+    },
+    "profile": "kindergarten_interview_i1",
+    "route": "Qwen3.5-397B-A17B",
+    "schedule_digest": "798e7d69141f79c5afe658a5f1bab059a45942ff3216e808c50a1c91d42fac36",
+    "spec_digest": "34977cdcff30e106c1874d0a2d6a6745dc4fa0d126466ad8c28514d468728eed",
+    "target_instant": "2026-04-19T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 27.1
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 449,
+        "branch_id": "probe",
+        "delivered": [
+          "tax_interview_i1_original_confirmation",
+          "tax_interview_i1_preparation_notes",
+          "tax_interview_i1_unrelated_invitation",
+          "tax_interview_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "db4b87bc04031ac7b37f0a052df4c21516abdf6ed40fa357839357c4fdc910bd",
+          "26e58f65a18215ed19ce7cf0230dbb1c26d674b96ab8401a93da47ac109ae3dd"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "c47ec69dd90b9444438e4122fbe50f489c90be63f79ecbe39e26fe837b3d0502",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "tax_interview_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "fb287a55ffe3ac60237d1c335ff1786f413dff3cde193f7874bae1629dd8f826",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "f25520c672c82dad8c1ea95bbce0a16fd1896c603247c6382d771e426ad1b779"
+      ]
+    },
+    "profile": "tax_interview_i1",
+    "route": "Qwen3.5-397B-A17B",
+    "schedule_digest": "6026e604f078d518dfb0a3ceb59501ae9e1dda963d08619cd2127c5ad98d2be3",
+    "spec_digest": "a34c87840d383d8917b57615c2bbc7ec0e5896ebdc2e7535b36f70899f9bf4a7",
+    "target_instant": "2026-05-05T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 24.4
+  }
+]

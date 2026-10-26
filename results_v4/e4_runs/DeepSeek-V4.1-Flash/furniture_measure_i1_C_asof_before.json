@@ -1,0 +1,212 @@
+{
+  "cell": {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "我们需要回答用户中文问题。需要理解。用户问：“截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。”\n\n需要判断日期。截至2026-04-21，2026-05-06 是将来的日期，应该当作将要发生？是。但需要注意“已排定事项”可能已取消？没有上下文。问题只给日期。截至4月21日，5月6日还没到，所以应该视为将要发生。回答“是”或“否”。应该只答一个字？用户要求回答\"是\"或\"否\"。那就答“是”。需要确保没有陷阱：截至2026-04-21，2026-05-06 在将来。是的。最终只输出“是”。 ",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 71,
+      "completion_tokens": 185,
+      "total_tokens": 256,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 71,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "input_tokens": 71,
+      "output_tokens": 185
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728509647d5e3a06b1d3d650f0fc414a0e965c4992a56b0",
+    "system_fingerprint": "",
+    "latency_s": 1.888,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      }
+    ],
+    "raw": {
+      "id": "021790728509647d5e3a06b1d3d650f0fc414a0e965c4992a56b0",
+      "object": "chat.completion",
+      "created": 1790728511,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 185,
+        "total_tokens": 256,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 184
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 71,
+        "output_tokens_details": {
+          "reasoning_tokens": 184
+        },
+        "input_tokens": 71,
+        "output_tokens": 185
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "我们需要回答用户中文问题。需要理解。用户问：“截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。”\n\n需要判断日期。截至2026-04-21，2026-05-06 是将来的日期，应该当作将要发生？是。但需要注意“已排定事项”可能已取消？没有上下文。问题只给日期。截至4月21日，5月6日还没到，所以应该视为将要发生。回答“是”或“否”。应该只答一个字？用户要求回答\"是\"或\"否\"。那就答“是”。需要确保没有陷阱：截至2026-04-21，2026-05-06 在将来。是的。最终只输出“是”。 "
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

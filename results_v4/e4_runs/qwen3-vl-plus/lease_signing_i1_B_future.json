@@ -1,0 +1,302 @@
+{
+  "cell": {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 2,
+      "total_tokens": 61,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "completion_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "output_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens": 59,
+      "output_tokens": 2
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-83ca9223-e4ab-9ba5-8877-21651b8e0d47",
+    "system_fingerprint": "",
+    "latency_s": 0.73,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.553
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.993
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.583
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.27
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.296
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.446
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.756
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.438
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.526
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.244
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.915
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.287
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.894
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 12.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.766
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.684
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.109
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 14.008
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.524
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.514
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.606
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.396
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.978
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.474
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.73
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-83ca9223-e4ab-9ba5-8877-21651b8e0d47",
+      "object": "chat.completion",
+      "created": 1790728994,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 2,
+        "total_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "completion_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "output_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens": 59,
+        "output_tokens": 2
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

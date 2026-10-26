@@ -1,0 +1,242 @@
+{
+  "cell": {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "相差 **30天**。",
+    "reasoning_content": "We need answer in Chinese. Need compute days between 2026-04-21 and 2026-05-21. Need know inclusive? \"相差多少天\" usually difference in dates = 30 days? Let's calculate: April has 30 days. From Apr 21 to May 21: Apr 21 to Apr 30 = 9 days (if counting days between excluding start? Let's do standard date difference: May 21 - Apr 21 = 30 days because April 21 + 30 = May 21. Yes. Need answer: 30天. Could mention if按日期差。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 135,
+      "total_tokens": 246,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 111,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "input_tokens": 111,
+      "output_tokens": 135
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728746870807aee62071c6276565fb8410c8c5179c10fb9",
+    "system_fingerprint": "",
+    "latency_s": 2.609,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      }
+    ],
+    "raw": {
+      "id": "021790728746870807aee62071c6276565fb8410c8c5179c10fb9",
+      "object": "chat.completion",
+      "created": 1790728749,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 135,
+        "total_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 111,
+        "output_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "input_tokens": 111,
+        "output_tokens": 135
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "相差 **30天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compute days between 2026-04-21 and 2026-05-21. Need know inclusive? \"相差多少天\" usually difference in dates = 30 days? Let's calculate: April has 30 days. From Apr 21 to May 21: Apr 21 to Apr 30 = 9 days (if counting days between excluding start? Let's do standard date difference: May 21 - Apr 21 = 30 days because April 21 + 30 = May 21. Yes. Need answer: 30天. Could mention if按日期差。"
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

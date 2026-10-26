@@ -1,0 +1,277 @@
+{
+  "cell": {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-04-20 has passed relative to reference date 2026-04-05. Obviously no, April 20 after April 5. Need answer \"否\". Ensure only 是 or 否.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 72,
+      "completion_tokens": 57,
+      "total_tokens": 129,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 72,
+      "prompt_cache_hit_tokens": 0,
+      "input_tokens": 72,
+      "output_tokens": 57
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728849541d5e3a06b1d3d650f0fc414a0e965c499efcc75",
+    "system_fingerprint": "",
+    "latency_s": 1.389,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.126
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.626
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.001
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.142
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.925
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.326
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.634
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.061
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.84
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.632
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.389
+      }
+    ],
+    "raw": {
+      "id": "021790728849541d5e3a06b1d3d650f0fc414a0e965c499efcc75",
+      "object": "chat.completion",
+      "created": 1790728850,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 57,
+        "total_tokens": 129,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 55
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 55
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 72,
+        "prompt_cache_hit_tokens": 0,
+        "input_tokens": 72,
+        "output_tokens": 57
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-04-20 has passed relative to reference date 2026-04-05. Obviously no, April 20 after April 5. Need answer \"否\". Ensure only 是 or 否."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

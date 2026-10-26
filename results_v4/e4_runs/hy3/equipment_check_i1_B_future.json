@@ -1,0 +1,154 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "用户问：某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-04-27\n参考日期：2026-04-12\n\n比较这两个日期：\n2026-04-27 晚于 2026-04-12（即 27号在12号之后）。\n所以，预定日期（4月27日）还没有过去（因为参考日期是4月12日，还在4月27日之前）。\n\n因此，该事项的预定日期还没有过去。\n回答应该是\"否\"。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 143,
+      "total_tokens": 195,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 140
+      }
+    },
+    "model": "hy3",
+    "request_id": "8607a53b-a61b-4503-827a-d37db4c361bc",
+    "system_fingerprint": "",
+    "latency_s": 1.877,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.186
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.877
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "否",
+            "reasoning_content": "用户问：某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-04-27\n参考日期：2026-04-12\n\n比较这两个日期：\n2026-04-27 晚于 2026-04-12（即 27号在12号之后）。\n所以，预定日期（4月27日）还没有过去（因为参考日期是4月12日，还在4月27日之前）。\n\n因此，该事项的预定日期还没有过去。\n回答应该是\"否\"。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728319,
+      "id": "8607a53b-a61b-4503-827a-d37db4c361bc",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 143,
+        "total_tokens": 195,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 140
+        }
+      }
+    }
+  }
+}

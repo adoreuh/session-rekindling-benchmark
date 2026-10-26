@@ -1,0 +1,162 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer in Chinese. Need determine based on dates. Current date 2026-04-21, event 2026-05-06. Since event is future relative to current? 2026-05-06 is after 2026-04-21, so yes should be treated as \"将要发生\". Answer \"是\". Need just answer.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 124,
+      "completion_tokens": 76,
+      "total_tokens": 200,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 124,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "input_tokens": 124,
+      "output_tokens": 76
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728301570807aee62071c6276565fb8410c8c5179e77c5e",
+    "system_fingerprint": "",
+    "latency_s": 1.725,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      }
+    ],
+    "raw": {
+      "id": "021790728301570807aee62071c6276565fb8410c8c5179e77c5e",
+      "object": "chat.completion",
+      "created": 1790728303,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 76,
+        "total_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 124,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "input_tokens": 124,
+        "output_tokens": 76
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need determine based on dates. Current date 2026-04-21, event 2026-05-06. Since event is future relative to current? 2026-05-06 is after 2026-04-21, so yes should be treated as \"将要发生\". Answer \"是\". Need just answer."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

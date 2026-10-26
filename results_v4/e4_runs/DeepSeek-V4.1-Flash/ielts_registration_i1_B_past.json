@@ -1,0 +1,247 @@
+{
+  "cell": {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "我们需要回答中文。需要判断某事项定于 2026-04-21，参考日期 2026-05-21。该事项的预定日期已经过去了吗？回答是或否。需要知道当前? 问题给参考日期是2026-05-21，可能相对于参考日期，事项日期 2026-04-21 早于参考日期，所以已经过去。回答“是”。但需小心：如果实际当前日期? 系统当前日期 2026-05-07? 问题明确参考日期是 2026-05-21。应该基于参考日期。2026-04-21 < 2026-05-21，因此过去。回答是。只回答是或否。最终应“是”。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 72,
+      "completion_tokens": 161,
+      "total_tokens": 233,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 72,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "input_tokens": 72,
+      "output_tokens": 161
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728732719d5e3a06b1d3d650f0fc414a0e965c499960022",
+    "system_fingerprint": "",
+    "latency_s": 1.925,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.126
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.626
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.001
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.142
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.925
+      }
+    ],
+    "raw": {
+      "id": "021790728732719d5e3a06b1d3d650f0fc414a0e965c499960022",
+      "object": "chat.completion",
+      "created": 1790728734,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 161,
+        "total_tokens": 233,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 72,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "input_tokens": 72,
+        "output_tokens": 161
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "我们需要回答中文。需要判断某事项定于 2026-04-21，参考日期 2026-05-21。该事项的预定日期已经过去了吗？回答是或否。需要知道当前? 问题给参考日期是2026-05-21，可能相对于参考日期，事项日期 2026-04-21 早于参考日期，所以已经过去。回答“是”。但需小心：如果实际当前日期? 系统当前日期 2026-05-07? 问题明确参考日期是 2026-05-21。应该基于参考日期。2026-04-21 < 2026-05-21，因此过去。回答是。只回答是或否。最终应“是”。"
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

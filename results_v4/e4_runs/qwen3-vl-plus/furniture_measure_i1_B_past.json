@@ -1,0 +1,197 @@
+{
+  "cell": {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 2,
+      "total_tokens": 61,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "completion_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "output_tokens_details": {
+        "text_tokens": 2
+      },
+      "input_tokens": 59,
+      "output_tokens": 2
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-44c65ec7-207a-9fa1-b586-21862156bc80",
+    "system_fingerprint": "",
+    "latency_s": 0.446,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.553
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.993
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.583
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.27
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.296
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.446
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-44c65ec7-207a-9fa1-b586-21862156bc80",
+      "object": "chat.completion",
+      "created": 1790728531,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 2,
+        "total_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "completion_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "output_tokens_details": {
+          "text_tokens": 2
+        },
+        "input_tokens": 59,
+        "output_tokens": 2
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

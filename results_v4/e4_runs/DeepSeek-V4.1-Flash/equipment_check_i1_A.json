@@ -1,0 +1,167 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30 天**。",
+    "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-27 and 2026-05-27. Need likely absolute days? \"两个日期相差多少天\" from event date to reference date. 2026 not leap? 2026 divisible? no. April has 30 days. From Apr 27 to May 27: Apr 27->Apr 30 =3 days? Let's calculate if excluding start including end? Difference in date arithmetic: May27 - Apr27 = 30 days? Because April 27 to May 27 one month. April has 30 days. Day-of-year: Apr27 doy? Jan31+Feb28+Mar31+Apr27=117. May27 doy=31+28+31+30+27=147. Difference=30. Yes. If inclusive counting might be 31 days? Usually \"相差多少天\" = 30天. Need concise. Could mention if按日期差（不含起始日）为30天. Final in Chinese. ",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 223,
+      "total_tokens": 281,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 58,
+      "input_tokens": 58,
+      "output_tokens": 223
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728381144d5e3a06b1d3d650f0fc414a0e965c499c4d236",
+    "system_fingerprint": "",
+    "latency_s": 2.455,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      }
+    ],
+    "raw": {
+      "id": "021790728381144d5e3a06b1d3d650f0fc414a0e965c499c4d236",
+      "object": "chat.completion",
+      "created": 1790728383,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 223,
+        "total_tokens": 281,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58,
+        "input_tokens": 58,
+        "output_tokens": 223
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30 天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-27 and 2026-05-27. Need likely absolute days? \"两个日期相差多少天\" from event date to reference date. 2026 not leap? 2026 divisible? no. April has 30 days. From Apr 27 to May 27: Apr 27->Apr 30 =3 days? Let's calculate if excluding start including end? Difference in date arithmetic: May27 - Apr27 = 30 days? Because April 27 to May 27 one month. April has 30 days. Day-of-year: Apr27 doy? Jan31+Feb28+Mar31+Apr27=117. May27 doy=31+28+31+30+27=147. Difference=30. Yes. If inclusive counting might be 31 days? Usually \"相差多少天\" = 30天. Need concise. Could mention if按日期差（不含起始日）为30天. Final in Chinese. "
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

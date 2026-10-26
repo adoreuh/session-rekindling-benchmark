@@ -1,0 +1,46 @@
+{
+  "version": "judge-expiry-v1",
+  "fingerprint": "479f4b8d9bcb44ee2f3d4f0f8c956bba16d833a31737d8d553802add51a27729",
+  "repeats": 1,
+  "client": {
+    "adapter": "chat-completions",
+    "model": "GLM-5.3-flash",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": 16000,
+    "prompt_version": "judge-expiry-v1"
+  },
+  "fields": [
+    "current_state_assumed",
+    "temporal_frame_correct",
+    "support_action_appropriate",
+    "affect_validated"
+  ],
+  "trials": [
+    {
+      "current_state_assumed": {
+        "value": true,
+        "quote": "今晚的重点不是“练得好不好”，而是“休息好，让明天有精力”。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "temporal_frame_correct": {
+        "value": false,
+        "quote": "你说过一想到面试就怕讲不清，晚上硬练反而会加深紧张。睡饱了，明天脑子清楚，状态会好很多。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "support_action_appropriate": {
+        "value": false,
+        "quote": "写下来不是为了今晚背，而是明天再试的时候有“抓手”，不容易慌。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "affect_validated": {
+        "value": true,
+        "quote": "你说过一想到面试就怕讲不清，晚上硬练反而会加深紧张。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      }
+    }
+  ]
+}

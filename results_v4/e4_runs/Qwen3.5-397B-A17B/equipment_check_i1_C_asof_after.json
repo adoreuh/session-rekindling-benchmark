@@ -1,0 +1,186 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Current date (simulated): 2026-05-27\n    *   Event date: 2026-04-27\n    *   Question: Should this scheduled event still be treated as \"about to happen\" (将要发生)?\n    *   Required answer format: \"是\" (Yes) or \"否\" (No).\n\n2.  **Compare Dates:**\n    *   Current Date: May 27, 2026\n    *   Event Date: April 27, 2026\n    *   Calculation: The event date is one month *before* the current date.\n\n3.  **Determine Status:**\n    *   Since the event date (April 27) is in the past relative to the current date (May 27), it has already happened.\n    *   Therefore, it should *not* be treated as \"about to happen\" (将要发生).\n\n4.  **Formulate Answer:**\n    *   The correct answer is \"否\" (No).\n\n5.  **Final Check:**\n    *   Does the answer meet the constraint (\"是\" or \"否\")? Yes.\n    *   Is the logic sound? Yes, April 27 is before May 27.\n\n6.  **Output:** 否",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 311,
+      "total_tokens": 370,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 305,
+        "text_tokens": 311
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 305,
+        "text_tokens": 311
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 59
+      },
+      "input_tokens": 59,
+      "output_tokens": 311
+    },
+    "model": "Qwen3.5-397B-A17B",
+    "request_id": "chatcmpl-e82d39d6-c041-99a7-9026-51ac82feb5cd",
+    "system_fingerprint": "",
+    "latency_s": 6.707,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 19.077
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.902
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.203
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.559
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.208
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 26.825
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 9.504
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.225
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 11.84
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.968
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 26.037
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 10.214
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 12.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 13.212
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 22.516
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.385
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 10.494
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 6.707
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-e82d39d6-c041-99a7-9026-51ac82feb5cd",
+      "object": "chat.completion",
+      "created": 1790728374,
+      "model": "Qwen3.5-397B-A17B",
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 311,
+        "total_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 305,
+          "text_tokens": 311
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 305,
+          "text_tokens": 311
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 59
+        },
+        "input_tokens": 59,
+        "output_tokens": 311
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Current date (simulated): 2026-05-27\n    *   Event date: 2026-04-27\n    *   Question: Should this scheduled event still be treated as \"about to happen\" (将要发生)?\n    *   Required answer format: \"是\" (Yes) or \"否\" (No).\n\n2.  **Compare Dates:**\n    *   Current Date: May 27, 2026\n    *   Event Date: April 27, 2026\n    *   Calculation: The event date is one month *before* the current date.\n\n3.  **Determine Status:**\n    *   Since the event date (April 27) is in the past relative to the current date (May 27), it has already happened.\n    *   Therefore, it should *not* be treated as \"about to happen\" (将要发生).\n\n4.  **Formulate Answer:**\n    *   The correct answer is \"否\" (No).\n\n5.  **Final Check:**\n    *   Does the answer meet the constraint (\"是\" or \"否\")? Yes.\n    *   Is the logic sound? Yes, April 27 is before May 27.\n\n6.  **Output:** 否"
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

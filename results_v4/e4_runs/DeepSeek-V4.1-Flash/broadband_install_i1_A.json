@@ -1,0 +1,92 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30 天**。",
+    "reasoning_content": "We need answer Chinese. Need compute days between 2026-04-20 and 2026-05-20. Need careful. Event date 2026-04-20, reference 2026-05-20. Difference? From Apr 20 to May 20. April has 30 days. Apr 20 to Apr 30 =10 days (if exclusive) then May 1 to May 20 =20? Let's compute date difference. Apr20 00 to May20 00: remaining Apr: Apr21-30 =10 days, plus May1-20? Wait to May20 00 includes May1 through May19 =19 days? Let's do day-of-year.\n\n2026 not leap? 2026 not divisible by4. Jan31+Feb28+Mar31=90. Apr20 DOY = 90+20=110. May20 DOY= Jan31+Feb28+Mar31+Apr30+20 =31+28+31+30+20=140. Difference =30. Yes 30 days. Need answer. Maybe mention inclusive? They ask 相差多少天. 30 days. Final concise. ",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 253,
+      "total_tokens": 311,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 58,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "input_tokens": 58,
+      "output_tokens": 253
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728051556d5e3a06b1d3d650f0fc414a0e965c4996d3465",
+    "system_fingerprint": "",
+    "latency_s": 2.051,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      }
+    ],
+    "raw": {
+      "id": "021790728051556d5e3a06b1d3d650f0fc414a0e965c4996d3465",
+      "object": "chat.completion",
+      "created": 1790728053,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 253,
+        "total_tokens": 311,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 244
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 58,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 244
+        },
+        "input_tokens": 58,
+        "output_tokens": 253
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30 天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need compute days between 2026-04-20 and 2026-05-20. Need careful. Event date 2026-04-20, reference 2026-05-20. Difference? From Apr 20 to May 20. April has 30 days. Apr 20 to Apr 30 =10 days (if exclusive) then May 1 to May 20 =20? Let's compute date difference. Apr20 00 to May20 00: remaining Apr: Apr21-30 =10 days, plus May1-20? Wait to May20 00 includes May1 through May19 =19 days? Let's do day-of-year.\n\n2026 not leap? 2026 not divisible by4. Jan31+Feb28+Mar31=90. Apr20 DOY = 90+20=110. May20 DOY= Jan31+Feb28+Mar31+Apr30+20 =31+28+31+30+20=140. Difference =30. Yes 30 days. Need answer. Maybe mention inclusive? They ask 相差多少天. 30 days. Final concise. "
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

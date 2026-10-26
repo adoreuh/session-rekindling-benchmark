@@ -1,0 +1,394 @@
+{
+  "cell": {
+    "cell_id": "visa_interview_i1::A",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-20 到 2026-04-30 是 10 天。\n- 从 2026-04-30 到 2026-05-20 是 20 天。\n- 10天 + 20天 = 30天。\n\n（或者说，从4月20日到5月20日正好是一个月，而4月是小月，有30天，因此相差30天。）",
+    "reasoning_content": "用户问：事件日期是 2026-04-20，参考日期是 2026-05-20。两个日期相差多少天？\n事件日期：2026年4月20日\n参考日期：2026年5月20日\n计算相差天数：\n4月有30天。\n从4月20日到4月30日，相差10天（30 - 20 = 10）。\n从4月30日到5月20日，相差20天。\n总天数 = 10 + 20 = 30天。\n或者，直接看月份，4月20日到5月20日正好是一个月。4月有30天，所以是30天。\n相差30天。\n如果算绝对值，就是30天。\n如果算参考日期减去事件日期，就是 +30 天。\n问题问的是“相差多少天”，通常回答30天即可。\n确认一下2026年是不是闰年？2026不能被4整除，所以是平年，2月有28天，但4月和5月不受影响。4月固定30天。\n所以相差30天。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 353,
+      "total_tokens": 393,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 230
+      }
+    },
+    "model": "hy3",
+    "request_id": "d1b9fd1d-c339-475f-99e3-01c4237be0bb",
+    "system_fingerprint": "",
+    "latency_s": 3.265,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.186
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.877
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.463
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.277
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.708
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.243
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.973
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.573
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.786
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.953
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.511
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.822
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.676
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.829
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.436
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.538
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.35
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.52
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.63
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.471
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.65
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.517
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.369
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.187
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.581
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.493
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.866
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.803
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.641
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.837
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.881
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.654
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.405
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.131
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.602
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.255
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.535
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.979
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.732
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.155
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.591
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.48
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.108
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.17
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.452
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.265
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-20 到 2026-04-30 是 10 天。\n- 从 2026-04-30 到 2026-05-20 是 20 天。\n- 10天 + 20天 = 30天。\n\n（或者说，从4月20日到5月20日正好是一个月，而4月是小月，有30天，因此相差30天。）",
+            "reasoning_content": "用户问：事件日期是 2026-04-20，参考日期是 2026-05-20。两个日期相差多少天？\n事件日期：2026年4月20日\n参考日期：2026年5月20日\n计算相差天数：\n4月有30天。\n从4月20日到4月30日，相差10天（30 - 20 = 10）。\n从4月30日到5月20日，相差20天。\n总天数 = 10 + 20 = 30天。\n或者，直接看月份，4月20日到5月20日正好是一个月。4月有30天，所以是30天。\n相差30天。\n如果算绝对值，就是30天。\n如果算参考日期减去事件日期，就是 +30 天。\n问题问的是“相差多少天”，通常回答30天即可。\n确认一下2026年是不是闰年？2026不能被4整除，所以是平年，2月有28天，但4月和5月不受影响。4月固定30天。\n所以相差30天。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790729473,
+      "id": "d1b9fd1d-c339-475f-99e3-01c4237be0bb",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 353,
+        "total_tokens": 393,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 230
+        }
+      }
+    }
+  }
+}

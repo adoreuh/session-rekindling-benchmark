@@ -1,0 +1,3502 @@
+[
+  {
+    "cell_id": "broadband_install_i1::A",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_future",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "broadband_install_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "broadband_install_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::A",
+    "route": "hy3",
+    "kind": "car_maintenance_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_past",
+    "route": "hy3",
+    "kind": "car_maintenance_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_future",
+    "route": "hy3",
+    "kind": "car_maintenance_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "car_maintenance_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "car_maintenance_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "car_maintenance_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "car_maintenance_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "car_maintenance_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "car_maintenance_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::A",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_past",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-05-27。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-05-27。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-05-27。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-05-27。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-05-27。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "equipment_check_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "某事项定于 2026-04-27 举行。参考日期是 2026-04-12。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::A",
+    "route": "hy3",
+    "kind": "furniture_measure_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "hy3",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_future",
+    "route": "hy3",
+    "kind": "furniture_measure_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "furniture_measure_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "furniture_measure_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "furniture_measure_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "furniture_measure_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "furniture_measure_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "hy3",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_past",
+    "route": "hy3",
+    "kind": "homestay_checkin_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_future",
+    "route": "hy3",
+    "kind": "homestay_checkin_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "homestay_checkin_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "homestay_checkin_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "homestay_checkin_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "hy3",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "hy3",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_future",
+    "route": "hy3",
+    "kind": "ielts_registration_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-04-06。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-05-21，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-04-06，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "ielts_registration_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-04-06。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-05-21，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-04-06，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-04-06。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-05-21，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-04-06，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-04-06。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-05-21，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-04-06，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "ielts_registration_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-04-06。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-05-21，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "ielts_registration_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-06",
+    "event_date": "2026-04-21",
+    "prompt": "截至 2026-04-06，2026-04-21 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_past",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::A",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_past",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-05-22。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-05-22，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-04-07，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "lease_signing_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-05-22。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-05-22，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-04-07，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "lease_signing_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-05-22。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-05-22，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-04-07，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-05-22。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-05-22，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-04-07，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-05-22。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "lease_signing_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "某事项定于 2026-04-22 举行。参考日期是 2026-04-07。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-05-22，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "lease_signing_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "lease_signing_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-07",
+    "event_date": "2026-04-22",
+    "prompt": "截至 2026-04-07，2026-04-22 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::A",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_past",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-05-29。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_future",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-04-14。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "loan_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-05-29。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "loan_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-04-14。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-05-29。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-04-14。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-05-29。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-04-14。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "loan_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-05-29。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "loan_interview_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "loan_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "某事项定于 2026-04-29 举行。参考日期是 2026-04-14。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "loan_interview_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-14",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-04-14，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::A",
+    "route": "hy3",
+    "kind": "specialist_clinic_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "hy3",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_future",
+    "route": "hy3",
+    "kind": "specialist_clinic_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "specialist_clinic_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "specialist_clinic_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "specialist_clinic_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "specialist_clinic_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::A",
+    "route": "hy3",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_past",
+    "route": "hy3",
+    "kind": "tax_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_future",
+    "route": "hy3",
+    "kind": "tax_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "tax_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "tax_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "tax_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "tax_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "tax_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "tax_interview_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "tax_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "tax_interview_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "tax_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::A",
+    "route": "hy3",
+    "kind": "thesis_defense_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_past",
+    "route": "hy3",
+    "kind": "thesis_defense_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_future",
+    "route": "hy3",
+    "kind": "thesis_defense_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "thesis_defense_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "thesis_defense_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "thesis_defense_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "thesis_defense_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "thesis_defense_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-05-30。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "thesis_defense_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "thesis_defense_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "某事项定于 2026-04-30 举行。参考日期是 2026-04-15。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-05-30，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "thesis_defense_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "thesis_defense_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-15",
+    "event_date": "2026-04-30",
+    "prompt": "截至 2026-04-15，2026-04-30 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::A",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_past",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_future",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::A",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_past",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "visa_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_future",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "visa_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_after",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_before",
+    "route": "Qwen3.5-397B-A17B",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "visa_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "visa_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_future",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_past",
+    "route": "qwen3-vl-plus",
+    "kind": "visa_interview_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  {
+    "cell_id": "visa_interview_i1::B_future",
+    "route": "qwen3-vl-plus",
+    "kind": "visa_interview_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-04-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_after",
+    "route": "qwen3-vl-plus",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  {
+    "cell_id": "visa_interview_i1::C_asof_before",
+    "route": "qwen3-vl-plus",
+    "kind": "visa_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer in Chinese. Need determine if 2026-05-06 has passed relative to reference 2026-06-05. Since reference is after event date, event date is past relative to reference? Question: \"某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？\" Means scheduled date is before reference date, so yes it has passed. Answer 是. Need just \"是\".",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 125,
+      "completion_tokens": 107,
+      "total_tokens": 232,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 125,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "input_tokens": 125,
+      "output_tokens": 107
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728295481807aee62071c6276565fb8410c8c51799ac3e0",
+    "system_fingerprint": "",
+    "latency_s": 2.461,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      }
+    ],
+    "raw": {
+      "id": "021790728295481807aee62071c6276565fb8410c8c51799ac3e0",
+      "object": "chat.completion",
+      "created": 1790728297,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 107,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 125,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "input_tokens": 125,
+        "output_tokens": 107
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need determine if 2026-05-06 has passed relative to reference 2026-06-05. Since reference is after event date, event date is past relative to reference? Question: \"某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？\" Means scheduled date is before reference date, so yes it has passed. Answer 是. Need just \"是\"."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

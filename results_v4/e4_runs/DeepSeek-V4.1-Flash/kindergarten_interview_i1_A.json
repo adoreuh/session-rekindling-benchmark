@@ -1,0 +1,267 @@
+{
+  "cell": {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30 天**（2026-05-20 比 2026-04-20 晚 30 天）。",
+    "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-20 and 2026-05-20. Reference date 2026-05-20, event date 2026-04-20. Need days difference. From Apr 20 to May 20. 2026 not leap? Feb irrelevant. April has 30 days. Apr 20 to Apr 30 = 10 days if exclusive? Let's compute date difference. Apr 20 to May 20: Apr 21 is 1 day after, ... Apr 30 10 days, May 1 11, May 20 30? Let's verify: Difference in days between 2026-04-20 and 2026-05-20 = 30 days. Because April 20 + 30 days = May 20? Apr has 30 days: Apr 20 + 10 days = Apr 30; +20 days = May 20? Wait count carefully.\n\nIf start date Apr 20 at 00:00 to May 20 at 00:00. Days remaining in April from Apr20 to May1: Apr21? Date arithmetic: number of days = day-of-year May20 - day-of-year Apr20. 2026 non leap. Jan31+Feb28+Mar31=90. Apr20 DOY=90+20=110. May20 DOY=90+31? Wait Jan31+Feb28+Mar31+Apr30 =120. May20 DOY=120+20=140. Difference 30. Yes.\n\nBut check Apr20 to May20 if inclusive? no. So 30 days. Need answer likely \"30天\". Mention ref date is later by 30 days. Final concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 393,
+      "total_tokens": 451,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 361
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 58,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 361
+      },
+      "input_tokens": 58,
+      "output_tokens": 393
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728845031d5e3a06b1d3d650f0fc414a0e965c499ff8cb5",
+    "system_fingerprint": "",
+    "latency_s": 2.84,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.126
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.626
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.001
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.142
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.925
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.326
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.634
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.061
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.84
+      }
+    ],
+    "raw": {
+      "id": "021790728845031d5e3a06b1d3d650f0fc414a0e965c499ff8cb5",
+      "object": "chat.completion",
+      "created": 1790728847,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 393,
+        "total_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 361
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 58,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 361
+        },
+        "input_tokens": 58,
+        "output_tokens": 393
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30 天**（2026-05-20 比 2026-04-20 晚 30 天）。",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-20 and 2026-05-20. Reference date 2026-05-20, event date 2026-04-20. Need days difference. From Apr 20 to May 20. 2026 not leap? Feb irrelevant. April has 30 days. Apr 20 to Apr 30 = 10 days if exclusive? Let's compute date difference. Apr 20 to May 20: Apr 21 is 1 day after, ... Apr 30 10 days, May 1 11, May 20 30? Let's verify: Difference in days between 2026-04-20 and 2026-05-20 = 30 days. Because April 20 + 30 days = May 20? Apr has 30 days: Apr 20 + 10 days = Apr 30; +20 days = May 20? Wait count carefully.\n\nIf start date Apr 20 at 00:00 to May 20 at 00:00. Days remaining in April from Apr20 to May1: Apr21? Date arithmetic: number of days = day-of-year May20 - day-of-year Apr20. 2026 non leap. Jan31+Feb28+Mar31=90. Apr20 DOY=90+20=110. May20 DOY=90+31? Wait Jan31+Feb28+Mar31+Apr30 =120. May20 DOY=120+20=140. Difference 30. Yes.\n\nBut check Apr20 to May20 if inclusive? no. So 30 days. Need answer likely \"30天\". Mention ref date is later by 30 days. Final concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-27  \n- 参考日期：2026-05-27  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月27日到4月30日还有：  \n  \\(30 - 27 = 3\\) 天（即4月28日、29日、30日，共3天）  \n- 然后加上5月的27天（从5月1日到5月27日）。\n\n所以总天数差为：  \n\\(3 + 27 = 30\\) 天。\n\n或者更简单地：  \n5月27日 − 4月27日 = **30天**（因为4月有30天，从4月27日到5月27日正好是一个月，且4月是小月30天）。\n\n✅ 答案：**30天**。",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 250,
+      "total_tokens": 294,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "completion_tokens_details": {
+        "text_tokens": 250
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "output_tokens_details": {
+        "text_tokens": 250
+      },
+      "input_tokens": 44,
+      "output_tokens": 250
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-4e3564a4-acc4-91d3-946a-96a27e308398",
+    "system_fingerprint": "",
+    "latency_s": 7.238,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-4e3564a4-acc4-91d3-946a-96a27e308398",
+      "object": "chat.completion",
+      "created": 1790728411,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 250,
+        "total_tokens": 294,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "completion_tokens_details": {
+          "text_tokens": 250
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "output_tokens_details": {
+          "text_tokens": 250
+        },
+        "input_tokens": 44,
+        "output_tokens": 250
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-27  \n- 参考日期：2026-05-27  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月27日到4月30日还有：  \n  \\(30 - 27 = 3\\) 天（即4月28日、29日、30日，共3天）  \n- 然后加上5月的27天（从5月1日到5月27日）。\n\n所以总天数差为：  \n\\(3 + 27 = 30\\) 天。\n\n或者更简单地：  \n5月27日 − 4月27日 = **30天**（因为4月有30天，从4月27日到5月27日正好是一个月，且4月是小月30天）。\n\n✅ 答案：**30天**。",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

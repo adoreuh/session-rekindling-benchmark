@@ -1,0 +1,187 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::C_asof_before",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-12",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-04-12，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer Chinese. Need determine if scheduled item on 2026-04-27 should be treated as \"将要发生\" as of 2026-04-12. Yes because date is future. Need answer \"是\" or \"否\".",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 124,
+      "completion_tokens": 53,
+      "total_tokens": 177,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 51
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 124,
+      "prompt_cache_hit_tokens": 0,
+      "input_tokens": 124,
+      "output_tokens": 53
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728402064d5e3a06b1d3d650f0fc414a0e965c499977e9a",
+    "system_fingerprint": "",
+    "latency_s": 1.932,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      }
+    ],
+    "raw": {
+      "id": "021790728402064d5e3a06b1d3d650f0fc414a0e965c499977e9a",
+      "object": "chat.completion",
+      "created": 1790728403,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 53,
+        "total_tokens": 177,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 51
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 51
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 124,
+        "prompt_cache_hit_tokens": 0,
+        "input_tokens": 124,
+        "output_tokens": 53
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine if scheduled item on 2026-04-27 should be treated as \"将要发生\" as of 2026-04-12. Yes because date is future. Need answer \"是\" or \"否\"."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

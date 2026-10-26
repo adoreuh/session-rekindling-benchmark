@@ -1,0 +1,92 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需确认是否含起始日。标准日期差一般为：`参考日期 - 事件日期`，结果为正数表示参考日在事件日后多少天）\n\n使用标准日期差计算（如Python `datetime`）：\n- 2026-05-20 减去 2026-04-20 = **30天**\n\n验证：\n- 4月剩余天数：30 - 20 = 10 天（4月21日到4月30日，共10天）\n- 5月1日到5月20日：20 天  \n- 总计：10 + 20 = **30天**\n\n✅ 所以，两个日期相差 **30天**（参考日期在事件日期之后30天）。",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 329,
+      "total_tokens": 373,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "completion_tokens_details": {
+        "text_tokens": 329
+      },
+      "output_tokens_details": {
+        "text_tokens": 329
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "input_tokens": 44,
+      "output_tokens": 329
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-b14fd25d-c69b-9a9f-af84-49b934096059",
+    "system_fingerprint": "",
+    "latency_s": 8.966,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-b14fd25d-c69b-9a9f-af84-49b934096059",
+      "object": "chat.completion",
+      "created": 1790728082,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 329,
+        "total_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "completion_tokens_details": {
+          "text_tokens": 329
+        },
+        "output_tokens_details": {
+          "text_tokens": 329
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "input_tokens": 44,
+        "output_tokens": 329
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需确认是否含起始日。标准日期差一般为：`参考日期 - 事件日期`，结果为正数表示参考日在事件日后多少天）\n\n使用标准日期差计算（如Python `datetime`）：\n- 2026-05-20 减去 2026-04-20 = **30天**\n\n验证：\n- 4月剩余天数：30 - 20 = 10 天（4月21日到4月30日，共10天）\n- 5月1日到5月20日：20 天  \n- 总计：10 + 20 = **30天**\n\n✅ 所以，两个日期相差 **30天**（参考日期在事件日期之后30天）。",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "cell": {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30 天**。\n\n计算：2026-04-30 → 2026-05-30，间隔为 30 天。",
+    "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-30 and 2026-05-30. Need be careful inclusive? \"两个日期相差多少\" usually absolute difference in days. From Apr 30 to May 30 = 30 days? Let's compute. April has 30 days. Date Apr 30 to May 1 is 1 day? If counting elapsed days between dates: Apr 30 to May 30 = 30 days, because May 30 is 30 days after Apr 30? Let's verify.\n\nIf event date 2026-04-30, reference 2026-05-30. Difference in days: From Apr 30 00:00 to May 30 00:00. Apr 30 to May 1 = 1 day (since after Apr 30 complete? Actually Apr 30 to May 1: 1 day). May 1 to May 30 = 29 days. Total 30. Yes.\n\nIf inclusive count of dates between including both: 31 days? \"相差\" typically exclusive difference = 30 days. Need maybe mention if按日期序号，相差30天. Let's craft concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 280,
+      "total_tokens": 338,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 58,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "input_tokens": 58,
+      "output_tokens": 280
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728634285807aee62071c6276565fb8410c8c51799b9ba2",
+    "system_fingerprint": "",
+    "latency_s": 2.302,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      }
+    ],
+    "raw": {
+      "id": "021790728634285807aee62071c6276565fb8410c8c51799b9ba2",
+      "object": "chat.completion",
+      "created": 1790728636,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 280,
+        "total_tokens": 338,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "input_tokens": 58,
+        "output_tokens": 280
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30 天**。\n\n计算：2026-04-30 → 2026-05-30，间隔为 30 天。",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need compute difference between 2026-04-30 and 2026-05-30. Need be careful inclusive? \"两个日期相差多少\" usually absolute difference in days. From Apr 30 to May 30 = 30 days? Let's compute. April has 30 days. Date Apr 30 to May 1 is 1 day? If counting elapsed days between dates: Apr 30 to May 30 = 30 days, because May 30 is 30 days after Apr 30? Let's verify.\n\nIf event date 2026-04-30, reference 2026-05-30. Difference in days: From Apr 30 00:00 to May 30 00:00. Apr 30 to May 1 = 1 day (since after Apr 30 complete? Actually Apr 30 to May 1: 1 day). May 1 to May 30 = 29 days. Total 30. Yes.\n\nIf inclusive count of dates between including both: 31 days? \"相差\" typically exclusive difference = 30 days. Need maybe mention if按日期序号，相差30天. Let's craft concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

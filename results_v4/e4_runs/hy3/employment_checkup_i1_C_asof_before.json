@@ -1,0 +1,139 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "用户问：截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-21\n- 事项日期：2026-05-06\n- 2026-05-06 在 2026-04-21 之后（未来）。\n- 既然事项日期在未来，且是“已排定事项”，那么它仍然是“将要发生”的。\n- 因此，应该被当作“将要发生”来对待。\n- 回答应该是“是”。\n\n检查逻辑：\n2026年4月21日，距离5月6日还有大约半个月。所以5月6日的事项确实是将来发生的。所以应该当作“将要发生”。\n回答要求：只回答“是”或“否”。\n\n所以输出：是。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 202,
+      "total_tokens": 254,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 199
+      }
+    },
+    "model": "hy3",
+    "request_id": "1080e0cb-b8cf-46e0-b998-f59d2f625495",
+    "system_fingerprint": "",
+    "latency_s": 2.585,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "是",
+            "reasoning_content": "用户问：截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-21\n- 事项日期：2026-05-06\n- 2026-05-06 在 2026-04-21 之后（未来）。\n- 既然事项日期在未来，且是“已排定事项”，那么它仍然是“将要发生”的。\n- 因此，应该被当作“将要发生”来对待。\n- 回答应该是“是”。\n\n检查逻辑：\n2026年4月21日，距离5月6日还有大约半个月。所以5月6日的事项确实是将来发生的。所以应该当作“将要发生”。\n回答要求：只回答“是”或“否”。\n\n所以输出：是。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728209,
+      "id": "1080e0cb-b8cf-46e0-b998-f59d2f625495",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 202,
+        "total_tokens": 254,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 199
+        }
+      }
+    }
+  }
+}

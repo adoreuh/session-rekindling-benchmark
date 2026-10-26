@@ -1,0 +1,362 @@
+{
+  "cell": {
+    "cell_id": "specialist_clinic_i1::C_asof_before",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "我们需要回答用户中文问题。需要判断截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。需要了解上下文？用户只给日期。问截至2026-04-21，2026-05-06 的已排定事项是否应被当作\"将要发生\"。从日期看，2026-04-21 早于 2026-05-06，所以未来，应该将要发生。回答是。需要只回答是或否。可能要求\"是\"或\"否\"。所以最终\"是\"。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 71,
+      "completion_tokens": 141,
+      "total_tokens": 212,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 71,
+      "input_tokens": 71,
+      "output_tokens": 141
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790729239055d5e3a06b1d3d650f0fc414a0e965c4999c7c97",
+    "system_fingerprint": "",
+    "latency_s": 1.931,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.126
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.626
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.001
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.142
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.925
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.326
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.634
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.061
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.84
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.632
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.692
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.155
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.319
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.939
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.962
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.13
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.235
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.527
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.651
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.682
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.733
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.271
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.693
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.931
+      }
+    ],
+    "raw": {
+      "id": "021790729239055d5e3a06b1d3d650f0fc414a0e965c4999c7c97",
+      "object": "chat.completion",
+      "created": 1790729240,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 141,
+        "total_tokens": 212,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 139
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 139
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 71,
+        "input_tokens": 71,
+        "output_tokens": 141
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "我们需要回答用户中文问题。需要判断截至 2026-04-21，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。需要了解上下文？用户只给日期。问截至2026-04-21，2026-05-06 的已排定事项是否应被当作\"将要发生\"。从日期看，2026-04-21 早于 2026-05-06，所以未来，应该将要发生。回答是。需要只回答是或否。可能要求\"是\"或\"否\"。所以最终\"是\"。"
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "cell": {
+    "cell_id": "ielts_registration_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "ielts_registration_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "某事项定于 2026-04-21 举行。参考日期是 2026-05-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer Chinese. Need determine if 2026-04-21 has passed relative to reference date 2026-05-21. Since 2026-04-21 is before 2026-05-21, yes it is in the past. Need answer \"是\".",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 125,
+      "completion_tokens": 61,
+      "total_tokens": 186,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 125,
+      "prompt_cache_hit_tokens": 0,
+      "input_tokens": 125,
+      "output_tokens": 61
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728749330d5e3a06b1d3d650f0fc414a0e965c49983182b",
+    "system_fingerprint": "",
+    "latency_s": 1.898,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      }
+    ],
+    "raw": {
+      "id": "021790728749330d5e3a06b1d3d650f0fc414a0e965c49983182b",
+      "object": "chat.completion",
+      "created": 1790728750,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 61,
+        "total_tokens": 186,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 125,
+        "prompt_cache_hit_tokens": 0,
+        "input_tokens": 125,
+        "output_tokens": 61
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine if 2026-04-21 has passed relative to reference date 2026-05-21. Since 2026-04-21 is before 2026-05-21, yes it is in the past. Need answer \"是\"."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "cell": {
+    "cell_id": "homestay_checkin_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "homestay_checkin_i1",
+    "task": "A",
+    "ref_date": "2026-05-30",
+    "event_date": "2026-04-30",
+    "prompt": "事件日期是 2026-04-30。参考日期是 2026-05-30。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-30  \n- 参考日期：2026-05-30  \n\n由于是同一年（2026年），且4月有30天，我们可以直接计算：\n\n- 4月30日到4月30日是0天  \n- 4月30日 → 5月30日 = 剩余的4月天数（0，因为从4月30日当天开始算起） + 5月的30天  \n  更准确地说：从 **4月30日** 到 **5月30日** 是整整 **30天**。\n\n验证方式：\n- 5月1日 是 4月30日之后的第1天  \n- 5月30日 是 4月30日之后的第30天  \n\n✅ 所以，两个日期相差 **30天**。\n\n**答案：30天**",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 226,
+      "total_tokens": 270,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "completion_tokens_details": {
+        "text_tokens": 226
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "output_tokens_details": {
+        "text_tokens": 226
+      },
+      "input_tokens": 44,
+      "output_tokens": 226
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-07f3fc70-73d3-90d0-b779-3b482c3d8f65",
+    "system_fingerprint": "",
+    "latency_s": 7.244,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.553
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.993
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.583
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.27
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.296
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.446
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.756
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.438
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.526
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.244
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-07f3fc70-73d3-90d0-b779-3b482c3d8f65",
+      "object": "chat.completion",
+      "created": 1790728659,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 226,
+        "total_tokens": 270,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "completion_tokens_details": {
+          "text_tokens": 226
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "output_tokens_details": {
+          "text_tokens": 226
+        },
+        "input_tokens": 44,
+        "output_tokens": 226
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-30  \n- 参考日期：2026-05-30  \n\n由于是同一年（2026年），且4月有30天，我们可以直接计算：\n\n- 4月30日到4月30日是0天  \n- 4月30日 → 5月30日 = 剩余的4月天数（0，因为从4月30日当天开始算起） + 5月的30天  \n  更准确地说：从 **4月30日** 到 **5月30日** 是整整 **30天**。\n\n验证方式：\n- 5月1日 是 4月30日之后的第1天  \n- 5月30日 是 4月30日之后的第30天  \n\n✅ 所以，两个日期相差 **30天**。\n\n**答案：30天**",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

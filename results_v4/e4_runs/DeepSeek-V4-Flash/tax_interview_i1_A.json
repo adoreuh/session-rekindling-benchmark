@@ -1,0 +1,367 @@
+{
+  "cell": {
+    "cell_id": "tax_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "tax_interview_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。",
+    "reasoning_content": "We need answer in Chinese. Need compute days between 2026-05-06 and 2026-06-05. Difference? From May 6 to June 5 inclusive? \"相差多少天\" usually difference in days = June5 - May6. Let's calculate. May has 31 days. From May6 to June6 = 31 days? Actually May6 to May7 =1, ... May31 to June1=26? Let's compute. Date difference: 2026-05-06 to 2026-06-05. Days remaining in May after May6: May7-31 =25 days? If start at May6 00:00 to June5 00:00 = 30 days. Let's verify: May6 to May7 =1 day (24h). May6 to June5: May6->May31: 25 days? Let's count: May6 to May31 = May31 - May6 =25 days (since May6 inclusive? Actually date diff treats midnight). May6 to June5 = (31-6) +5 =30 days. Yes 30 days. If including both dates? \"相差多少天\" is 30 days. Need answer maybe \"30天\". Need be careful with leap? 2026 not leap. May has 31 days. So 30.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 290,
+      "total_tokens": 401,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 111,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "input_tokens": 111,
+      "output_tokens": 290
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "eab3126c-e783-49fc-9191-cfcbb3b231ef",
+    "system_fingerprint": "",
+    "latency_s": 4.782,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.764
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.168
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.042
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.954
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.514
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.929
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.105
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.624
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.552
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.092
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.376
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.754
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.782
+      }
+    ],
+    "raw": {
+      "id": "eab3126c-e783-49fc-9191-cfcbb3b231ef",
+      "object": "chat.completion",
+      "created": 1790729343,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 290,
+        "total_tokens": 401,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 281
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 111,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 281
+        },
+        "input_tokens": 111,
+        "output_tokens": 290
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compute days between 2026-05-06 and 2026-06-05. Difference? From May 6 to June 5 inclusive? \"相差多少天\" usually difference in days = June5 - May6. Let's calculate. May has 31 days. From May6 to June6 = 31 days? Actually May6 to May7 =1, ... May31 to June1=26? Let's compute. Date difference: 2026-05-06 to 2026-06-05. Days remaining in May after May6: May7-31 =25 days? If start at May6 00:00 to June5 00:00 = 30 days. Let's verify: May6 to May7 =1 day (24h). May6 to June5: May6->May31: 25 days? Let's count: May6 to May31 = May31 - May6 =25 days (since May6 inclusive? Actually date diff treats midnight). May6 to June5 = (31-6) +5 =30 days. Yes 30 days. If including both dates? \"相差多少天\" is 30 days. Need answer maybe \"30天\". Need be careful with leap? 2026 not leap. May has 31 days. So 30."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

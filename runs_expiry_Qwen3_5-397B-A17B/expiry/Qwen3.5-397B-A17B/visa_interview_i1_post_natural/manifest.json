@@ -1,0 +1,16 @@
+{
+  "branch_count": 1,
+  "corpus_digest": "2388d2c1258cea304800e06059cec688600ecc80c290bcc0072eaeb18152a19d",
+  "experiment_id": "expiry-Qwen3.5-397B-A17B-visa_interview_i1-post-natural",
+  "model": {
+    "api_key_env": "VELA_API_KEY",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": null,
+    "model": "Qwen3.5-397B-A17B",
+    "provider": "openai_compatible",
+    "temperature": 0.0
+  },
+  "prompt_digest": "0026a620ee509a952884937032339ff472e22c5fefce989e573782fe921bd729",
+  "schedule_digest": "b85d571610863b5a3afca0e3a128e33d0b1af1893165eca70626328b78b973a1",
+  "spec_digest": "52fa2a6bce0814e1bae975f2386ab9f724c3b667eab4d6fe7a1d29f63b3a0539"
+}

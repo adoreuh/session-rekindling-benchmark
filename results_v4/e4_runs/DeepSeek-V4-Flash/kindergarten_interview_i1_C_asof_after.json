@@ -1,0 +1,282 @@
+{
+  "cell": {
+    "cell_id": "kindergarten_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "We need answer in Chinese. Need determine date. User asks: 截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\nNeed interpret: As of 2026-05-20, an event scheduled on 2026-04-20 (past) should it be treated as \"will happen\"? No. Answer \"否\". Need just yes/no.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 124,
+      "completion_tokens": 105,
+      "total_tokens": 229,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 124,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "input_tokens": 124,
+      "output_tokens": 105
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "73d7e527-9c6d-4f6b-90df-bc0fb3b23427",
+    "system_fingerprint": "",
+    "latency_s": 2.855,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      }
+    ],
+    "raw": {
+      "id": "73d7e527-9c6d-4f6b-90df-bc0fb3b23427",
+      "object": "chat.completion",
+      "created": 1790728861,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 105,
+        "total_tokens": 229,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 124,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "input_tokens": 124,
+        "output_tokens": 105
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need determine date. User asks: 截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\nNeed interpret: As of 2026-05-20, an event scheduled on 2026-04-20 (past) should it be treated as \"will happen\"? No. Answer \"否\". Need just yes/no."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

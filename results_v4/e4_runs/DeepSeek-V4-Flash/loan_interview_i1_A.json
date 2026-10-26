@@ -1,0 +1,317 @@
+{
+  "cell": {
+    "cell_id": "loan_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。  \n（2026-04-29 到 2026-05-29，按日期差计算为30天。）",
+    "reasoning_content": "We need answer in Chinese likely. Need compute date difference from 2026-04-29 to 2026-05-29. Need include? \"事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？\" Need determine if inclusive? Usually difference in days between dates = 30 days? April has 30 days. From Apr 29 to May 29: Apr 29 to Apr 30 =1 day, May 1 to May 29? Let's compute: April 29 + 30 days = May 29 (since Apr has 30; Apr 29 +1 = Apr 30, +2=May 1, ... +30=May 29? Actually Apr 29 to Apr 30 is 1 day, to May 1 is 2 days, so to May 29 is 1 + 28? Let's count: days between dates: 2026-04-29 00:00 to 2026-05-29 00:00 = April 30 (1 day) + May 1-28? Wait May 29? Let's do ordinal: Apr 29 is day 119 in non-leap? 2026 non leap. Apr 30 day 120, May 29 day 149 (31+28+31+29+? Actually Jan31+Feb28+Mar31+Apr30 + May29 =149). Difference = 30 days. Yes.\n\nNeed answer maybe \"相差30天\". Could mention如果按日期差（不包含起始日）是30天；若按自然日间隔（从4月29到5月29）也是30天. Need ensure no confusion. Let's craft concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 403,
+      "total_tokens": 514,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 368
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 368
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 111,
+      "input_tokens": 111,
+      "output_tokens": 403
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790729126696d5e3a06b1d3d650f0fc414a0e965c49960c323",
+    "system_fingerprint": "",
+    "latency_s": 4.954,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.764
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.168
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.042
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.954
+      }
+    ],
+    "raw": {
+      "id": "021790729126696d5e3a06b1d3d650f0fc414a0e965c49960c323",
+      "object": "chat.completion",
+      "created": 1790729131,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 403,
+        "total_tokens": 514,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 368
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 368
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 111,
+        "input_tokens": 111,
+        "output_tokens": 403
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。  \n（2026-04-29 到 2026-05-29，按日期差计算为30天。）",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese likely. Need compute date difference from 2026-04-29 to 2026-05-29. Need include? \"事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？\" Need determine if inclusive? Usually difference in days between dates = 30 days? April has 30 days. From Apr 29 to May 29: Apr 29 to Apr 30 =1 day, May 1 to May 29? Let's compute: April 29 + 30 days = May 29 (since Apr has 30; Apr 29 +1 = Apr 30, +2=May 1, ... +30=May 29? Actually Apr 29 to Apr 30 is 1 day, to May 1 is 2 days, so to May 29 is 1 + 28? Let's count: days between dates: 2026-04-29 00:00 to 2026-05-29 00:00 = April 30 (1 day) + May 1-28? Wait May 29? Let's do ordinal: Apr 29 is day 119 in non-leap? 2026 non leap. Apr 30 day 120, May 29 day 149 (31+28+31+29+? Actually Jan31+Feb28+Mar31+Apr30 + May29 =149). Difference = 30 days. Yes.\n\nNeed answer maybe \"相差30天\". Could mention如果按日期差（不包含起始日）是30天；若按自然日间隔（从4月29到5月29）也是30天. Need ensure no confusion. Let's craft concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

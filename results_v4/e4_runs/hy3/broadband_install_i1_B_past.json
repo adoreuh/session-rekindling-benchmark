@@ -1,0 +1,74 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "用户问：某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-04-20\n参考日期：2026-05-20\n\n比较日期：2026-04-20 在 2026-05-20 之前。所以，相对于参考日期 2026-05-20，事项日期 2026-04-20 已经过去了。\n\n因此，该事项的预定日期已经过去了。\n\n回答应该是\"是\"。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 130,
+      "total_tokens": 182,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 127
+      }
+    },
+    "model": "hy3",
+    "request_id": "2d2ed756-3bf6-427c-87d2-ddd0f7fb18c4",
+    "system_fingerprint": "",
+    "latency_s": 2.071,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "是",
+            "reasoning_content": "用户问：某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-04-20\n参考日期：2026-05-20\n\n比较日期：2026-04-20 在 2026-05-20 之前。所以，相对于参考日期 2026-05-20，事项日期 2026-04-20 已经过去了。\n\n因此，该事项的预定日期已经过去了。\n\n回答应该是\"是\"。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790727990,
+      "id": "2d2ed756-3bf6-427c-87d2-ddd0f7fb18c4",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 130,
+        "total_tokens": 182,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 127
+        }
+      }
+    }
+  }
+}

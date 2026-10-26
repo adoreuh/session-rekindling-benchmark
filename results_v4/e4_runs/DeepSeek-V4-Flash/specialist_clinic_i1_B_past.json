@@ -1,0 +1,347 @@
+{
+  "cell": {
+    "cell_id": "specialist_clinic_i1::B_past",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "specialist_clinic_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer in Chinese. Need compare 2026-05-06 vs reference 2026-06-05. The event date is before reference date, so it has passed relative to reference. Need answer \"是\". Must be careful: \"预定日期已经过去了吗？\" reference date is after event, so yes. final concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 125,
+      "completion_tokens": 72,
+      "total_tokens": 197,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 125,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "input_tokens": 125,
+      "output_tokens": 72
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "af6ad312-499f-45cd-b3be-10cb152a8fcc",
+    "system_fingerprint": "",
+    "latency_s": 2.552,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.764
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.168
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.042
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.954
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.514
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.929
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.105
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.624
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.552
+      }
+    ],
+    "raw": {
+      "id": "af6ad312-499f-45cd-b3be-10cb152a8fcc",
+      "object": "chat.completion",
+      "created": 1790729245,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 72,
+        "total_tokens": 197,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 70
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 70
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 125,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "input_tokens": 125,
+        "output_tokens": 72
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compare 2026-05-06 vs reference 2026-06-05. The event date is before reference date, so it has passed relative to reference. Need answer \"是\". Must be careful: \"预定日期已经过去了吗？\" reference date is after event, so yes. final concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

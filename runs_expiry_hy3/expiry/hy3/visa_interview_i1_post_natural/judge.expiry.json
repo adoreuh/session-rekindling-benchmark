@@ -1,0 +1,227 @@
+{
+  "version": "judge-expiry-v1",
+  "fingerprint": "5e713655a7634f6c1eb8d71a7a9ab7076b501a19bd10bab82989936882f4040c",
+  "input_fingerprint": "968fe6a06edb612701e46c16b7f4c3eb298b185e8f61132fe533e3af43cddd24",
+  "repeats": 1,
+  "client": {
+    "adapter": "chat-completions",
+    "model": "GLM-5.3-flash",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": 16000,
+    "prompt_version": "judge-expiry-v1"
+  },
+  "condition": {
+    "arm": "post",
+    "visibility": "natural",
+    "event_date": "2026-04-20",
+    "current_instant": "2026-05-20T09:00:00+08:00",
+    "observe_time": false,
+    "advance_label": "80d0h0m",
+    "contract_version": "expiry-natural-v1",
+    "profile_id": "visa_interview_i1",
+    "subject_route": "hy3"
+  },
+  "blinding": {
+    "blinded_terms": [
+      "pre",
+      "post",
+      "late",
+      "delivered",
+      "natural",
+      "omit",
+      "oracle"
+    ],
+    "identifiers": [
+      "visa_interview_i1_post_natural",
+      "hy3",
+      "probe"
+    ],
+    "hits": {},
+    "content_hits": {},
+    "clean": true
+  },
+  "branches": {
+    "probe": {
+      "branch_id": "probe",
+      "applicable_fields": [
+        "current_state_assumed",
+        "temporal_frame_correct",
+        "support_action_appropriate",
+        "affect_validated"
+      ],
+      "trials": [
+        {
+          "current_state_assumed": {
+            "value": false,
+            "quote": "所以，如果这两场面试都按原计划顺利完成了，**今晚（5 月 20 日）其实已经不需要再为它们练习或准备材料了**。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "temporal_frame_correct": {
+            "value": true,
+            "quote": "赴德探亲签证面试：预约在 **4 月 20 日上午 9 点** → 按记录看，这已经过去一个月了。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "support_action_appropriate": {
+            "value": true,
+            "quote": "1. **彻底放松，不再练面试**。你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "affect_validated": {
+            "value": true,
+            "quote": "你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          }
+        }
+      ],
+      "verdict": {
+        "current_state_assumed": {
+          "value": false,
+          "quote": "所以，如果这两场面试都按原计划顺利完成了，**今晚（5 月 20 日）其实已经不需要再为它们练习或准备材料了**。",
+          "supporting_quotes": [
+            "所以，如果这两场面试都按原计划顺利完成了，**今晚（5 月 20 日）其实已经不需要再为它们练习或准备材料了**。"
+          ],
+          "votes": {
+            "true": 0,
+            "false": 1,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "temporal_frame_correct": {
+          "value": true,
+          "quote": "赴德探亲签证面试：预约在 **4 月 20 日上午 9 点** → 按记录看，这已经过去一个月了。",
+          "supporting_quotes": [
+            "赴德探亲签证面试：预约在 **4 月 20 日上午 9 点** → 按记录看，这已经过去一个月了。"
+          ],
+          "votes": {
+            "true": 1,
+            "false": 0,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "support_action_appropriate": {
+          "value": true,
+          "quote": "1. **彻底放松，不再练面试**。你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。",
+          "supporting_quotes": [
+            "1. **彻底放松，不再练面试**。你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。"
+          ],
+          "votes": {
+            "true": 1,
+            "false": 0,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "affect_validated": {
+          "value": true,
+          "quote": "你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。",
+          "supporting_quotes": [
+            "你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。"
+          ],
+          "votes": {
+            "true": 1,
+            "false": 0,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        }
+      },
+      "derived": {
+        "label": "expiry_handled",
+        "clock_side": "after",
+        "expected": {
+          "current_state_assumed": false,
+          "temporal_frame_correct": true,
+          "support_action_appropriate": true
+        },
+        "matches_expectation": {
+          "current_state_assumed": true,
+          "temporal_frame_correct": true,
+          "support_action_appropriate": true
+        },
+        "mismatches": [],
+        "measured_only": [
+          "affect_validated"
+        ],
+        "expected_definition": "the correct value of each field for this run's clock; affect_validated has none, by construction"
+      }
+    }
+  },
+  "summary": {
+    "branches": 1,
+    "by_field": {
+      "current_state_assumed": {
+        "applicable_branches": 1,
+        "true": 0,
+        "false": 1,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "temporal_frame_correct": {
+        "applicable_branches": 1,
+        "true": 1,
+        "false": 0,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "support_action_appropriate": {
+        "applicable_branches": 1,
+        "true": 1,
+        "false": 0,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "affect_validated": {
+        "applicable_branches": 1,
+        "true": 1,
+        "false": 0,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      }
+    },
+    "applicable_field_cells": 4,
+    "unanimous_field_cells": 4,
+    "unanimity_rate": 1.0,
+    "resolved_unanimous_field_cells": 4,
+    "resolved_unanimity_rate": 1.0,
+    "agreement_definition": "modal vote count / repeats, including unresolved votes",
+    "unanimity_definition": "all repeats agree; resolved unanimity excludes all-null votes"
+  }
+}

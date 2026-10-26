@@ -1,0 +1,13 @@
+# Runtime requirements for the session-rekindling harness.
+#
+# The evaluation kernel (vela_lab/) and every analysis/statistics script in
+# tools/ use the Python standard library only.  The entries below are needed
+# exclusively for the test suite and for the optional live-model / judge paths.
+
+# --- test suite -------------------------------------------------------------
+pytest>=7.0            # only for `pytest tests/`
+
+# --- nothing else is required to reproduce the paper tables offline ---------
+# tools/reproduce_paper_tables.py reads the recorded runs in runs_*/ and emits
+# every table in the paper without touching the network.  No HTTP client,
+# no numpy/pandas, no API key.

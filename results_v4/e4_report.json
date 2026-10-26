@@ -1,0 +1,3321 @@
+{
+  "tasks": {
+    "A": "date arithmetic",
+    "B_*": "boundary comparison",
+    "C_*": "as-of querying"
+  },
+  "accuracy": {
+    "DeepSeek-V4-Flash": {
+      "A": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_past": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_future": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_after": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_before": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      }
+    },
+    "DeepSeek-V4.1-Flash": {
+      "A": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_past": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_future": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_after": {
+        "n": 14,
+        "correct": 13,
+        "unparsed": 0,
+        "accuracy": 0.9286
+      },
+      "C_asof_before": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      }
+    },
+    "Qwen3.5-397B-A17B": {
+      "A": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_past": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_future": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_after": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_before": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      }
+    },
+    "hy3": {
+      "A": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_past": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_future": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_after": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_before": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      }
+    },
+    "qwen3-vl-plus": {
+      "A": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "B_past": {
+        "n": 14,
+        "correct": 1,
+        "unparsed": 0,
+        "accuracy": 0.0714
+      },
+      "B_future": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_after": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      },
+      "C_asof_before": {
+        "n": 14,
+        "correct": 14,
+        "unparsed": 0,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "cells": {
+    "hy3::broadband_install_i1::A": {
+      "cell_id": "broadband_install_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月20日\n- 参考日期：2026年5月20日\n- 4月有30天，从4月20日到4月30日经过了 10 天（30 - 20 = 10）\n- 再加上5月1日到5月20日的 20 天\n- 10 + 20 = **30天**\n\n（或者直接看月份：4月20日到5月20日刚好是一个月，而2026年的4月有30天，因此相差30天。）"
+    },
+    "hy3::broadband_install_i1::B_past": {
+      "cell_id": "broadband_install_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::broadband_install_i1::B_future": {
+      "cell_id": "broadband_install_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::broadband_install_i1::C_asof_after": {
+      "cell_id": "broadband_install_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::broadband_install_i1::C_asof_before": {
+      "cell_id": "broadband_install_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::broadband_install_i1::A": {
+      "cell_id": "broadband_install_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n1.  **4 月剩余天数**：4 月共有 30 天，从 4 月 20 日到 4 月 30 日还有 10 天（30 - 20 = 10）。\n2.  **5 月经过天数**：从 5 月 1 日到 5 月 20 日共有 20 天。\n3.  **总计**：10 天 + 20 天 = 30 天。"
+    },
+    "Qwen3.5-397B-A17B::broadband_install_i1::B_past": {
+      "cell_id": "broadband_install_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::broadband_install_i1::B_future": {
+      "cell_id": "broadband_install_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::broadband_install_i1::C_asof_after": {
+      "cell_id": "broadband_install_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::broadband_install_i1::C_asof_before": {
+      "cell_id": "broadband_install_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::broadband_install_i1::A": {
+      "cell_id": "broadband_install_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::broadband_install_i1::B_past": {
+      "cell_id": "broadband_install_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::broadband_install_i1::B_future": {
+      "cell_id": "broadband_install_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::broadband_install_i1::C_asof_after": {
+      "cell_id": "broadband_install_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::broadband_install_i1::C_asof_before": {
+      "cell_id": "broadband_install_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::broadband_install_i1::A": {
+      "cell_id": "broadband_install_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::broadband_install_i1::B_past": {
+      "cell_id": "broadband_install_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::broadband_install_i1::B_future": {
+      "cell_id": "broadband_install_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::broadband_install_i1::C_asof_after": {
+      "cell_id": "broadband_install_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::broadband_install_i1::C_asof_before": {
+      "cell_id": "broadband_install_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::broadband_install_i1::A": {
+      "cell_id": "broadband_install_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需确认是否含起始日。标准日期差一般为：`参考日期 - 事件日期`，结果为正数表示参考日在事件日后多少天）\n\n使用标准日期差计算（如Python `datetime`）：\n- 2026-05-20 减去 2026-04-20 = **30天**\n\n验证：\n- 4月剩余天数：30 - 20 = 10 天（4月21日到4月30日，共10天）\n- 5月1日到5月20日：20 天  \n- 总计：10 + 20 ="
+    },
+    "qwen3-vl-plus::broadband_install_i1::B_past": {
+      "cell_id": "broadband_install_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::broadband_install_i1::B_future": {
+      "cell_id": "broadband_install_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::broadband_install_i1::C_asof_after": {
+      "cell_id": "broadband_install_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::broadband_install_i1::C_asof_before": {
+      "cell_id": "broadband_install_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::car_maintenance_i1::A": {
+      "cell_id": "car_maintenance_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n* 5月有31天，从 2026-05-06 到 2026-05-31 还有：31 - 6 = 25天\n* 从 2026-06-01 到 2026-06-05 有：5天\n* 总天数：25 + 5 = **30天**\n\n（即参考日期 2026-06-05 比事件日期 2026-05-06 晚 30 天）"
+    },
+    "hy3::car_maintenance_i1::B_past": {
+      "cell_id": "car_maintenance_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::car_maintenance_i1::B_future": {
+      "cell_id": "car_maintenance_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::car_maintenance_i1::C_asof_after": {
+      "cell_id": "car_maintenance_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::car_maintenance_i1::C_asof_before": {
+      "cell_id": "car_maintenance_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::car_maintenance_i1::A": {
+      "cell_id": "car_maintenance_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n1.  **5 月剩余天数**：5 月共有 31 天，从 5 月 6 日到 5 月 31 日还有 $31 - 6 = 25$ 天。\n2.  **6 月经过天数**：从 6 月 1 日到 6 月 5 日共有 5 天。\n3.  **总天数**：$25 + 5 = 30$ 天。"
+    },
+    "Qwen3.5-397B-A17B::car_maintenance_i1::B_past": {
+      "cell_id": "car_maintenance_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::car_maintenance_i1::B_future": {
+      "cell_id": "car_maintenance_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::car_maintenance_i1::C_asof_after": {
+      "cell_id": "car_maintenance_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::car_maintenance_i1::C_asof_before": {
+      "cell_id": "car_maintenance_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::car_maintenance_i1::A": {
+      "cell_id": "car_maintenance_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::car_maintenance_i1::B_past": {
+      "cell_id": "car_maintenance_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::car_maintenance_i1::B_future": {
+      "cell_id": "car_maintenance_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::car_maintenance_i1::C_asof_after": {
+      "cell_id": "car_maintenance_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::car_maintenance_i1::C_asof_before": {
+      "cell_id": "car_maintenance_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::car_maintenance_i1::A": {
+      "cell_id": "car_maintenance_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::car_maintenance_i1::B_past": {
+      "cell_id": "car_maintenance_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::car_maintenance_i1::B_future": {
+      "cell_id": "car_maintenance_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::car_maintenance_i1::C_asof_after": {
+      "cell_id": "car_maintenance_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::car_maintenance_i1::C_asof_before": {
+      "cell_id": "car_maintenance_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::car_maintenance_i1::A": {
+      "cell_id": "car_maintenance_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-05-06  \n- 参考日期：2026-06-05  \n\n由于是同一年（2026年），我们可以直接按月份和日期计算：\n\n- 5月有31天，所以从5月6日到5月31日还有：  \n  \\(31 - 6 = 25\\) 天（注意：**不包含5月6日当天**，如果问“相差多少天”，通常指**间隔天数**，即从5月6日到6月5日之间经过的完整天数）。\n\n- 然后加上6月1日到6月5日的5天。\n\n所以总间隔天数为：  \n\\(25 + 5 = 30\\) 天。\n\n✅ 验证：  \n从2026-05-06 到 2026-06-05 正好是 **30天**（例如：5月6日 + 30天 = 6月5日）。\n\n> 注意：若问题问的是“包括起止日”的天数，则是31天；但标准的“相差多少天”一般指**日期差（绝对值）**，即结束日减开始日的天数，结果为 **30天"
+    },
+    "qwen3-vl-plus::car_maintenance_i1::B_past": {
+      "cell_id": "car_maintenance_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::car_maintenance_i1::B_future": {
+      "cell_id": "car_maintenance_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::car_maintenance_i1::C_asof_after": {
+      "cell_id": "car_maintenance_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::car_maintenance_i1::C_asof_before": {
+      "cell_id": "car_maintenance_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::employment_checkup_i1::A": {
+      "cell_id": "employment_checkup_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 5月有31天，从 2026-05-06 到 2026-05-31 是 31 - 6 = 25天。\n- 从 2026-06-01 到 2026-06-05 是 5天。\n- 合计：25 + 5 = 30天。\n\n（或者说，从5月6日到6月6日是31天，所以到6月5日就是30天。）"
+    },
+    "hy3::employment_checkup_i1::B_past": {
+      "cell_id": "employment_checkup_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::employment_checkup_i1::B_future": {
+      "cell_id": "employment_checkup_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::employment_checkup_i1::C_asof_after": {
+      "cell_id": "employment_checkup_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::employment_checkup_i1::C_asof_before": {
+      "cell_id": "employment_checkup_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::employment_checkup_i1::A": {
+      "cell_id": "employment_checkup_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n\n1.  **5 月剩余天数**：5 月共有 31 天，从 5 月 6 日到 5 月 31 日还有 $31 - 6 = 25$ 天。\n2.  **6 月经过天数**：从 6 月 1 日到 6 月 5 日共有 5 天。\n3.  **总天数**：$25 + 5 = 30$ 天。"
+    },
+    "Qwen3.5-397B-A17B::employment_checkup_i1::B_past": {
+      "cell_id": "employment_checkup_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::employment_checkup_i1::B_future": {
+      "cell_id": "employment_checkup_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::employment_checkup_i1::C_asof_after": {
+      "cell_id": "employment_checkup_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::employment_checkup_i1::C_asof_before": {
+      "cell_id": "employment_checkup_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::employment_checkup_i1::A": {
+      "cell_id": "employment_checkup_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::employment_checkup_i1::B_past": {
+      "cell_id": "employment_checkup_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::employment_checkup_i1::B_future": {
+      "cell_id": "employment_checkup_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::employment_checkup_i1::C_asof_after": {
+      "cell_id": "employment_checkup_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::employment_checkup_i1::C_asof_before": {
+      "cell_id": "employment_checkup_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::employment_checkup_i1::A": {
+      "cell_id": "employment_checkup_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 30 天。"
+    },
+    "DeepSeek-V4-Flash::employment_checkup_i1::B_past": {
+      "cell_id": "employment_checkup_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::employment_checkup_i1::B_future": {
+      "cell_id": "employment_checkup_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::employment_checkup_i1::C_asof_after": {
+      "cell_id": "employment_checkup_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::employment_checkup_i1::C_asof_before": {
+      "cell_id": "employment_checkup_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::employment_checkup_i1::A": {
+      "cell_id": "employment_checkup_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-05-06  \n- 参考日期：2026-06-05  \n\n由于是同一年（2026年），我们可以直接按月份和日期计算：\n\n- 5月有31天，所以从5月6日到5月31日还有：  \n  \\(31 - 6 = 25\\) 天（注意：**不包括5月6日当天**，如果问“相差多少天”，通常指两个日期之间的**间隔天数**，即从5月6日到6月5日经过了多少整天）。\n\n- 然后加上6月1日到6月5日的5天。\n\n所以总间隔天数为：  \n\\(25 + 5 = 30\\) 天。\n\n✅ 验证：  \n从2026-05-06 到 2026-06-05 正好是 **30天**（例如：5月6日 + 30天 = 6月5日）。\n\n**答案：30天**。"
+    },
+    "qwen3-vl-plus::employment_checkup_i1::B_past": {
+      "cell_id": "employment_checkup_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::employment_checkup_i1::B_future": {
+      "cell_id": "employment_checkup_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::employment_checkup_i1::C_asof_after": {
+      "cell_id": "employment_checkup_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::employment_checkup_i1::C_asof_before": {
+      "cell_id": "employment_checkup_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::equipment_check_i1::A": {
+      "cell_id": "equipment_check_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月27日\n- 参考日期：2026年5月27日\n- 4月有30天，从4月27日到4月30日经过了 3 天（28日、29日、30日）。\n- 再从5月1日到5月27日经过了 27 天。\n- 合计：3 + 27 = **30天**。\n\n（或者简单理解为：从4月27日到5月27日正好是一个月，而2026年4月有30天，因此相差30天。）"
+    },
+    "hy3::equipment_check_i1::B_past": {
+      "cell_id": "equipment_check_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::equipment_check_i1::B_future": {
+      "cell_id": "equipment_check_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::equipment_check_i1::C_asof_after": {
+      "cell_id": "equipment_check_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::equipment_check_i1::C_asof_before": {
+      "cell_id": "equipment_check_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::equipment_check_i1::A": {
+      "cell_id": "equipment_check_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **2026 年 4 月** 共有 30 天。\n2.  从 4 月 27 日到 4 月 30 日剩余：30 - 27 = 3 天。\n3.  从 5 月 1 日到 5 月 27 日经过：27 天。\n4.  合计：3 + 27 = 30 天。"
+    },
+    "Qwen3.5-397B-A17B::equipment_check_i1::B_past": {
+      "cell_id": "equipment_check_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::equipment_check_i1::B_future": {
+      "cell_id": "equipment_check_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::equipment_check_i1::C_asof_after": {
+      "cell_id": "equipment_check_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::equipment_check_i1::C_asof_before": {
+      "cell_id": "equipment_check_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::equipment_check_i1::A": {
+      "cell_id": "equipment_check_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::equipment_check_i1::B_past": {
+      "cell_id": "equipment_check_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::equipment_check_i1::B_future": {
+      "cell_id": "equipment_check_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::equipment_check_i1::C_asof_after": {
+      "cell_id": "equipment_check_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::equipment_check_i1::C_asof_before": {
+      "cell_id": "equipment_check_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::equipment_check_i1::A": {
+      "cell_id": "equipment_check_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::equipment_check_i1::B_past": {
+      "cell_id": "equipment_check_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::equipment_check_i1::B_future": {
+      "cell_id": "equipment_check_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::equipment_check_i1::C_asof_after": {
+      "cell_id": "equipment_check_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::equipment_check_i1::C_asof_before": {
+      "cell_id": "equipment_check_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::equipment_check_i1::A": {
+      "cell_id": "equipment_check_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-27  \n- 参考日期：2026-05-27  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月27日到4月30日还有：  \n  \\(30 - 27 = 3\\) 天（即4月28日、29日、30日，共3天）  \n- 然后加上5月的27天（从5月1日到5月27日）。\n\n所以总天数差为：  \n\\(3 + 27 = 30\\) 天。\n\n或者更简单地：  \n5月27日 − 4月27日 = **30天**（因为4月有30天，从4月27日到5月27日正好是一个月，且4月是小月30天）。\n\n✅ 答案：**30天**。"
+    },
+    "qwen3-vl-plus::equipment_check_i1::B_past": {
+      "cell_id": "equipment_check_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::equipment_check_i1::B_future": {
+      "cell_id": "equipment_check_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::equipment_check_i1::C_asof_after": {
+      "cell_id": "equipment_check_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::equipment_check_i1::C_asof_before": {
+      "cell_id": "equipment_check_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::furniture_measure_i1::A": {
+      "cell_id": "furniture_measure_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年5月有31天。\n- 从 5月6日 到 5月31日，相差：31 - 6 = 25天。\n- 从 6月1日 到 6月5日，相差：5天。\n- 总计：25 + 5 = 30天。\n\n（即参考日期 2026-06-05 比事件日期 2026-05-06 晚 30 天。）"
+    },
+    "hy3::furniture_measure_i1::B_past": {
+      "cell_id": "furniture_measure_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::furniture_measure_i1::B_future": {
+      "cell_id": "furniture_measure_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::furniture_measure_i1::C_asof_after": {
+      "cell_id": "furniture_measure_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::furniture_measure_i1::C_asof_before": {
+      "cell_id": "furniture_measure_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::furniture_measure_i1::A": {
+      "cell_id": "furniture_measure_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n\n1.  **5 月剩余天数**：5 月共有 31 天，从 5 月 6 日到 5 月 31 日还有 $31 - 6 = 25$ 天。\n2.  **6 月经过天数**：从 6 月 1 日到 6 月 5 日有 5 天。\n3.  **总天数**：$25 + 5 = 30$ 天。"
+    },
+    "Qwen3.5-397B-A17B::furniture_measure_i1::B_past": {
+      "cell_id": "furniture_measure_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::furniture_measure_i1::B_future": {
+      "cell_id": "furniture_measure_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::furniture_measure_i1::C_asof_after": {
+      "cell_id": "furniture_measure_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::furniture_measure_i1::C_asof_before": {
+      "cell_id": "furniture_measure_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::furniture_measure_i1::A": {
+      "cell_id": "furniture_measure_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n（从 2026-05-06 到 2026-06-05，算头不算尾/单纯日期差为 30 天。）"
+    },
+    "DeepSeek-V4.1-Flash::furniture_measure_i1::B_past": {
+      "cell_id": "furniture_measure_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::furniture_measure_i1::B_future": {
+      "cell_id": "furniture_measure_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::furniture_measure_i1::C_asof_after": {
+      "cell_id": "furniture_measure_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::furniture_measure_i1::C_asof_before": {
+      "cell_id": "furniture_measure_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::furniture_measure_i1::A": {
+      "cell_id": "furniture_measure_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "30天"
+    },
+    "DeepSeek-V4-Flash::furniture_measure_i1::B_past": {
+      "cell_id": "furniture_measure_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::furniture_measure_i1::B_future": {
+      "cell_id": "furniture_measure_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::furniture_measure_i1::C_asof_after": {
+      "cell_id": "furniture_measure_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::furniture_measure_i1::C_asof_before": {
+      "cell_id": "furniture_measure_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::furniture_measure_i1::A": {
+      "cell_id": "furniture_measure_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-05-06  \n- 参考日期：2026-06-05  \n\n由于是同一年（2026年），我们可以直接按月份和日期计算：\n\n- 5月有31天，所以从5月6日到5月31日还有：  \n  \\(31 - 6 = 25\\) 天（注意：**不包含5月6日当天**，如果问“相差多少天”，通常指**间隔天数**，即从5月6日到6月5日经过的完整天数）。\n\n- 然后加上6月1日到6月5日的5天。\n\n所以总间隔天数为：  \n\\(25 + 5 = 30\\) 天。\n\n✅ 验证：  \n从 2026-05-06 到 2026-06-05 正好是 **30天**（例如：5月6日 + 30天 = 6月5日）。\n\n**答案：30天**。"
+    },
+    "qwen3-vl-plus::furniture_measure_i1::B_past": {
+      "cell_id": "furniture_measure_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::furniture_measure_i1::B_future": {
+      "cell_id": "furniture_measure_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::furniture_measure_i1::C_asof_after": {
+      "cell_id": "furniture_measure_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::furniture_measure_i1::C_asof_before": {
+      "cell_id": "furniture_measure_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::homestay_checkin_i1::A": {
+      "cell_id": "homestay_checkin_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月30日\n- 参考日期：2026年5月30日\n- 4月有30天，从4月30日到5月30日正好是一个月（30天）的时间跨度。\n\n因此，两者相差 30 天。"
+    },
+    "hy3::homestay_checkin_i1::B_past": {
+      "cell_id": "homestay_checkin_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::homestay_checkin_i1::B_future": {
+      "cell_id": "homestay_checkin_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::homestay_checkin_i1::C_asof_after": {
+      "cell_id": "homestay_checkin_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::homestay_checkin_i1::C_asof_before": {
+      "cell_id": "homestay_checkin_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::homestay_checkin_i1::A": {
+      "cell_id": "homestay_checkin_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "这两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **事件日期**：2026 年 4 月 30 日\n2.  **参考日期**：2026 年 5 月 30 日\n3.  4 月共有 30 天，从 4 月 30 日到 5 月 30 日正好间隔 30 天。"
+    },
+    "Qwen3.5-397B-A17B::homestay_checkin_i1::B_past": {
+      "cell_id": "homestay_checkin_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::homestay_checkin_i1::B_future": {
+      "cell_id": "homestay_checkin_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::homestay_checkin_i1::C_asof_after": {
+      "cell_id": "homestay_checkin_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::homestay_checkin_i1::C_asof_before": {
+      "cell_id": "homestay_checkin_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::homestay_checkin_i1::A": {
+      "cell_id": "homestay_checkin_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算：2026-04-30 → 2026-05-30，间隔为 30 天。"
+    },
+    "DeepSeek-V4.1-Flash::homestay_checkin_i1::B_past": {
+      "cell_id": "homestay_checkin_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::homestay_checkin_i1::B_future": {
+      "cell_id": "homestay_checkin_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::homestay_checkin_i1::C_asof_after": {
+      "cell_id": "homestay_checkin_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::homestay_checkin_i1::C_asof_before": {
+      "cell_id": "homestay_checkin_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::homestay_checkin_i1::A": {
+      "cell_id": "homestay_checkin_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::homestay_checkin_i1::B_past": {
+      "cell_id": "homestay_checkin_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::homestay_checkin_i1::B_future": {
+      "cell_id": "homestay_checkin_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::homestay_checkin_i1::C_asof_after": {
+      "cell_id": "homestay_checkin_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::homestay_checkin_i1::C_asof_before": {
+      "cell_id": "homestay_checkin_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::homestay_checkin_i1::A": {
+      "cell_id": "homestay_checkin_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-30  \n- 参考日期：2026-05-30  \n\n由于是同一年（2026年），且4月有30天，我们可以直接计算：\n\n- 4月30日到4月30日是0天  \n- 4月30日 → 5月30日 = 剩余的4月天数（0，因为从4月30日当天开始算起） + 5月的30天  \n  更准确地说：从 **4月30日** 到 **5月30日** 是整整 **30天**。\n\n验证方式：\n- 5月1日 是 4月30日之后的第1天  \n- 5月30日 是 4月30日之后的第30天  \n\n✅ 所以，两个日期相差 **30天**。\n\n**答案：30天**"
+    },
+    "qwen3-vl-plus::homestay_checkin_i1::B_past": {
+      "cell_id": "homestay_checkin_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::homestay_checkin_i1::B_future": {
+      "cell_id": "homestay_checkin_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::homestay_checkin_i1::C_asof_after": {
+      "cell_id": "homestay_checkin_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::homestay_checkin_i1::C_asof_before": {
+      "cell_id": "homestay_checkin_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::ielts_registration_i1::A": {
+      "cell_id": "ielts_registration_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 4月21日 到 4月30日 是 9天（30 - 21 = 9）。\n- 从 5月1日 到 5月21日 是 21天。\n- 合计：9 + 21 = 30天。\n\n（也可以直接理解为：从4月21日到5月21日正好经过了一个完整的4月剩余天数，即满30天。）"
+    },
+    "hy3::ielts_registration_i1::B_past": {
+      "cell_id": "ielts_registration_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::ielts_registration_i1::B_future": {
+      "cell_id": "ielts_registration_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::ielts_registration_i1::C_asof_after": {
+      "cell_id": "ielts_registration_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::ielts_registration_i1::C_asof_before": {
+      "cell_id": "ielts_registration_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::ielts_registration_i1::A": {
+      "cell_id": "ielts_registration_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **4 月剩余天数：** 4 月共有 30 天，从 4 月 21 日到 4 月 30 日还有 $30 - 21 = 9$ 天。\n2.  **5 月经过天数：** 从 5 月 1 日到 5 月 21 日有 21 天。\n3.  **总计：** $9 + 21 = 30$ 天。\n\n或者直接计算：从 4 月 21 日到 5 月 21 日正好间隔一个月，而 4 月是小月（30 天），所以相差 30 天。"
+    },
+    "Qwen3.5-397B-A17B::ielts_registration_i1::B_past": {
+      "cell_id": "ielts_registration_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::ielts_registration_i1::B_future": {
+      "cell_id": "ielts_registration_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::ielts_registration_i1::C_asof_after": {
+      "cell_id": "ielts_registration_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::ielts_registration_i1::C_asof_before": {
+      "cell_id": "ielts_registration_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::ielts_registration_i1::A": {
+      "cell_id": "ielts_registration_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::ielts_registration_i1::B_past": {
+      "cell_id": "ielts_registration_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::ielts_registration_i1::B_future": {
+      "cell_id": "ielts_registration_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::ielts_registration_i1::C_asof_after": {
+      "cell_id": "ielts_registration_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "是",
+      "correct": false,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::ielts_registration_i1::C_asof_before": {
+      "cell_id": "ielts_registration_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::ielts_registration_i1::A": {
+      "cell_id": "ielts_registration_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::ielts_registration_i1::B_past": {
+      "cell_id": "ielts_registration_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::ielts_registration_i1::B_future": {
+      "cell_id": "ielts_registration_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::ielts_registration_i1::C_asof_after": {
+      "cell_id": "ielts_registration_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::ielts_registration_i1::C_asof_before": {
+      "cell_id": "ielts_registration_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::ielts_registration_i1::A": {
+      "cell_id": "ielts_registration_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-21  \n- 参考日期：2026-05-21  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月21日到4月30日还有：  \n  \\(30 - 21 = 9\\) 天（注意：**不包含4月21日当天**，如果问“相差多少天”，通常指两个日期之间的**整日间隔**，即从4月21日 **之后** 到5月21日 **之前** 的天数；但更常见的是计算**日期差的绝对值**，即 |5月21日 − 4月21日|）。\n\n标准做法是：  \n用参考日期减去事件日期（后者早于前者），得到正数天数：\n\n- 4月21日 → 4月30日：9天（22日到30日共9天）  \n- 5月1日 → 5月21日：21天  \n- 总计：9 + 21 = **30天**\n\n或者更简单：  \n5月21日是该年"
+    },
+    "qwen3-vl-plus::ielts_registration_i1::B_past": {
+      "cell_id": "ielts_registration_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::ielts_registration_i1::B_future": {
+      "cell_id": "ielts_registration_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::ielts_registration_i1::C_asof_after": {
+      "cell_id": "ielts_registration_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::ielts_registration_i1::C_asof_before": {
+      "cell_id": "ielts_registration_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::kindergarten_interview_i1::A": {
+      "cell_id": "kindergarten_interview_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月20日\n- 参考日期：2026年5月20日\n- 4月份共有30天，从4月20日到4月30日经过了 `30 - 20 = 10` 天；\n- 从4月30日到5月20日又经过了 20 天；\n- 总天数：`10 + 20 = 30` 天。\n\n因此，2026-04-20 与 2026-05-20 之间相隔 30 天。"
+    },
+    "hy3::kindergarten_interview_i1::B_past": {
+      "cell_id": "kindergarten_interview_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::kindergarten_interview_i1::B_future": {
+      "cell_id": "kindergarten_interview_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::kindergarten_interview_i1::C_asof_after": {
+      "cell_id": "kindergarten_interview_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::kindergarten_interview_i1::C_asof_before": {
+      "cell_id": "kindergarten_interview_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::kindergarten_interview_i1::A": {
+      "cell_id": "kindergarten_interview_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **事件日期**：2026 年 4 月 20 日\n2.  **参考日期**：2026 年 5 月 20 日\n3.  4 月份共有 30 天。\n4.  从 4 月 20 日到 4 月 30 日还有 10 天。\n5.  从 5 月 1 日到 5 月 20 日有 20 天。\n6.  合计：10 + 20 = 30 天。"
+    },
+    "Qwen3.5-397B-A17B::kindergarten_interview_i1::B_past": {
+      "cell_id": "kindergarten_interview_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::kindergarten_interview_i1::B_future": {
+      "cell_id": "kindergarten_interview_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::kindergarten_interview_i1::C_asof_after": {
+      "cell_id": "kindergarten_interview_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::kindergarten_interview_i1::C_asof_before": {
+      "cell_id": "kindergarten_interview_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::kindergarten_interview_i1::A": {
+      "cell_id": "kindergarten_interview_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**（2026-05-20 比 2026-04-20 晚 30 天）。"
+    },
+    "DeepSeek-V4.1-Flash::kindergarten_interview_i1::B_past": {
+      "cell_id": "kindergarten_interview_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::kindergarten_interview_i1::B_future": {
+      "cell_id": "kindergarten_interview_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::kindergarten_interview_i1::C_asof_after": {
+      "cell_id": "kindergarten_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::kindergarten_interview_i1::C_asof_before": {
+      "cell_id": "kindergarten_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::kindergarten_interview_i1::A": {
+      "cell_id": "kindergarten_interview_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::kindergarten_interview_i1::B_past": {
+      "cell_id": "kindergarten_interview_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::kindergarten_interview_i1::B_future": {
+      "cell_id": "kindergarten_interview_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::kindergarten_interview_i1::C_asof_after": {
+      "cell_id": "kindergarten_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::kindergarten_interview_i1::C_asof_before": {
+      "cell_id": "kindergarten_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::kindergarten_interview_i1::A": {
+      "cell_id": "kindergarten_interview_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需明确是否包含起始日）\n\n但更标准的做法是：  \n**日期差 = 参考日期 - 事件日期**（以天为单位，结果为正表示参考日在事件日后）。\n\n使用日历计算：\n- 4月剩余天数（不含4月20日）：4月21日到4月30日 → 10天  \n- 5月1日到5月20日 → 20天  \n→ 总共：10 + 20 = **30天**\n\n✅ 验证：  \n2026年4月20日 + 30天 = 2026年5月20日  \n（"
+    },
+    "qwen3-vl-plus::kindergarten_interview_i1::B_past": {
+      "cell_id": "kindergarten_interview_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::kindergarten_interview_i1::B_future": {
+      "cell_id": "kindergarten_interview_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::kindergarten_interview_i1::C_asof_after": {
+      "cell_id": "kindergarten_interview_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::kindergarten_interview_i1::C_asof_before": {
+      "cell_id": "kindergarten_interview_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::lease_signing_i1::A": {
+      "cell_id": "lease_signing_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 4月22日 到 4月30日 还有：30 - 22 = 8天。\n- 从 5月1日 到 5月22日 有：22天。\n- 总相差天数：8 + 22 = 30天。\n\n（或者简单理解：从4月22日到5月22日刚好是一个月，而4月是小月，有30天，因此相差30天。）"
+    },
+    "hy3::lease_signing_i1::B_past": {
+      "cell_id": "lease_signing_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::lease_signing_i1::B_future": {
+      "cell_id": "lease_signing_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::lease_signing_i1::C_asof_after": {
+      "cell_id": "lease_signing_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::lease_signing_i1::C_asof_before": {
+      "cell_id": "lease_signing_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::lease_signing_i1::A": {
+      "cell_id": "lease_signing_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **4 月天数**：4 月共有 30 天。\n2.  **4 月剩余天数**：从 4 月 22 日到 4 月 30 日，还有 $30 - 22 = 8$ 天。\n3.  **5 月经过天数**：从 5 月 1 日到 5 月 22 日，共有 22 天。\n4.  **总计**：$8 + 22 = 30$ 天。\n\n或者直接计算：从 4 月 22 日到 5 月 22 日正好间隔一个月，而 4 月是小月（30 天），因此相差 30 天。"
+    },
+    "Qwen3.5-397B-A17B::lease_signing_i1::B_past": {
+      "cell_id": "lease_signing_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::lease_signing_i1::B_future": {
+      "cell_id": "lease_signing_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::lease_signing_i1::C_asof_after": {
+      "cell_id": "lease_signing_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::lease_signing_i1::C_asof_before": {
+      "cell_id": "lease_signing_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::lease_signing_i1::A": {
+      "cell_id": "lease_signing_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::lease_signing_i1::B_past": {
+      "cell_id": "lease_signing_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::lease_signing_i1::B_future": {
+      "cell_id": "lease_signing_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::lease_signing_i1::C_asof_after": {
+      "cell_id": "lease_signing_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::lease_signing_i1::C_asof_before": {
+      "cell_id": "lease_signing_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::lease_signing_i1::A": {
+      "cell_id": "lease_signing_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::lease_signing_i1::B_past": {
+      "cell_id": "lease_signing_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::lease_signing_i1::B_future": {
+      "cell_id": "lease_signing_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::lease_signing_i1::C_asof_after": {
+      "cell_id": "lease_signing_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::lease_signing_i1::C_asof_before": {
+      "cell_id": "lease_signing_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::lease_signing_i1::A": {
+      "cell_id": "lease_signing_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-22  \n- 参考日期：2026-05-22  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月22日到4月30日：  \n   $30 - 22 = 8$ 天（注意：**不包含4月22日当天**，如果问“相差多少天”，通常指**间隔天数**，即从4月22日到5月22日之间经过的完整天数）。\n\n2. 5月1日到5月22日：  \n   $22$ 天\n\n所以总间隔天数为：  \n$8 + 22 = 30$ 天\n\n✅ 验证：  \n从4月22日 **之后一天**（4月23日）开始算起，到5月22日为止，共30天。  \n或者用日期相减：  \n2026-05-22 − 2026-04-22 = **30天**\n\n**答案：30天**"
+    },
+    "qwen3-vl-plus::lease_signing_i1::B_past": {
+      "cell_id": "lease_signing_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::lease_signing_i1::B_future": {
+      "cell_id": "lease_signing_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::lease_signing_i1::C_asof_after": {
+      "cell_id": "lease_signing_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::lease_signing_i1::C_asof_before": {
+      "cell_id": "lease_signing_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::loan_interview_i1::A": {
+      "cell_id": "loan_interview_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-29 到 2026-04-30 是 1 天。\n- 从 2026-05-01 到 2026-05-29 是 29 天。\n- 1天 + 29天 = 30天。\n\n因此，事件日期（4月29日）和参考日期（5月29日）之间相隔正好 30 天。"
+    },
+    "hy3::loan_interview_i1::B_past": {
+      "cell_id": "loan_interview_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::loan_interview_i1::B_future": {
+      "cell_id": "loan_interview_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::loan_interview_i1::C_asof_after": {
+      "cell_id": "loan_interview_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::loan_interview_i1::C_asof_before": {
+      "cell_id": "loan_interview_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::loan_interview_i1::A": {
+      "cell_id": "loan_interview_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **事件日期**：2026 年 4 月 29 日\n2.  **参考日期**：2026 年 5 月 29 日\n3.  4 月份共有 30 天。\n4.  从 4 月 29 日到 4 月 30 日还有 1 天。\n5.  从 5 月 1 日到 5 月 29 日有 29 天。\n6.  合计：1 + 29 = 30 天。"
+    },
+    "Qwen3.5-397B-A17B::loan_interview_i1::B_past": {
+      "cell_id": "loan_interview_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::loan_interview_i1::B_future": {
+      "cell_id": "loan_interview_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::loan_interview_i1::C_asof_after": {
+      "cell_id": "loan_interview_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::loan_interview_i1::C_asof_before": {
+      "cell_id": "loan_interview_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::loan_interview_i1::A": {
+      "cell_id": "loan_interview_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n（从 2026-04-29 到 2026-05-29，不包含起始日；若包含首尾两天则为 31 天。）"
+    },
+    "DeepSeek-V4.1-Flash::loan_interview_i1::B_past": {
+      "cell_id": "loan_interview_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::loan_interview_i1::B_future": {
+      "cell_id": "loan_interview_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::loan_interview_i1::C_asof_after": {
+      "cell_id": "loan_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::loan_interview_i1::C_asof_before": {
+      "cell_id": "loan_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::loan_interview_i1::A": {
+      "cell_id": "loan_interview_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。  \n（2026-04-29 到 2026-05-29，按日期差计算为30天。）"
+    },
+    "DeepSeek-V4-Flash::loan_interview_i1::B_past": {
+      "cell_id": "loan_interview_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::loan_interview_i1::B_future": {
+      "cell_id": "loan_interview_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::loan_interview_i1::C_asof_after": {
+      "cell_id": "loan_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::loan_interview_i1::C_asof_before": {
+      "cell_id": "loan_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::loan_interview_i1::A": {
+      "cell_id": "loan_interview_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-29  \n- 参考日期：2026-05-29  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月29日到4月30日：**1天**  \n2. 5月1日到5月29日：**29天**\n\n所以总天数 = 1 + 29 = **30天**\n\n或者更直接地：  \n5月29日是当年的第 149 天（因为 1月31 + 2月28 + 3月31 + 4月30 + 29 = 31+28+31+30+29 = 149）  \n4月29日是当年的第 119 天（31+28+31+29 = 119）  \n差值 = 149 − 119 = **30天**\n\n✅ 答案：**30天**"
+    },
+    "qwen3-vl-plus::loan_interview_i1::B_past": {
+      "cell_id": "loan_interview_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::loan_interview_i1::B_future": {
+      "cell_id": "loan_interview_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::loan_interview_i1::C_asof_after": {
+      "cell_id": "loan_interview_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::loan_interview_i1::C_asof_before": {
+      "cell_id": "loan_interview_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::specialist_clinic_i1::A": {
+      "cell_id": "specialist_clinic_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n计算过程：\n- 2026年5月有31天。\n- 从 2026-05-06 到 2026-05-31 是：31 - 6 = 25天。\n- 从 2026-05-31 到 2026-06-05 是：5天。\n- 合计：25 + 5 = 30天。\n\n（参考日期 2026-06-05 减去 事件日期 2026-05-06 等于 30 天）"
+    },
+    "hy3::specialist_clinic_i1::B_past": {
+      "cell_id": "specialist_clinic_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::specialist_clinic_i1::B_future": {
+      "cell_id": "specialist_clinic_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::specialist_clinic_i1::C_asof_after": {
+      "cell_id": "specialist_clinic_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::specialist_clinic_i1::C_asof_before": {
+      "cell_id": "specialist_clinic_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::specialist_clinic_i1::A": {
+      "cell_id": "specialist_clinic_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n\n1.  **5 月剩余天数**：5 月共有 31 天，从 5 月 6 日到 5 月 31 日还有 $31 - 6 = 25$ 天。\n2.  **6 月经过天数**：从 6 月 1 日到 6 月 5 日共有 5 天。\n3.  **总计**：$25 + 5 = 30$ 天。\n\n或者也可以这样理解：从 5 月 6 日到 6 月 6 日正好是一个月（31 天），而 6 月 5 日比 6 月 6 日早 1 天，所以是 $31 - 1 = 30$ 天。"
+    },
+    "Qwen3.5-397B-A17B::specialist_clinic_i1::B_past": {
+      "cell_id": "specialist_clinic_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::specialist_clinic_i1::B_future": {
+      "cell_id": "specialist_clinic_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::specialist_clinic_i1::C_asof_after": {
+      "cell_id": "specialist_clinic_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::specialist_clinic_i1::C_asof_before": {
+      "cell_id": "specialist_clinic_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::specialist_clinic_i1::A": {
+      "cell_id": "specialist_clinic_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::specialist_clinic_i1::B_past": {
+      "cell_id": "specialist_clinic_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::specialist_clinic_i1::B_future": {
+      "cell_id": "specialist_clinic_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::specialist_clinic_i1::C_asof_after": {
+      "cell_id": "specialist_clinic_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::specialist_clinic_i1::C_asof_before": {
+      "cell_id": "specialist_clinic_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::specialist_clinic_i1::A": {
+      "cell_id": "specialist_clinic_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "2026-05-06 到 2026-06-05 相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::specialist_clinic_i1::B_past": {
+      "cell_id": "specialist_clinic_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::specialist_clinic_i1::B_future": {
+      "cell_id": "specialist_clinic_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::specialist_clinic_i1::C_asof_after": {
+      "cell_id": "specialist_clinic_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::specialist_clinic_i1::C_asof_before": {
+      "cell_id": "specialist_clinic_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::specialist_clinic_i1::A": {
+      "cell_id": "specialist_clinic_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-05-06  \n- 参考日期：2026-06-05  \n\n由于是同一年（2026年），我们可以直接按月份和日期计算：\n\n- 5月有31天，所以从5月6日到5月31日还有：  \n  \\(31 - 6 = 25\\) 天（注意：**不包括5月6日当天**，如果问“相差多少天”，通常指**间隔天数**，即从5月6日到6月5日之间经过的完整天数）。\n\n- 然后加上6月1日到6月5日的5天。\n\n所以总间隔天数为：  \n\\(25 + 5 = 30\\) 天。\n\n✅ 验证：  \n从 2026-05-06 到 2026-06-05 正好是 **30天**（例如：5月6日 + 30天 = 6月5日）。\n\n> 注意：若问题问的是“日期差”（如用 `date2 - date1` 的天数），结果为 **+30天**（参考日期在事件日期之后）。\n\n**答案：3"
+    },
+    "qwen3-vl-plus::specialist_clinic_i1::B_past": {
+      "cell_id": "specialist_clinic_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::specialist_clinic_i1::B_future": {
+      "cell_id": "specialist_clinic_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::specialist_clinic_i1::C_asof_after": {
+      "cell_id": "specialist_clinic_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::specialist_clinic_i1::C_asof_before": {
+      "cell_id": "specialist_clinic_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::tax_interview_i1::A": {
+      "cell_id": "tax_interview_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年5月有31天。\n- 从 5月6日 到 5月31日，经过了 31 - 6 = 25 天。\n- 再加上 6月的 5 天（到6月5日），共计 25 + 5 = 30 天。\n\n（如果以“参考日期 - 事件日期”计算，即 2026-06-05 减去 2026-05-06，结果为 +30 天；若反过来则为 -30 天，但两者相隔的天数绝对值为 30 天。）"
+    },
+    "hy3::tax_interview_i1::B_past": {
+      "cell_id": "tax_interview_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::tax_interview_i1::B_future": {
+      "cell_id": "tax_interview_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::tax_interview_i1::C_asof_after": {
+      "cell_id": "tax_interview_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::tax_interview_i1::C_asof_before": {
+      "cell_id": "tax_interview_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::tax_interview_i1::A": {
+      "cell_id": "tax_interview_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程如下：\n1.  **5 月剩余天数**：5 月共有 31 天，从 5 月 6 日到 5 月 31 日还有 $31 - 6 = 25$ 天。\n2.  **6 月经过天数**：从 6 月 1 日到 6 月 5 日共有 5 天。\n3.  **总天数**：$25 + 5 = 30$ 天。"
+    },
+    "Qwen3.5-397B-A17B::tax_interview_i1::B_past": {
+      "cell_id": "tax_interview_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::tax_interview_i1::B_future": {
+      "cell_id": "tax_interview_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::tax_interview_i1::C_asof_after": {
+      "cell_id": "tax_interview_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::tax_interview_i1::C_asof_before": {
+      "cell_id": "tax_interview_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::tax_interview_i1::A": {
+      "cell_id": "tax_interview_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::tax_interview_i1::B_past": {
+      "cell_id": "tax_interview_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::tax_interview_i1::B_future": {
+      "cell_id": "tax_interview_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::tax_interview_i1::C_asof_after": {
+      "cell_id": "tax_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::tax_interview_i1::C_asof_before": {
+      "cell_id": "tax_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::tax_interview_i1::A": {
+      "cell_id": "tax_interview_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::tax_interview_i1::B_past": {
+      "cell_id": "tax_interview_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::tax_interview_i1::B_future": {
+      "cell_id": "tax_interview_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::tax_interview_i1::C_asof_after": {
+      "cell_id": "tax_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::tax_interview_i1::C_asof_before": {
+      "cell_id": "tax_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::tax_interview_i1::A": {
+      "cell_id": "tax_interview_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-05-06  \n- 参考日期：2026-06-05  \n\n由于是同一年（2026年），我们可以直接按月份和日期计算：\n\n- 5月有31天，所以从5月6日到5月31日还有：  \n  \\(31 - 6 = 25\\) 天（注意：**不包含5月6日当天**，如果问“相差多少天”，通常指两个日期之间的**间隔天数**，即从5月6日到6月5日经过了多少整天）。\n\n- 然后加上6月1日到6月5日的5天。\n\n所以总间隔天数为：  \n\\(25 + 5 = 30\\) 天。\n\n✅ 验证：  \n从2026-05-06 到 2026-06-05 正好是 **30天**（例如：5月6日 + 30天 = 6月5日）。\n\n**答案：30天**。"
+    },
+    "qwen3-vl-plus::tax_interview_i1::B_past": {
+      "cell_id": "tax_interview_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::tax_interview_i1::B_future": {
+      "cell_id": "tax_interview_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::tax_interview_i1::C_asof_after": {
+      "cell_id": "tax_interview_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::tax_interview_i1::C_asof_before": {
+      "cell_id": "tax_interview_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::thesis_defense_i1::A": {
+      "cell_id": "thesis_defense_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月30日\n- 参考日期：2026年5月30日\n- 4月有30天，从4月30日到5月30日正好经过了一个完整的4月剩余天数（0天）+ 5月的30天，或者说从4月30日往后推30天就是5月30日。\n\n因此，两者相差 30 天。"
+    },
+    "hy3::thesis_defense_i1::B_past": {
+      "cell_id": "thesis_defense_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::thesis_defense_i1::B_future": {
+      "cell_id": "thesis_defense_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::thesis_defense_i1::C_asof_after": {
+      "cell_id": "thesis_defense_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::thesis_defense_i1::C_asof_before": {
+      "cell_id": "thesis_defense_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::thesis_defense_i1::A": {
+      "cell_id": "thesis_defense_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n**计算过程：**\n1.  **事件日期**：2026 年 4 月 30 日\n2.  **参考日期**：2026 年 5 月 30 日\n3.  **计算**：从 4 月 30 日到 5 月 30 日，正好经过了一个月。由于 4 月有 30 天，从 4 月 30 日往后推 30 天即为 5 月 30 日。\n\n因此，相差 30 天。"
+    },
+    "Qwen3.5-397B-A17B::thesis_defense_i1::B_past": {
+      "cell_id": "thesis_defense_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::thesis_defense_i1::B_future": {
+      "cell_id": "thesis_defense_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::thesis_defense_i1::C_asof_after": {
+      "cell_id": "thesis_defense_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::thesis_defense_i1::C_asof_before": {
+      "cell_id": "thesis_defense_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::thesis_defense_i1::A": {
+      "cell_id": "thesis_defense_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n（2026-04-30 到 2026-05-30，按不包含起始日计算。）"
+    },
+    "DeepSeek-V4.1-Flash::thesis_defense_i1::B_past": {
+      "cell_id": "thesis_defense_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::thesis_defense_i1::B_future": {
+      "cell_id": "thesis_defense_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::thesis_defense_i1::C_asof_after": {
+      "cell_id": "thesis_defense_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::thesis_defense_i1::C_asof_before": {
+      "cell_id": "thesis_defense_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::thesis_defense_i1::A": {
+      "cell_id": "thesis_defense_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "2026-04-30 到 2026-05-30 相差 **30天**。"
+    },
+    "DeepSeek-V4-Flash::thesis_defense_i1::B_past": {
+      "cell_id": "thesis_defense_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::thesis_defense_i1::B_future": {
+      "cell_id": "thesis_defense_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::thesis_defense_i1::C_asof_after": {
+      "cell_id": "thesis_defense_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::thesis_defense_i1::C_asof_before": {
+      "cell_id": "thesis_defense_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::thesis_defense_i1::A": {
+      "cell_id": "thesis_defense_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-30  \n- 参考日期：2026-05-30  \n\n由于是同一年（2026年），且4月有30天，我们可以直接计算：\n\n- 4月30日到4月30日是 **0天**  \n- 4月30日到5月30日 = 从4月30日 **之后** 的第一天（5月1日）开始算起，到5月30日共 **30天**\n\n更严谨地：\n- 5月30日 − 4月30日 =  \n  - 4月剩余天数：0（因为从4月30日当天开始不算，若求“相差多少天”，通常指**整日间隔**，即从事件日次日到参考日的天数；但若问“两个日期相差多少天”，一般指**日历天数差**，即 `参考日期 - 事件日期` 的天数）\n\n在标准日期差计算中（如Python的 `datetime` 或 Excel），**日期差 = 后者 - 前者**，结果为正数表示后者在前者之后的天数。\n\n2026"
+    },
+    "qwen3-vl-plus::thesis_defense_i1::B_past": {
+      "cell_id": "thesis_defense_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::thesis_defense_i1::B_future": {
+      "cell_id": "thesis_defense_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::thesis_defense_i1::C_asof_after": {
+      "cell_id": "thesis_defense_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::thesis_defense_i1::C_asof_before": {
+      "cell_id": "thesis_defense_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::visa_interview_i1::A": {
+      "cell_id": "visa_interview_i1::A",
+      "route": "hy3",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-20 到 2026-04-30 是 10 天。\n- 从 2026-04-30 到 2026-05-20 是 20 天。\n- 10天 + 20天 = 30天。\n\n（或者说，从4月20日到5月20日正好是一个月，而4月是小月，有30天，因此相差30天。）"
+    },
+    "hy3::visa_interview_i1::B_past": {
+      "cell_id": "visa_interview_i1::B_past",
+      "route": "hy3",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "hy3::visa_interview_i1::B_future": {
+      "cell_id": "visa_interview_i1::B_future",
+      "route": "hy3",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::visa_interview_i1::C_asof_after": {
+      "cell_id": "visa_interview_i1::C_asof_after",
+      "route": "hy3",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "hy3::visa_interview_i1::C_asof_before": {
+      "cell_id": "visa_interview_i1::C_asof_before",
+      "route": "hy3",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::visa_interview_i1::A": {
+      "cell_id": "visa_interview_i1::A",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。\n\n计算过程：\n1.  2026 年 4 月有 30 天。\n2.  从 4 月 20 日到 4 月 30 日还有 10 天（30 - 20 = 10）。\n3.  从 5 月 1 日到 5 月 20 日有 20 天。\n4.  合计：10 + 20 = 30 天。"
+    },
+    "Qwen3.5-397B-A17B::visa_interview_i1::B_past": {
+      "cell_id": "visa_interview_i1::B_past",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "Qwen3.5-397B-A17B::visa_interview_i1::B_future": {
+      "cell_id": "visa_interview_i1::B_future",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::visa_interview_i1::C_asof_after": {
+      "cell_id": "visa_interview_i1::C_asof_after",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "Qwen3.5-397B-A17B::visa_interview_i1::C_asof_before": {
+      "cell_id": "visa_interview_i1::C_asof_before",
+      "route": "Qwen3.5-397B-A17B",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::visa_interview_i1::A": {
+      "cell_id": "visa_interview_i1::A",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "两个日期相差 **30 天**。"
+    },
+    "DeepSeek-V4.1-Flash::visa_interview_i1::B_past": {
+      "cell_id": "visa_interview_i1::B_past",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4.1-Flash::visa_interview_i1::B_future": {
+      "cell_id": "visa_interview_i1::B_future",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::visa_interview_i1::C_asof_after": {
+      "cell_id": "visa_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4.1-Flash::visa_interview_i1::C_asof_before": {
+      "cell_id": "visa_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4.1-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::visa_interview_i1::A": {
+      "cell_id": "visa_interview_i1::A",
+      "route": "DeepSeek-V4-Flash",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "2026-04-20 到 2026-05-20 相差 **30 天**。"
+    },
+    "DeepSeek-V4-Flash::visa_interview_i1::B_past": {
+      "cell_id": "visa_interview_i1::B_past",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "DeepSeek-V4-Flash::visa_interview_i1::B_future": {
+      "cell_id": "visa_interview_i1::B_future",
+      "route": "DeepSeek-V4-Flash",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::visa_interview_i1::C_asof_after": {
+      "cell_id": "visa_interview_i1::C_asof_after",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "DeepSeek-V4-Flash::visa_interview_i1::C_asof_before": {
+      "cell_id": "visa_interview_i1::C_asof_before",
+      "route": "DeepSeek-V4-Flash",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    },
+    "qwen3-vl-plus::visa_interview_i1::A": {
+      "cell_id": "visa_interview_i1::A",
+      "route": "qwen3-vl-plus",
+      "task": "A",
+      "gold": "30",
+      "parsed": "30",
+      "correct": true,
+      "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n- 4月20日到4月30日：**10天**（包括4月21日到30日，共10天；注意：从4月20日到4月21日是1天，所以20→30是10天）\n  - 更准确地说：30 − 20 = **10天**（即4月21日至30日共10天，若计算“相差天数”通常指**整日间隔**，即参考日期减事件日期的天数，不包含起始日）\n\n- 5月1日到5月20日：**20天**\n\n所以总天数差 = 10（4月剩余） + 20（5月前20天） = **30天**\n\n✅ 验证：  \n用日期差公式：  \n2026-05-20 减去 2026-04-20 = **30天**\n\n**答案：30天**"
+    },
+    "qwen3-vl-plus::visa_interview_i1::B_past": {
+      "cell_id": "visa_interview_i1::B_past",
+      "route": "qwen3-vl-plus",
+      "task": "B_past",
+      "gold": "是",
+      "parsed": "否",
+      "correct": false,
+      "content": "否"
+    },
+    "qwen3-vl-plus::visa_interview_i1::B_future": {
+      "cell_id": "visa_interview_i1::B_future",
+      "route": "qwen3-vl-plus",
+      "task": "B_future",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::visa_interview_i1::C_asof_after": {
+      "cell_id": "visa_interview_i1::C_asof_after",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_after",
+      "gold": "否",
+      "parsed": "否",
+      "correct": true,
+      "content": "否"
+    },
+    "qwen3-vl-plus::visa_interview_i1::C_asof_before": {
+      "cell_id": "visa_interview_i1::C_asof_before",
+      "route": "qwen3-vl-plus",
+      "task": "C_asof_before",
+      "gold": "是",
+      "parsed": "是",
+      "correct": true,
+      "content": "是"
+    }
+  }
+}

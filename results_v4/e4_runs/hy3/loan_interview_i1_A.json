@@ -1,0 +1,294 @@
+{
+  "cell": {
+    "cell_id": "loan_interview_i1::A",
+    "route": "hy3",
+    "kind": "loan_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "事件日期是 2026-04-29。参考日期是 2026-05-29。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-29 到 2026-04-30 是 1 天。\n- 从 2026-05-01 到 2026-05-29 是 29 天。\n- 1天 + 29天 = 30天。\n\n因此，事件日期（4月29日）和参考日期（5月29日）之间相隔正好 30 天。",
+    "reasoning_content": "用户问：事件日期是 2026-04-29，参考日期是 2026-05-29。两个日期相差多少天？\n事件日期：2026-04-29\n参考日期：2026-05-29\n计算相差天数：从4月29日到5月29日。\n4月有30天。\n从4月29日到4月30日是1天（或者算差值：30 - 29 = 1天到4月底）。\n从5月1日到5月29日是29天。\n所以总共相差 30 - 29 + 29 = 30天？\n等一下，我们直接相减：\n2026-05-29 减去 2026-04-29。\n月份差1个月。4月29日到5月29日正好是1个月。\n在日历上，4月有30天，所以从4月29日到5月29日，正好是30天。\n验证：4月29日 + 1天 = 4月30日\n+ 29天 = 5月29日\n所以 1 + 29 = 30天。\n或者，日期差 = (2026-05-29) - (2026-04-29) = 30天。\n因为4月是小月，有30天。如果是3月29日到4月29日，相差31天。\n所以相差30天。\n\n确认一下：2026年不是闰年，2月有28天，但4月总是30天。\n所以4月29日到5月29日，刚好是30天。\n参考日期减去事件日期：2026-05-29 - 2026-04-29 = 30天。\n如果问“相差多少天”，通常指绝对值，即30天。\n\n回答：30天。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 500,
+      "total_tokens": 540,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 381
+      }
+    },
+    "model": "hy3",
+    "request_id": "21a287b2-cd0f-41d1-a45e-ed1ed3e46d10",
+    "system_fingerprint": "",
+    "latency_s": 4.803,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.186
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.877
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.463
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.277
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.708
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.243
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.973
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.573
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.786
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.953
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.511
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.822
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.676
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.829
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.436
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.538
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.35
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.52
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.63
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.471
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.65
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.517
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.369
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.187
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.581
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.493
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.866
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.803
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 2026-04-29 到 2026-04-30 是 1 天。\n- 从 2026-05-01 到 2026-05-29 是 29 天。\n- 1天 + 29天 = 30天。\n\n因此，事件日期（4月29日）和参考日期（5月29日）之间相隔正好 30 天。",
+            "reasoning_content": "用户问：事件日期是 2026-04-29，参考日期是 2026-05-29。两个日期相差多少天？\n事件日期：2026-04-29\n参考日期：2026-05-29\n计算相差天数：从4月29日到5月29日。\n4月有30天。\n从4月29日到4月30日是1天（或者算差值：30 - 29 = 1天到4月底）。\n从5月1日到5月29日是29天。\n所以总共相差 30 - 29 + 29 = 30天？\n等一下，我们直接相减：\n2026-05-29 减去 2026-04-29。\n月份差1个月。4月29日到5月29日正好是1个月。\n在日历上，4月有30天，所以从4月29日到5月29日，正好是30天。\n验证：4月29日 + 1天 = 4月30日\n+ 29天 = 5月29日\n所以 1 + 29 = 30天。\n或者，日期差 = (2026-05-29) - (2026-04-29) = 30天。\n因为4月是小月，有30天。如果是3月29日到4月29日，相差31天。\n所以相差30天。\n\n确认一下：2026年不是闰年，2月有28天，但4月总是30天。\n所以4月29日到5月29日，刚好是30天。\n参考日期减去事件日期：2026-05-29 - 2026-04-29 = 30天。\n如果问“相差多少天”，通常指绝对值，即30天。\n\n回答：30天。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728995,
+      "id": "21a287b2-cd0f-41d1-a45e-ed1ed3e46d10",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 500,
+        "total_tokens": 540,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 381
+        }
+      }
+    }
+  }
+}

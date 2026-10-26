@@ -1,0 +1,134 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "用户问：截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析时间：\n当前日期（截至）：2026-06-05\n事项日期：2026-05-06\n\n2026-05-06 早于 2026-06-05（已经过去了一个月）。\n所以，2026-05-06 的已排定事项已经发生了（或者至少日期已经过了），不应该被当作\"将要发生\"（将来）来对待。\n\n因此，答案应该是\"否\"。\n\n用户要求只回答\"是\"或\"否\"。\n所以回答：否。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 156,
+      "total_tokens": 208,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 153
+      }
+    },
+    "model": "hy3",
+    "request_id": "deb7820a-eb18-446e-b04f-452925b45278",
+    "system_fingerprint": "",
+    "latency_s": 3.414,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "否",
+            "reasoning_content": "用户问：截至 2026-06-05，2026-05-06 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析时间：\n当前日期（截至）：2026-06-05\n事项日期：2026-05-06\n\n2026-05-06 早于 2026-06-05（已经过去了一个月）。\n所以，2026-05-06 的已排定事项已经发生了（或者至少日期已经过了），不应该被当作\"将要发生\"（将来）来对待。\n\n因此，答案应该是\"否\"。\n\n用户要求只回答\"是\"或\"否\"。\n所以回答：否。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728206,
+      "id": "deb7820a-eb18-446e-b04f-452925b45278",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 156,
+        "total_tokens": 208,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 153
+        }
+      }
+    }
+  }
+}

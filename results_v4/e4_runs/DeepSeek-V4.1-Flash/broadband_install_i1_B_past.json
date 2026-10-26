@@ -1,0 +1,97 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "broadband_install_i1",
+    "task": "B_past",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "某事项定于 2026-04-20 举行。参考日期是 2026-05-20。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-04-20 has passed relative to reference date 2026-05-20? It asks \"该事项的预定日期已经过去了吗？\" As of reference date 2026-05-20, April 20 2026 is past. Answer \"是\" or \"否\". Need only yes/no. In Chinese \"是\" means yes. Final.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 72,
+      "completion_tokens": 90,
+      "total_tokens": 162,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 72,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "input_tokens": 72,
+      "output_tokens": 90
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728053567d5e3a06b1d3d650f0fc414a0e965c499a775ce",
+    "system_fingerprint": "",
+    "latency_s": 1.485,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      }
+    ],
+    "raw": {
+      "id": "021790728053567d5e3a06b1d3d650f0fc414a0e965c499a775ce",
+      "object": "chat.completion",
+      "created": 1790728054,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 90,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 72,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "input_tokens": 72,
+        "output_tokens": 90
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-04-20 has passed relative to reference date 2026-05-20? It asks \"该事项的预定日期已经过去了吗？\" As of reference date 2026-05-20, April 20 2026 is past. Answer \"是\" or \"否\". Need only yes/no. In Chinese \"是\" means yes. Final."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

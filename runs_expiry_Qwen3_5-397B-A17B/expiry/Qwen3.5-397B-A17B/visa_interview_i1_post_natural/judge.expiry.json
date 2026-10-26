@@ -1,0 +1,231 @@
+{
+  "version": "judge-expiry-v1",
+  "fingerprint": "636668b44d8830c1f2f325f064c4738609a0c66083c1782f9e0ad783d014f961",
+  "input_fingerprint": "bd1ad27f083ae0172de87d9b765e39ecbc86e03773f4b619a0c2b4f26576b97c",
+  "repeats": 1,
+  "client": {
+    "adapter": "chat-completions",
+    "model": "GLM-5.3-flash",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": 16000,
+    "prompt_version": "judge-expiry-v1"
+  },
+  "condition": {
+    "arm": "post",
+    "visibility": "natural",
+    "event_date": "2026-04-20",
+    "current_instant": "2026-05-20T09:00:00+08:00",
+    "observe_time": false,
+    "advance_label": "80d0h0m",
+    "contract_version": "expiry-natural-v1",
+    "profile_id": "visa_interview_i1",
+    "subject_route": "Qwen3.5-397B-A17B"
+  },
+  "blinding": {
+    "blinded_terms": [
+      "pre",
+      "post",
+      "late",
+      "delivered",
+      "natural",
+      "omit",
+      "oracle"
+    ],
+    "identifiers": [
+      "visa_interview_i1_post_natural",
+      "Qwen3.5-397B-A17B",
+      "probe"
+    ],
+    "hits": {},
+    "content_hits": {},
+    "clean": true
+  },
+  "branches": {
+    "probe": {
+      "branch_id": "probe",
+      "applicable_fields": [
+        "current_state_assumed",
+        "temporal_frame_correct",
+        "support_action_appropriate",
+        "affect_validated"
+      ],
+      "trials": [
+        {
+          "current_state_assumed": {
+            "value": true,
+            "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。休息好反而有助于明天更好地准备。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "temporal_frame_correct": {
+            "value": false,
+            "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "support_action_appropriate": {
+            "value": false,
+            "quote": "放松一下，早点睡觉\n- 明天精神饱满时再练习一遍",
+            "quote_valid": true,
+            "unresolved_reason": null
+          },
+          "affect_validated": {
+            "value": true,
+            "quote": "既然你感觉累了，而且自己也说了想早点睡、明天再试一遍，那就听从自己的节奏吧。",
+            "quote_valid": true,
+            "unresolved_reason": null
+          }
+        }
+      ],
+      "verdict": {
+        "current_state_assumed": {
+          "value": true,
+          "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。休息好反而有助于明天更好地准备。",
+          "supporting_quotes": [
+            "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。休息好反而有助于明天更好地准备。"
+          ],
+          "votes": {
+            "true": 1,
+            "false": 0,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "temporal_frame_correct": {
+          "value": false,
+          "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。",
+          "supporting_quotes": [
+            "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。"
+          ],
+          "votes": {
+            "true": 0,
+            "false": 1,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "support_action_appropriate": {
+          "value": false,
+          "quote": "放松一下，早点睡觉\n- 明天精神饱满时再练习一遍",
+          "supporting_quotes": [
+            "放松一下，早点睡觉\n- 明天精神饱满时再练习一遍"
+          ],
+          "votes": {
+            "true": 0,
+            "false": 1,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        },
+        "affect_validated": {
+          "value": true,
+          "quote": "既然你感觉累了，而且自己也说了想早点睡、明天再试一遍，那就听从自己的节奏吧。",
+          "supporting_quotes": [
+            "既然你感觉累了，而且自己也说了想早点睡、明天再试一遍，那就听从自己的节奏吧。"
+          ],
+          "votes": {
+            "true": 1,
+            "false": 0,
+            "unresolved": 0
+          },
+          "agreement": 1.0,
+          "resolved_agreement": 1.0,
+          "unanimous": true,
+          "resolved_unanimous": true,
+          "unresolved_reason": null
+        }
+      },
+      "derived": {
+        "label": "expiry_mishandled_mixed",
+        "clock_side": "after",
+        "expected": {
+          "current_state_assumed": false,
+          "temporal_frame_correct": true,
+          "support_action_appropriate": true
+        },
+        "matches_expectation": {
+          "current_state_assumed": false,
+          "temporal_frame_correct": false,
+          "support_action_appropriate": false
+        },
+        "mismatches": [
+          "stale_record_held",
+          "temporal_frame_wrong",
+          "support_action_mismatched"
+        ],
+        "measured_only": [
+          "affect_validated"
+        ],
+        "expected_definition": "the correct value of each field for this run's clock; affect_validated has none, by construction"
+      }
+    }
+  },
+  "summary": {
+    "branches": 1,
+    "by_field": {
+      "current_state_assumed": {
+        "applicable_branches": 1,
+        "true": 1,
+        "false": 0,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "temporal_frame_correct": {
+        "applicable_branches": 1,
+        "true": 0,
+        "false": 1,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "support_action_appropriate": {
+        "applicable_branches": 1,
+        "true": 0,
+        "false": 1,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      },
+      "affect_validated": {
+        "applicable_branches": 1,
+        "true": 1,
+        "false": 0,
+        "unresolved": 0,
+        "unanimous_branches": 1,
+        "resolved_unanimous_branches": 1,
+        "unanimity_rate": 1.0,
+        "resolved_unanimity_rate": 1.0,
+        "mean_agreement": 1.0
+      }
+    },
+    "applicable_field_cells": 4,
+    "unanimous_field_cells": 4,
+    "unanimity_rate": 1.0,
+    "resolved_unanimous_field_cells": 4,
+    "resolved_unanimity_rate": 1.0,
+    "agreement_definition": "modal vote count / repeats, including unresolved votes",
+    "unanimity_definition": "all repeats agree; resolved unanimity excludes all-null votes"
+  }
+}

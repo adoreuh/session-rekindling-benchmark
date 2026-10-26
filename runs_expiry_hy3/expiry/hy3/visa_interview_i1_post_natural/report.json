@@ -1,0 +1,352 @@
+{
+  "branches": [
+    {
+      "audit_findings": [],
+      "auto_retrieval": {
+        "eligible_count": 11,
+        "gold_delivered": true,
+        "hits": [
+          "visa_interview_i1_original_confirmation",
+          "visa_interview_i1_preparation_notes",
+          "visa_interview_i1_unrelated_invitation",
+          "visa_interview_i1_anxiety_chat"
+        ],
+        "outcome": "ok",
+        "query": "我们之前一起准备的赴德探亲签证面试：预约确认单上的日期、当前是否仍然有效",
+        "result_count": 4
+      },
+      "branch_id": "probe",
+      "event_count": 52,
+      "exposure": {
+        "deliver_ids": [
+          "visa_interview_i1_original_confirmation",
+          "visa_interview_i1_preparation_notes",
+          "visa_interview_i1_unrelated_invitation",
+          "visa_interview_i1_anxiety_chat"
+        ],
+        "force_include_ids": [],
+        "label": "oracle",
+        "mode": "full",
+        "omit_ids": [],
+        "strip_fields": [],
+        "top_k": 4
+      },
+      "exposure_verdicts": [
+        {
+          "checked_blocks": 3,
+          "condition": "oracle",
+          "contract_version": "expiry-natural-v1",
+          "evidence": {
+            "blocks_checked": 3,
+            "max_payload_bytes": 200000,
+            "payload_bytes": 1623,
+            "probe_tools": [
+              "world_time"
+            ],
+            "proposition_hits": [
+              {
+                "block_index": 1,
+                "origin": "message",
+                "proposition": "record_places_event_on_d"
+              },
+              {
+                "block_index": 1,
+                "origin": "message",
+                "proposition": "record_places_event_on_d_spelled"
+              }
+            ],
+            "slot_index": 0
+          },
+          "matched_propositions": [
+            "record_places_event_on_d",
+            "record_places_event_on_d_spelled"
+          ],
+          "missing_material_ids": [],
+          "missing_required_groups": [],
+          "parent_visible_history_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "payload_digest": "1bfaf59b0295f7e4b8627d78b6a0f73cf7d93ddd6bd36179d866c56811024161",
+          "present_material_ids": [
+            "visa_interview_i1_anxiety_chat",
+            "visa_interview_i1_original_confirmation",
+            "visa_interview_i1_preparation_notes",
+            "visa_interview_i1_unrelated_invitation"
+          ],
+          "reason_codes": [
+            "provenance_complete"
+          ],
+          "scope": "request",
+          "status": "PASS",
+          "undeclared_material_ids": [],
+          "unmapped_blocks": 0
+        },
+        {
+          "checked_blocks": 5,
+          "condition": "oracle",
+          "contract_version": "expiry-natural-v1",
+          "evidence": {
+            "blocks_checked": 5,
+            "max_payload_bytes": 200000,
+            "payload_bytes": 5733,
+            "probe_tools": [
+              "world_time"
+            ],
+            "proposition_hits": [
+              {
+                "block_index": 1,
+                "origin": "message",
+                "proposition": "record_places_event_on_d"
+              },
+              {
+                "block_index": 1,
+                "origin": "message",
+                "proposition": "record_places_event_on_d_spelled"
+              }
+            ],
+            "slot_index": 0
+          },
+          "matched_propositions": [
+            "record_places_event_on_d",
+            "record_places_event_on_d_spelled"
+          ],
+          "missing_material_ids": [],
+          "missing_required_groups": [],
+          "parent_visible_history_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "payload_digest": "08e2340d1d3ef8d7debc1f40b924a5891f175a02d8bf37d5abc0f7067cebf77b",
+          "present_material_ids": [
+            "visa_interview_i1_anxiety_chat",
+            "visa_interview_i1_original_confirmation",
+            "visa_interview_i1_preparation_notes",
+            "visa_interview_i1_unrelated_invitation"
+          ],
+          "reason_codes": [
+            "provenance_complete"
+          ],
+          "scope": "request",
+          "status": "PASS",
+          "undeclared_material_ids": [],
+          "unmapped_blocks": 0
+        }
+      ],
+      "gate_rejection": null,
+      "invalid_reason": "",
+      "label": "expiry|record",
+      "outcome": {
+        "assistant_text": "我刚查了一下当前时间——**现在是 2026 年 5 月 20 日（周三）早上 9 点**（北京时间）。\n\n结合你之前几段笔记，我得先提醒你一个时间上的变化：\n\n- 赴德探亲签证面试：预约在 **4 月 20 日上午 9 点** → 按记录看，这已经过去一个月了。\n- 联系人邀请的视频面试：**5 月 1 日下午** → 这也已经过去了。\n- 你之前说\"今晚先不练了、想早点睡、明天再试一遍\"，那个\"今晚\"是更早之前的事，不是今天。\n\n所以，如果这两场面试都按原计划顺利完成了，**今晚（5 月 20 日）其实已经不需要再为它们练习或准备材料了**。\n\n基于这个情况，我给你的今晚安排建议是：\n\n1. **彻底放松，不再练面试**。你之前一想到签证面试就紧张、怕讲不清，现在既然都结束了，就别再给自己加压。\n2. **如果还有\"收尾\"的事，轻松处理即可**，比如：\n   - 等签证结果的话，确认一下查询方式或邮件，但不必熬夜刷。\n   - 5 月 1 日视频面试如果有后续反馈要跟，明天白天处理就行。\n3. **按你朋友的建议——累了就休息**。既然现在是大白天，白天该忙忙，晚上早点睡，把之前缺的觉补回来。\n\n不过，如果你问的\"今晚\"其实是指**回到当时那个情境**（假设面试还没发生），那按你之前和朋友商量的方案就是：**今晚不练，把目的/安排/后续计划的要点简单写下来，累了就休息，早点睡，明天再试一遍**——4 月 20 日的预约确认单和证件信息也记得核对一下。\n\n你是想确认\"现在\"的安排，还是想回到当时那个准备阶段再聊一次？",
+        "failure": null,
+        "finish_reasons": [
+          "tool_calls",
+          "stop"
+        ],
+        "indeterminate": false,
+        "request_count": 2,
+        "search": {
+          "search_evidence_delivered": 0,
+          "search_executed": 0,
+          "search_requested": 0
+        },
+        "tool_calls": 1
+      },
+      "run_valid": true,
+      "score": {
+        "L1": {
+          "layer": "L1_temporal_sensitivity",
+          "responds_to_elapsed_time": false,
+          "retrievals": [
+            {
+              "clock": "2026-05-20T01:00:00Z",
+              "gold_weight": 1.0,
+              "max_weight": 1.0,
+              "min_weight": 1.0,
+              "seq": 36
+            }
+          ]
+        },
+        "L2": {
+          "agent_initiated": [],
+          "agent_recovered_gold": false,
+          "agent_searched_again": false,
+          "gold_access_changes": false,
+          "gold_rank_changes": false,
+          "host_driven": [
+            {
+              "clock": "2026-05-20T01:00:00Z",
+              "eligible_count": 11,
+              "gold_rank": 1,
+              "gold_returned": true,
+              "mode": "auto",
+              "query": "我们之前一起准备的赴德探亲签证面试：预约确认单上的日期、当前是否仍然有效",
+              "result_count": 4,
+              "returned": [
+                "visa_interview_i1_original_confirmation",
+                "visa_interview_i1_preparation_notes",
+                "visa_interview_i1_unrelated_invitation",
+                "visa_interview_i1_anxiety_chat"
+              ],
+              "seq": 36
+            }
+          ],
+          "host_driven_gold_rank": 1,
+          "host_driven_gold_returned": true,
+          "layer": "L2_accessibility",
+          "retrievals": [
+            {
+              "clock": "2026-05-20T01:00:00Z",
+              "eligible_count": 11,
+              "gold_rank": 1,
+              "gold_returned": true,
+              "mode": "auto",
+              "query": "我们之前一起准备的赴德探亲签证面试：预约确认单上的日期、当前是否仍然有效",
+              "result_count": 4,
+              "returned": [
+                "visa_interview_i1_original_confirmation",
+                "visa_interview_i1_preparation_notes",
+                "visa_interview_i1_unrelated_invitation",
+                "visa_interview_i1_anxiety_chat"
+              ],
+              "seq": 36
+            }
+          ]
+        },
+        "L3": {
+          "answer_length": 670,
+          "layer": "L3_behavioural_recall",
+          "note": "L3 requires a real model. Lexical signals are recorded here; semantic correctness needs a blind judge and is reported separately."
+        },
+        "L4": {
+          "caveat": "'delivered_not_used' means the evidence reached the final request and the answer did not reflect it. It does not establish what the model attended to internally.",
+          "chain": {
+            "gold_delivered": true,
+            "gold_eligible": true,
+            "gold_selected": true,
+            "retrieval_issued": true
+          },
+          "gold_marker": "visa_interview_i1_original_confirmation",
+          "label": "delivered_and_used",
+          "layer": "L4_attribution"
+        }
+      },
+      "search_accounting": {
+        "search_evidence_delivered": 0,
+        "search_executed": 0,
+        "search_requested": 0
+      },
+      "user_text": "结合你之前了解的情况，你觉得我今晚应该怎么安排？"
+    }
+  ],
+  "checkpoint": {
+    "checksum": "98cd05636965267dc9996cd4a2ec8b6df522d0b75e7707c10561ae29cd7b65d9",
+    "name": "shared",
+    "prefix_count": 33,
+    "prefix_digest": "5f2624eb292d78cf451bb2b041568db2b00de8d72ab604cbfc9e450269f98065"
+  },
+  "corpus_digest": "2388d2c1258cea304800e06059cec688600ecc80c290bcc0072eaeb18152a19d",
+  "experiment_id": "expiry-hy3-visa_interview_i1-post-natural",
+  "exposure": {
+    "contract_version": "expiry-natural-v1",
+    "delivery": {
+      "expiry": {
+        "advance_label": "80d0h0m",
+        "arm": "post",
+        "contract_version": "expiry-natural-v1",
+        "event_date": "2026-04-20",
+        "observe_time": false,
+        "target_instant": "2026-05-20T09:00:00+08:00",
+        "visibility": "natural"
+      },
+      "forbidden_tools": [
+        "search"
+      ],
+      "manifests": {
+        "oracle": {
+          "condition": "oracle",
+          "expected_material_ids": [
+            "visa_interview_i1_original_confirmation",
+            "visa_interview_i1_preparation_notes",
+            "visa_interview_i1_unrelated_invitation",
+            "visa_interview_i1_anxiety_chat"
+          ],
+          "slot_index": 0,
+          "slot_material_id": "visa_interview_i1_original_confirmation"
+        }
+      },
+      "notice_removed": "visa_interview_i1_reschedule_notice",
+      "pair": {
+        "differs_only_in_the_slot": true,
+        "filler_id": "routine_reminder_setup",
+        "gold_id": "visa_interview_i1_original_confirmation",
+        "omit_doc_ids": [
+          "routine_reminder_setup",
+          "visa_interview_i1_preparation_notes",
+          "visa_interview_i1_unrelated_invitation",
+          "visa_interview_i1_anxiety_chat"
+        ],
+        "oracle_doc_ids": [
+          "visa_interview_i1_original_confirmation",
+          "visa_interview_i1_preparation_notes",
+          "visa_interview_i1_unrelated_invitation",
+          "visa_interview_i1_anxiety_chat"
+        ],
+        "shared_ids": [
+          "visa_interview_i1_preparation_notes",
+          "visa_interview_i1_unrelated_invitation",
+          "visa_interview_i1_anxiety_chat"
+        ],
+        "slot": 0
+      },
+      "probe_tools": [
+        "world_time"
+      ],
+      "profile_id": "visa_interview_i1",
+      "shared_context_ids": [
+        "visa_interview_i1_preparation_notes",
+        "visa_interview_i1_unrelated_invitation",
+        "visa_interview_i1_anxiety_chat"
+      ],
+      "slot_filler_undelivered": "routine_reminder_setup"
+    },
+    "gated": true,
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "visa_interview_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "62a9ad3b841e30450db074a8fc0d762fbfb08d73c0f577b4b622feb15d134535",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    }
+  },
+  "model": {
+    "api_key_env": "VELA_API_KEY",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": null,
+    "model": "hy3",
+    "provider": "openai_compatible",
+    "temperature": 0.0
+  },
+  "notes": "scenario=expiry-visa_interview_i1 arm=post visibility=natural clock=2026-05-20T09:00:00+08:00 advance_from_prefix=80d0h0m observe_time=False contract=expiry-natural-v1",
+  "parent_equality": {
+    "identical_parent": true,
+    "parent_prefix_counts": [
+      33
+    ],
+    "parent_prefix_digests": [
+      "5f2624eb292d78cf451bb2b041568db2b00de8d72ab604cbfc9e450269f98065"
+    ]
+  },
+  "policy_digest": "502501967423fd65e401dcf31cb7749c501259775e6965d44944878e5b9e1ccf",
+  "prompt_digest": "0026a620ee509a952884937032339ff472e22c5fefce989e573782fe921bd729",
+  "schedule_digest": "b85d571610863b5a3afca0e3a128e33d0b1af1893165eca70626328b78b973a1",
+  "spec_digest": "98290a8d1c6b95b49b1d309fb6aa3cbeedd563219e05fb831901607f6e110ff2"
+}

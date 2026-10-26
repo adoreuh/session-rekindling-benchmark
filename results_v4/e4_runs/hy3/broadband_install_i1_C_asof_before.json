@@ -1,0 +1,89 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "用户问：截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-05\n- 事项日期：2026-04-20\n- 2026-04-20 晚于 2026-04-05，也就是说这个事项在未来的日期。\n- 既然是未来的日期（还有15天），且是“已排定事项”，那么它应该被当作“将要发生”来对待。\n- 所以答案应该是“是”。\n\n用户要求只回答“是”或“否”。\n\n所以回答：是。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 159,
+      "total_tokens": 211,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 156
+      }
+    },
+    "model": "hy3",
+    "request_id": "3575e466-0854-4a10-acff-278d85572e38",
+    "system_fingerprint": "",
+    "latency_s": 2.12,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "是",
+            "reasoning_content": "用户问：截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-05\n- 事项日期：2026-04-20\n- 2026-04-20 晚于 2026-04-05，也就是说这个事项在未来的日期。\n- 既然是未来的日期（还有15天），且是“已排定事项”，那么它应该被当作“将要发生”来对待。\n- 所以答案应该是“是”。\n\n用户要求只回答“是”或“否”。\n\n所以回答：是。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790727996,
+      "id": "3575e466-0854-4a10-acff-278d85572e38",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 159,
+        "total_tokens": 211,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 156
+        }
+      }
+    }
+  }
+}

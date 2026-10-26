@@ -1,0 +1,167 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "相差 **30天**。",
+    "reasoning_content": "We need answer in Chinese. Need compute difference between 2026-04-27 and 2026-05-27. Need be careful: event date 2026-04-27, reference date 2026-05-27. \"两个日期相差多少天？\" Usually difference in days between dates. From April 27 to May 27 is 30 days because April has 30 days? Let's compute: 2026 not leap? 2026/4=506.5 not leap, Feb 28. April has 30 days. From Apr 27 to May 27: Apr 28? Let's calculate: If start at Apr 27 00:00 to May 27 00:00 exactly = 30 days (April 27->28 =1, ... Apr 30->May1? Actually April 27 to May 27 includes all of Apr 28-30? Let's do: Apr 27 to Apr 28 =1 day; Apr 28 to Apr 29=2; Apr 29 to Apr 30=3; Apr 30 to May 1=4; May1 to May27? May has 26 more days from May1 to May27? Wait if endpoints inclusive? Difference between dates usually number of days between, not counting start day? Common date diff: 2026-04-27 to 2026-05-27 = 30 days. Because April has 30 days, date same next month with month length 30. So answer 30 days. Need maybe mention if inclusive counting then 31? But \"相差多少天\" typically means difference = 30. Need maybe explain: 4月27日到5月27日，4月有30天，所以相隔30天.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 376,
+      "total_tokens": 487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 369
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 111,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 369
+      },
+      "input_tokens": 111,
+      "output_tokens": 376
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "5bce4653-551d-4a4a-9559-6f035ef00df5",
+    "system_fingerprint": "",
+    "latency_s": 5.541,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      }
+    ],
+    "raw": {
+      "id": "5bce4653-551d-4a4a-9559-6f035ef00df5",
+      "object": "chat.completion",
+      "created": 1790728391,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 376,
+        "total_tokens": 487,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 111,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "input_tokens": 111,
+        "output_tokens": 376
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "相差 **30天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compute difference between 2026-04-27 and 2026-05-27. Need be careful: event date 2026-04-27, reference date 2026-05-27. \"两个日期相差多少天？\" Usually difference in days between dates. From April 27 to May 27 is 30 days because April has 30 days? Let's compute: 2026 not leap? 2026/4=506.5 not leap, Feb 28. April has 30 days. From Apr 27 to May 27: Apr 28? Let's calculate: If start at Apr 27 00:00 to May 27 00:00 exactly = 30 days (April 27->28 =1, ... Apr 30->May1? Actually April 27 to May 27 includes all of Apr 28-30? Let's do: Apr 27 to Apr 28 =1 day; Apr 28 to Apr 29=2; Apr 29 to Apr 30=3; Apr 30 to May 1=4; May1 to May27? May has 26 more days from May1 to May27? Wait if endpoints inclusive? Difference between dates usually number of days between, not counting start day? Common date diff: 2026-04-27 to 2026-05-27 = 30 days. Because April has 30 days, date same next month with month length 30. So answer 30 days. Need maybe mention if inclusive counting then 31? But \"相差多少天\" typically means difference = 30. Need maybe explain: 4月27日到5月27日，4月有30天，所以相隔30天."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

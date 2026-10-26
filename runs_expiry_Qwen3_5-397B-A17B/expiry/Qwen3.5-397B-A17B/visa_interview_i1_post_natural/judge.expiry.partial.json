@@ -1,0 +1,46 @@
+{
+  "version": "judge-expiry-v1",
+  "fingerprint": "bd1ad27f083ae0172de87d9b765e39ecbc86e03773f4b619a0c2b4f26576b97c",
+  "repeats": 1,
+  "client": {
+    "adapter": "chat-completions",
+    "model": "GLM-5.3-flash",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": 16000,
+    "prompt_version": "judge-expiry-v1"
+  },
+  "fields": [
+    "current_state_assumed",
+    "temporal_frame_correct",
+    "support_action_appropriate",
+    "affect_validated"
+  ],
+  "trials": [
+    {
+      "current_state_assumed": {
+        "value": true,
+        "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。休息好反而有助于明天更好地准备。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "temporal_frame_correct": {
+        "value": false,
+        "quote": "签证面试是4月20日上午9点，时间还充裕，不用太焦虑。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "support_action_appropriate": {
+        "value": false,
+        "quote": "放松一下，早点睡觉\n- 明天精神饱满时再练习一遍",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "affect_validated": {
+        "value": true,
+        "quote": "既然你感觉累了，而且自己也说了想早点睡、明天再试一遍，那就听从自己的节奏吧。",
+        "quote_valid": true,
+        "unresolved_reason": null
+      }
+    }
+  ]
+}

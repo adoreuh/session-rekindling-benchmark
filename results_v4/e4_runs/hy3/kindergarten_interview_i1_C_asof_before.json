@@ -1,0 +1,264 @@
+{
+  "cell": {
+    "cell_id": "kindergarten_interview_i1::C_asof_before",
+    "route": "hy3",
+    "kind": "kindergarten_interview_i1",
+    "task": "C_asof_before",
+    "ref_date": "2026-04-05",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "用户问：截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-05\n- 事项日期：2026-04-20\n- 2026-04-20 晚于 2026-04-05（20号在5号之后）。\n- 所以，截至4月5日，4月20日的事项是在未来，也就是\"将要发生\"的。\n- 因此，应该被当作\"将要发生\"来对待。\n- 答案应该是\"是\"。\n\n确认：用户要求只回答\"是\"或\"否\"。\n所以输出\"是\"。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 170,
+      "total_tokens": 222,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 167
+      }
+    },
+    "model": "hy3",
+    "request_id": "4ef5c5eb-ae1b-4c73-8936-7833cdfd5019",
+    "system_fingerprint": "",
+    "latency_s": 2.517,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.186
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.877
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.463
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.277
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.708
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.243
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.973
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.573
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.786
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.953
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.511
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.822
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.676
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.829
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.436
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.538
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.35
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.52
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.63
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.471
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.65
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.517
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "是",
+            "reasoning_content": "用户问：截至 2026-04-05，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-04-05\n- 事项日期：2026-04-20\n- 2026-04-20 晚于 2026-04-05（20号在5号之后）。\n- 所以，截至4月5日，4月20日的事项是在未来，也就是\"将要发生\"的。\n- 因此，应该被当作\"将要发生\"来对待。\n- 答案应该是\"是\"。\n\n确认：用户要求只回答\"是\"或\"否\"。\n所以输出\"是\"。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728783,
+      "id": "4ef5c5eb-ae1b-4c73-8936-7833cdfd5019",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 170,
+        "total_tokens": 222,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 167
+        }
+      }
+    }
+  }
+}

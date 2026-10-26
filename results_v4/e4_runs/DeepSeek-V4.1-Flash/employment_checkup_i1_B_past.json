@@ -1,0 +1,147 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "We need answer Chinese yes/no. Need parse. Event scheduled 2026-05-06. Reference date 2026-06-05. Has scheduled date passed? Relative to reference date, May 6 is before June 5, so yes passed. Need answer \"是\" or \"否\". Must only? User says 回答\"是\"或\"否\". So final 是.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 72,
+      "completion_tokens": 83,
+      "total_tokens": 155,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 72,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "input_tokens": 72,
+      "output_tokens": 83
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728285589d5e3a06b1d3d650f0fc414a0e965c4998ea58d",
+    "system_fingerprint": "",
+    "latency_s": 1.73,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      }
+    ],
+    "raw": {
+      "id": "021790728285589d5e3a06b1d3d650f0fc414a0e965c4998ea58d",
+      "object": "chat.completion",
+      "created": 1790728287,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 83,
+        "total_tokens": 155,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 81
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 72,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 81
+        },
+        "input_tokens": 72,
+        "output_tokens": 83
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "是",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese yes/no. Need parse. Event scheduled 2026-05-06. Reference date 2026-06-05. Has scheduled date passed? Relative to reference date, May 6 is before June 5, so yes passed. Need answer \"是\" or \"否\". Must only? User says 回答\"是\"或\"否\". So final 是."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

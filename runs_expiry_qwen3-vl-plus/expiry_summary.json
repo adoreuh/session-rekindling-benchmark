@@ -1,0 +1,215 @@
+[
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 520,
+        "branch_id": "probe",
+        "delivered": [
+          "specialist_clinic_i1_original_confirmation",
+          "specialist_clinic_i1_preparation_notes",
+          "specialist_clinic_i1_unrelated_invitation",
+          "specialist_clinic_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "bfe1532eefdbd395df5c39220b7d9aa270607af680a3c9fd3f313ed51634fc02"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "aed876f1f5bf4f816eb3f9d759e0de95716ea74cf6eebeace47846cfb3e7d5d9",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "specialist_clinic_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "32a8608f777f540978b05c2187199e0c4d60dce70ec71f0a5e3b7cf15ddf19ee",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "0546ab1e222d82a4a69873decd4b633286e940095f342a39a77874cc4dbec6cb"
+      ]
+    },
+    "profile": "specialist_clinic_i1",
+    "route": "qwen3-vl-plus",
+    "schedule_digest": "252496fe25fcbca89499de7afc5fe94447d33176e0ba1dfdde450c46c3aea49a",
+    "spec_digest": "738a2e6174c88501584571a2ae085b1784411c15fa45e54a1047564546285363",
+    "target_instant": "2026-06-05T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 17.6
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 428,
+        "branch_id": "probe",
+        "delivered": [
+          "tax_interview_i1_original_confirmation",
+          "tax_interview_i1_preparation_notes",
+          "tax_interview_i1_unrelated_invitation",
+          "tax_interview_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "db4b87bc04031ac7b37f0a052df4c21516abdf6ed40fa357839357c4fdc910bd"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "c47ec69dd90b9444438e4122fbe50f489c90be63f79ecbe39e26fe837b3d0502",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "tax_interview_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "41ce89792e934e37e8a97cc2453484b3697a4c053efac8d96b4fed3a2ea4a38f",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "15559d5e3e2f40b555c99d551660af23893914fb741f262b7ef6a4de38d9f6ab"
+      ]
+    },
+    "profile": "tax_interview_i1",
+    "route": "qwen3-vl-plus",
+    "schedule_digest": "6026e604f078d518dfb0a3ceb59501ae9e1dda963d08619cd2127c5ad98d2be3",
+    "spec_digest": "add58159bbc325b744002071d742d9b56e3380441f93c0838c3d14df09d2a60e",
+    "target_instant": "2026-05-05T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 17.4
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 583,
+        "branch_id": "probe",
+        "delivered": [
+          "broadband_install_i1_original_confirmation",
+          "broadband_install_i1_preparation_notes",
+          "broadband_install_i1_unrelated_invitation",
+          "broadband_install_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "baa93c1979b26011e5fd7160a1e487343ab61cab063eae3f68d26c5cbf323247"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "afee47c3618f3f5539cd3d033c13a42fddafa0440a60524f75e1d4e3c5be041e",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "broadband_install_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "07ecf08db7515ee77ffb5c9ca65d437242de39e8f63f692784064364f6129152",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "7344be42ca47f3dff01fb4ee3cb5c0217a0ef544a0f8ed318fa4e36ee12c0301"
+      ]
+    },
+    "profile": "broadband_install_i1",
+    "route": "qwen3-vl-plus",
+    "schedule_digest": "e52d92c04aaa14c61c87dc568b660abf23b033f5071624aac6ddd84b1060f2bf",
+    "spec_digest": "38c61b5eaefcde39bd2ecc1f4ce716972770cb17c7fad7665610aaa2dc890e22",
+    "target_instant": "2026-04-19T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 21.8
+  }
+]

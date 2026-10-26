@@ -1,0 +1,182 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "equipment_check_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "截至 2026-05-27，2026-04-27 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "我们需要回答用户中文问题。需要判断截至2026-05-27，2026-04-27的这个已排定事项还应该被当作“将要发生”来对待吗？回答是或否。需要知道“已排定事项”日期是2026-04-27，当前截至2026-05-27。2026-04-27已经过去（在2026-05-27之前）。所以不应被当作将要发生。回答“否”。需要只回答是或否。 ",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 71,
+      "completion_tokens": 109,
+      "total_tokens": 180,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 71,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "input_tokens": 71,
+      "output_tokens": 109
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728386639d5e3a06b1d3d650f0fc414a0e965c4996bd446",
+    "system_fingerprint": "",
+    "latency_s": 1.727,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      }
+    ],
+    "raw": {
+      "id": "021790728386639d5e3a06b1d3d650f0fc414a0e965c4996bd446",
+      "object": "chat.completion",
+      "created": 1790728388,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 109,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 71,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "input_tokens": 71,
+        "output_tokens": 109
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "我们需要回答用户中文问题。需要判断截至2026-05-27，2026-04-27的这个已排定事项还应该被当作“将要发生”来对待吗？回答是或否。需要知道“已排定事项”日期是2026-04-27，当前截至2026-05-27。2026-04-27已经过去（在2026-05-27之前）。所以不应被当作将要发生。回答“否”。需要只回答是或否。 "
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

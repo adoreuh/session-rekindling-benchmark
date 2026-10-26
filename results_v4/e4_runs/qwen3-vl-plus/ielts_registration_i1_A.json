@@ -1,0 +1,242 @@
+{
+  "cell": {
+    "cell_id": "ielts_registration_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "ielts_registration_i1",
+    "task": "A",
+    "ref_date": "2026-05-21",
+    "event_date": "2026-04-21",
+    "prompt": "事件日期是 2026-04-21。参考日期是 2026-05-21。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-21  \n- 参考日期：2026-05-21  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月21日到4月30日还有：  \n  \\(30 - 21 = 9\\) 天（注意：**不包含4月21日当天**，如果问“相差多少天”，通常指两个日期之间的**整日间隔**，即从4月21日 **之后** 到5月21日 **之前** 的天数；但更常见的是计算**日期差的绝对值**，即 |5月21日 − 4月21日|）。\n\n标准做法是：  \n用参考日期减去事件日期（后者早于前者），得到正数天数：\n\n- 4月21日 → 4月30日：9天（22日到30日共9天）  \n- 5月1日 → 5月21日：21天  \n- 总计：9 + 21 = **30天**\n\n或者更简单：  \n5月21日是该年的第 \\(31（Jan）+28（Feb，2026不是闰年）+31（Mar）+30（Apr）+21 = 31+28+31+30+21 = 141\\) 天  \n4月21日是：\\(31+28+31+21 = 111\\) 天  \n差值：\\(141 - 111 = 30\\) 天\n\n✅ 答案：**30天**",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 416,
+      "total_tokens": 460,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "completion_tokens_details": {
+        "text_tokens": 416
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "output_tokens_details": {
+        "text_tokens": 416
+      },
+      "input_tokens": 44,
+      "output_tokens": 416
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-910e5579-ca91-95c0-b4ab-0871c5e75793",
+    "system_fingerprint": "",
+    "latency_s": 12.051,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.553
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.993
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.583
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.27
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.296
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.446
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.756
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.438
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.526
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.244
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.915
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.287
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.894
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 12.051
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-910e5579-ca91-95c0-b4ab-0871c5e75793",
+      "object": "chat.completion",
+      "created": 1790728769,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 416,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "completion_tokens_details": {
+          "text_tokens": 416
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "output_tokens_details": {
+          "text_tokens": 416
+        },
+        "input_tokens": 44,
+        "output_tokens": 416
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-21  \n- 参考日期：2026-05-21  \n\n由于是同一年（2026年），且4月和5月都是公历月份，我们可以直接计算：\n\n- 4月有30天，所以从4月21日到4月30日还有：  \n  \\(30 - 21 = 9\\) 天（注意：**不包含4月21日当天**，如果问“相差多少天”，通常指两个日期之间的**整日间隔**，即从4月21日 **之后** 到5月21日 **之前** 的天数；但更常见的是计算**日期差的绝对值**，即 |5月21日 − 4月21日|）。\n\n标准做法是：  \n用参考日期减去事件日期（后者早于前者），得到正数天数：\n\n- 4月21日 → 4月30日：9天（22日到30日共9天）  \n- 5月1日 → 5月21日：21天  \n- 总计：9 + 21 = **30天**\n\n或者更简单：  \n5月21日是该年的第 \\(31（Jan）+28（Feb，2026不是闰年）+31（Mar）+30（Apr）+21 = 31+28+31+30+21 = 141\\) 天  \n4月21日是：\\(31+28+31+21 = 111\\) 天  \n差值：\\(141 - 111 = 30\\) 天\n\n✅ 答案：**30天**",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "route": "qwen3-vl-plus",
+    "profile": "kindergarten_interview_i1",
+    "arm": "post",
+    "visibility": "forced",
+    "target_instant": "2026-05-20T09:00:00+08:00",
+    "wall_seconds": 24.0,
+    "branches": [
+      {
+        "branch_id": "probe",
+        "valid": true,
+        "invalid_reason": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "payload_digest": [
+          "dbaafb9a318b43d228734723ed1d9796583bff128e1d195083eabd92b65e00fc"
+        ],
+        "delivered": [
+          "kindergarten_interview_i1_original_confirmation",
+          "kindergarten_interview_i1_preparation_notes",
+          "kindergarten_interview_i1_unrelated_invitation",
+          "kindergarten_interview_i1_anxiety_chat"
+        ],
+        "gold_delivered": true,
+        "answer_len": 608,
+        "failure": ""
+      }
+    ],
+    "spec_digest": "296e973a0572526571b380f97f640af3b224f7cc96187dc080b54052dc6b5574",
+    "corpus_digest": "f9aa3f87911105abd729e24abbe4a256c8f5682f139ef3b43d182e62b7809455",
+    "schedule_digest": "798e7d69141f79c5afe658a5f1bab059a45942ff3216e808c50a1c91d42fac36",
+    "parent_check": {
+      "condition": "kindergarten_interview_i1-parent",
+      "status": "PASS",
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "checked_blocks": 0,
+      "unmapped_blocks": 0,
+      "present_material_ids": [],
+      "undeclared_material_ids": [],
+      "missing_material_ids": [],
+      "matched_propositions": [],
+      "missing_required_groups": [],
+      "payload_digest": "",
+      "contract_version": "expiry-natural-v1",
+      "parent_visible_history_digest": "853e7372164a4b9ba39b9277f7ecf5b8a4f8f505d0e04ce79f6333b988e58fc7",
+      "evidence": {
+        "hits": []
+      }
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_digests": [
+        "126fa2bec99551b09ccd600a085af030a058635c70d7b00b530f5087f0c84a82"
+      ],
+      "parent_prefix_counts": [
+        33
+      ]
+    }
+  },
+  {
+    "route": "qwen3-vl-plus",
+    "profile": "broadband_install_i1",
+    "arm": "post",
+    "visibility": "forced",
+    "target_instant": "2026-05-20T09:00:00+08:00",
+    "wall_seconds": 21.4,
+    "branches": [
+      {
+        "branch_id": "probe",
+        "valid": true,
+        "invalid_reason": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "payload_digest": [
+          "9fff706ddc8a387f9c49de94910cfd7e30ac68a87bcc239b7d3a324cb34e777c"
+        ],
+        "delivered": [
+          "broadband_install_i1_original_confirmation",
+          "broadband_install_i1_preparation_notes",
+          "broadband_install_i1_unrelated_invitation",
+          "broadband_install_i1_anxiety_chat"
+        ],
+        "gold_delivered": true,
+        "answer_len": 452,
+        "failure": ""
+      }
+    ],
+    "spec_digest": "a72f3c0675e5906b0e5ed8df6d49aa7e9ba8f0800d928d544c61e0c318e6f139",
+    "corpus_digest": "afee47c3618f3f5539cd3d033c13a42fddafa0440a60524f75e1d4e3c5be041e",
+    "schedule_digest": "e52d92c04aaa14c61c87dc568b660abf23b033f5071624aac6ddd84b1060f2bf",
+    "parent_check": {
+      "condition": "broadband_install_i1-parent",
+      "status": "PASS",
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "checked_blocks": 0,
+      "unmapped_blocks": 0,
+      "present_material_ids": [],
+      "undeclared_material_ids": [],
+      "missing_material_ids": [],
+      "matched_propositions": [],
+      "missing_required_groups": [],
+      "payload_digest": "",
+      "contract_version": "expiry-natural-v1",
+      "parent_visible_history_digest": "c3ef6162c3d2250a88b85fc15dc036012dfd3c7c0c59e7c8aa07e40dad6218d7",
+      "evidence": {
+        "hits": []
+      }
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_digests": [
+        "e811d097cf84269e03e776177181190bf62915360f09ec3460030b17f711bcda"
+      ],
+      "parent_prefix_counts": [
+        33
+      ]
+    }
+  },
+  {
+    "route": "qwen3-vl-plus",
+    "profile": "furniture_measure_i1",
+    "arm": "late",
+    "visibility": "forced",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "wall_seconds": 15.5,
+    "branches": [
+      {
+        "branch_id": "probe",
+        "valid": true,
+        "invalid_reason": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "payload_digest": [
+          "3d2883e530f018b2dcaff60f4c32ff6ea00ab512e2195979c474683d116c4038"
+        ],
+        "delivered": [
+          "furniture_measure_i1_original_confirmation",
+          "furniture_measure_i1_preparation_notes",
+          "furniture_measure_i1_unrelated_invitation",
+          "furniture_measure_i1_anxiety_chat"
+        ],
+        "gold_delivered": true,
+        "answer_len": 321,
+        "failure": ""
+      }
+    ],
+    "spec_digest": "a8ab9ad0ee5c5e1b420372ccd20a1f9a527948f0bd7526fcb16092dc5403eb87",
+    "corpus_digest": "138c12bb1d9073d5e672b57257f69fde17c724d8f551877e4b08e5230aa97f96",
+    "schedule_digest": "ca1d7853685a06326b3675ba089acfb001a2f051cdf217d2a671bb22243da634",
+    "parent_check": {
+      "condition": "furniture_measure_i1-parent",
+      "status": "PASS",
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "checked_blocks": 0,
+      "unmapped_blocks": 0,
+      "present_material_ids": [],
+      "undeclared_material_ids": [],
+      "missing_material_ids": [],
+      "matched_propositions": [],
+      "missing_required_groups": [],
+      "payload_digest": "",
+      "contract_version": "expiry-natural-v1",
+      "parent_visible_history_digest": "a44f29a3d339514c5c393fb73f903191c8228a575ac333e239099079de578025",
+      "evidence": {
+        "hits": []
+      }
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_digests": [
+        "599de389764c4ac3d9e32b3c73bc3a1a92d7b0f887b7b7c5960f1d08aed253a0"
+      ],
+      "parent_prefix_counts": [
+        26
+      ]
+    }
+  }
+]

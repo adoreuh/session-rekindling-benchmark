@@ -1,0 +1,144 @@
+{
+  "cell": {
+    "cell_id": "equipment_check_i1::A",
+    "route": "hy3",
+    "kind": "equipment_check_i1",
+    "task": "A",
+    "ref_date": "2026-05-27",
+    "event_date": "2026-04-27",
+    "prompt": "事件日期是 2026-04-27。参考日期是 2026-05-27。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月27日\n- 参考日期：2026年5月27日\n- 4月有30天，从4月27日到4月30日经过了 3 天（28日、29日、30日）。\n- 再从5月1日到5月27日经过了 27 天。\n- 合计：3 + 27 = **30天**。\n\n（或者简单理解为：从4月27日到5月27日正好是一个月，而2026年4月有30天，因此相差30天。）",
+    "reasoning_content": "用户问：事件日期是 2026-04-27，参考日期是 2026-05-27。两个日期相差多少天？\n事件日期：2026年4月27日\n参考日期：2026年5月27日\n从4月27日到5月27日，刚好是一个月。\n4月有30天。\n从4月27日到4月30日，相差3天（28, 29, 30）。\n然后从5月1日到5月27日，是27天。\n总共 3 + 27 = 30天。\n或者，5月27日减去4月27日，因为月份相差1个月，而4月有30天，所以刚好是30天。\n验证：2026年不是闰年（2026/4 = 506.5，不能整除），所以2月有28天，但4月是30天，所以4月27到5月27是30天。\n计算：2026-05-27 减去 2026-04-27 = 30天。\n所以相差30天。\n注意：如果问“相差多少天”，通常是指绝对差值，即30天。\n如果问“事件日期在参考日期之前多少天”，也是30天。\n所以答案就是30天。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 406,
+      "total_tokens": 446,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 272
+      }
+    },
+    "model": "hy3",
+    "request_id": "9004daa4-79a9-4d90-9596-82475b937822",
+    "system_fingerprint": "",
+    "latency_s": 4.327,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 事件日期：2026年4月27日\n- 参考日期：2026年5月27日\n- 4月有30天，从4月27日到4月30日经过了 3 天（28日、29日、30日）。\n- 再从5月1日到5月27日经过了 27 天。\n- 合计：3 + 27 = **30天**。\n\n（或者简单理解为：从4月27日到5月27日正好是一个月，而2026年4月有30天，因此相差30天。）",
+            "reasoning_content": "用户问：事件日期是 2026-04-27，参考日期是 2026-05-27。两个日期相差多少天？\n事件日期：2026年4月27日\n参考日期：2026年5月27日\n从4月27日到5月27日，刚好是一个月。\n4月有30天。\n从4月27日到4月30日，相差3天（28, 29, 30）。\n然后从5月1日到5月27日，是27天。\n总共 3 + 27 = 30天。\n或者，5月27日减去4月27日，因为月份相差1个月，而4月有30天，所以刚好是30天。\n验证：2026年不是闰年（2026/4 = 506.5，不能整除），所以2月有28天，但4月是30天，所以4月27到5月27是30天。\n计算：2026-05-27 减去 2026-04-27 = 30天。\n所以相差30天。\n注意：如果问“相差多少天”，通常是指绝对差值，即30天。\n如果问“事件日期在参考日期之前多少天”，也是30天。\n所以答案就是30天。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728313,
+      "id": "9004daa4-79a9-4d90-9596-82475b937822",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 406,
+        "total_tokens": 446,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 272
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "cell": {
+    "cell_id": "loan_interview_i1::C_asof_after",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "loan_interview_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-29",
+    "event_date": "2026-04-29",
+    "prompt": "截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "We need answer Chinese. Need determine question: \"截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作'将要发生'来对待吗？回答'是'或'否'。\" As of 2026-05-29, is a scheduled event on 2026-04-29 still to be treated as \"will happen\"/upcoming? Since date has passed, no. Need answer \"否\". Must answer only 是 or 否. ",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 71,
+      "completion_tokens": 110,
+      "total_tokens": 181,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 71,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "input_tokens": 71,
+      "output_tokens": 110
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790729123403d5e3a06b1d3d650f0fc414a0e965c49976c3e6",
+    "system_fingerprint": "",
+    "latency_s": 1.651,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.935
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.455
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.631
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.727
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.011
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.629
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.237
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.41
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.627
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.888
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.302
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.126
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.626
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.001
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.142
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.925
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.326
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.634
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.061
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.84
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.632
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.692
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.155
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.319
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.333
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.939
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.962
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.13
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.235
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.527
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.651
+      }
+    ],
+    "raw": {
+      "id": "021790729123403d5e3a06b1d3d650f0fc414a0e965c49976c3e6",
+      "object": "chat.completion",
+      "created": 1790729124,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 110,
+        "total_tokens": 181,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 71,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "input_tokens": 71,
+        "output_tokens": 110
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine question: \"截至 2026-05-29，2026-04-29 的这个已排定事项还应该被当作'将要发生'来对待吗？回答'是'或'否'。\" As of 2026-05-29, is a scheduled event on 2026-04-29 still to be treated as \"will happen\"/upcoming? Since date has passed, no. Need answer \"否\". Must answer only 是 or 否. "
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

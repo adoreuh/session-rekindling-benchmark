@@ -1,0 +1,124 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::B_past",
+    "route": "hy3",
+    "kind": "employment_checkup_i1",
+    "task": "B_past",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "是"
+  },
+  "response": {
+    "content": "是",
+    "reasoning_content": "用户问：某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-05-06\n参考日期（当前日期/比较日期）：2026-06-05\n\n比较：2026-05-06 是否早于 2026-06-05？\n5月6日 在 6月5日 之前，所以事项日期已经过去了。\n\n因此，预定日期已经过去了。\n回答应该是\"是\"。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 127,
+      "total_tokens": 179,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 124
+      }
+    },
+    "model": "hy3",
+    "request_id": "c8b04af5-60b6-457d-960f-d857aa5cc6c8",
+    "system_fingerprint": "",
+    "latency_s": 2.366,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "是",
+            "reasoning_content": "用户问：某事项定于 2026-05-06 举行。参考日期是 2026-06-05。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。\n\n事项日期：2026-05-06\n参考日期（当前日期/比较日期）：2026-06-05\n\n比较：2026-05-06 是否早于 2026-06-05？\n5月6日 在 6月5日 之前，所以事项日期已经过去了。\n\n因此，预定日期已经过去了。\n回答应该是\"是\"。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728201,
+      "id": "c8b04af5-60b6-457d-960f-d857aa5cc6c8",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 127,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 124
+        }
+      }
+    }
+  }
+}

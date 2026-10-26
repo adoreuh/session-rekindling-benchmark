@@ -1,0 +1,142 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30 天**。",
+    "reasoning_content": "We need answer Chinese. Need compute days between 2026-05-06 and 2026-06-05. Need determine difference. Event date 2026-05-06, reference date 2026-06-05.差多少天 likely from event to reference? Need compute.\n\nMay 6 to June 5. May has 31 days. From May 6 to May 31? If excluding start: May 7-31 =25 days? Let's compute date difference. June 5 - May 6.\n\nMay 6 to May 31 = 25 days if midnight May6 to midnight May31? Let's calculate day-of-year 2026? 2026 not leap. Jan31+Feb28+Mar31+Apr30=120. May6 DOY=120+6=126. Jun5 DOY=120+31+5=156? Wait May DOY start 121, June 1 DOY=152 (Jan-Apr=120 + May31 =151? Let's recalc: Jan31, Feb28=59, Mar31=90, Apr30=120. May31 =>151. June1 DOY=152. June5=156. May6 = Jan-Apr 120 +6 =126. Difference=30. Yes May6 to Jun5 = 30 days. Let's verify: May6 to May7 1, ... May31 to Jun1? May6 to Jun5: May remaining after May6 to Jun1 = 26? May7-31 inclusive 25 days plus May31->Jun1? Hmm day difference formula: May6 00:00 to June5 00:00 = (May6->May31 25? Wait May6 00 to May31 00 =25 days. May31 00 to Jun5 00 =5 days. total 30. Correct.\n\nNeed answer concise. Maybe mention if inclusive counting? User asks 相差多少天. Usually date difference = 30 days. Could mention 2026 年非闰年但不影响. Final in Chinese.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 446,
+      "total_tokens": 504,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 436
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 58,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 436
+      },
+      "input_tokens": 58,
+      "output_tokens": 446
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728282037d5e3a06b1d3d650f0fc414a0e965c4999e08ed",
+    "system_fingerprint": "",
+    "latency_s": 3.478,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      }
+    ],
+    "raw": {
+      "id": "021790728282037d5e3a06b1d3d650f0fc414a0e965c4999e08ed",
+      "object": "chat.completion",
+      "created": 1790728285,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 446,
+        "total_tokens": 504,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 436
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 58,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 436
+        },
+        "input_tokens": 58,
+        "output_tokens": 446
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30 天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need compute days between 2026-05-06 and 2026-06-05. Need determine difference. Event date 2026-05-06, reference date 2026-06-05.差多少天 likely from event to reference? Need compute.\n\nMay 6 to June 5. May has 31 days. From May 6 to May 31? If excluding start: May 7-31 =25 days? Let's compute date difference. June 5 - May 6.\n\nMay 6 to May 31 = 25 days if midnight May6 to midnight May31? Let's calculate day-of-year 2026? 2026 not leap. Jan31+Feb28+Mar31+Apr30=120. May6 DOY=120+6=126. Jun5 DOY=120+31+5=156? Wait May DOY start 121, June 1 DOY=152 (Jan-Apr=120 + May31 =151? Let's recalc: Jan31, Feb28=59, Mar31=90, Apr30=120. May31 =>151. June1 DOY=152. June5=156. May6 = Jan-Apr 120 +6 =126. Difference=30. Yes May6 to Jun5 = 30 days. Let's verify: May6 to May7 1, ... May31 to Jun1? May6 to Jun5: May remaining after May6 to Jun1 = 26? May7-31 inclusive 25 days plus May31->Jun1? Hmm day difference formula: May6 00:00 to June5 00:00 = (May6->May31 25? Wait May6 00 to May31 00 =25 days. May31 00 to Jun5 00 =5 days. total 30. Correct.\n\nNeed answer concise. Maybe mention if inclusive counting? User asks 相差多少天. Usually date difference = 30 days. Could mention 2026 年非闰年但不影响. Final in Chinese."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

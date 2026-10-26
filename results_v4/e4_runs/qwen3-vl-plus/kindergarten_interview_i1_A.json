@@ -1,0 +1,267 @@
+{
+  "cell": {
+    "cell_id": "kindergarten_interview_i1::A",
+    "route": "qwen3-vl-plus",
+    "kind": "kindergarten_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需明确是否包含起始日）\n\n但更标准的做法是：  \n**日期差 = 参考日期 - 事件日期**（以天为单位，结果为正表示参考日在事件日后）。\n\n使用日历计算：\n- 4月剩余天数（不含4月20日）：4月21日到4月30日 → 10天  \n- 5月1日到5月20日 → 20天  \n→ 总共：10 + 20 = **30天**\n\n✅ 验证：  \n2026年4月20日 + 30天 = 2026年5月20日  \n（因为4月有30天：20 + 10 = 30 → 4月30日；再加20天 → 5月20日）\n\n所以，**两个日期相差 30 天**。\n\n> 注：若问题问的是“从事件日到参考日经过了多少整天”，答案是 **30天**；  \n> 若问“包括起始日的总跨度”，则是31天，但常规日期差计算（如Excel的DATEDIF、Python的datetime差）默认是**不包含起始日**的整日数，即 **30天**\n\n**答案：30 天**",
+    "reasoning_content": "",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 444,
+      "total_tokens": 488,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "completion_tokens_details": {
+        "text_tokens": 444
+      },
+      "output_tokens_details": {
+        "text_tokens": 444
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 44
+      },
+      "input_tokens": 44,
+      "output_tokens": 444
+    },
+    "model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-653122ec-0dd9-9bf1-bdb5-1c936d51eb70",
+    "system_fingerprint": "",
+    "latency_s": 14.008,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.966
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.407
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.416
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.47
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.804
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 8.56
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.523
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.78
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.42
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.122
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.673
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.668
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.503
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.553
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.993
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.583
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.27
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.296
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.446
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.756
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.438
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.526
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 7.244
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.915
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.783
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.287
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.894
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 12.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.761
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.766
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 0.684
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.109
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 14.008
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-653122ec-0dd9-9bf1-bdb5-1c936d51eb70",
+      "object": "chat.completion",
+      "created": 1790728879,
+      "model": "qwen3-vl-plus",
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 444,
+        "total_tokens": 488,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "completion_tokens_details": {
+          "text_tokens": 444
+        },
+        "output_tokens_details": {
+          "text_tokens": 444
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 44
+        },
+        "input_tokens": 44,
+        "output_tokens": 444
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "我们来计算两个日期之间的天数差：\n\n- 事件日期：2026-04-20  \n- 参考日期：2026-05-20  \n\n由于是同一年（2026年），且4月有30天，我们可以分段计算：\n\n1. 4月20日到4月30日：  \n   $30 - 20 = 10$ 天（注意：**不包含4月20日当天**，如果问“相差多少天”，通常指**整日间隔**，即从4月20日 **之后** 到5月20日的天数；但需明确是否包含起始日）\n\n但更标准的做法是：  \n**日期差 = 参考日期 - 事件日期**（以天为单位，结果为正表示参考日在事件日后）。\n\n使用日历计算：\n- 4月剩余天数（不含4月20日）：4月21日到4月30日 → 10天  \n- 5月1日到5月20日 → 20天  \n→ 总共：10 + 20 = **30天**\n\n✅ 验证：  \n2026年4月20日 + 30天 = 2026年5月20日  \n（因为4月有30天：20 + 10 = 30 → 4月30日；再加20天 → 5月20日）\n\n所以，**两个日期相差 30 天**。\n\n> 注：若问题问的是“从事件日到参考日经过了多少整天”，答案是 **30天**；  \n> 若问“包括起始日的总跨度”，则是31天，但常规日期差计算（如Excel的DATEDIF、Python的datetime差）默认是**不包含起始日**的整日数，即 **30天**\n\n**答案：30 天**",
+            "role": "assistant",
+            "reasoning_content": ""
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

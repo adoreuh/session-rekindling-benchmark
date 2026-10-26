@@ -1,0 +1,292 @@
+{
+  "cell": {
+    "cell_id": "lease_signing_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "相差 **30天**。",
+    "reasoning_content": "We need answer in Chinese likely. Need compute days between 2026-04-22 and 2026-05-22. Need determine inclusive? \"两个日期相差多少天\" Usually difference between dates = May22 - Apr22 = 30 days? Let's calculate: April has 30 days. From Apr22 to May22: remaining Apr after Apr22: Apr23-30 =8 days? Actually Apr22 to Apr30 inclusive 9 days, but difference in dates: Apr22 00:00 to May22 00:00 = 30 days (since Apr22->Apr23 1, ... Apr30? Let's do: April 22 to April 30 =8 days (23,24,25,26,27,28,29,30) then May1-22 =22 days total 30 days. Yes difference =30 days. Need maybe mention if including both dates would be 31 days? But typical \"相差多少天\" = 30. Answer concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 215,
+      "total_tokens": 326,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 111,
+      "prompt_cache_hit_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "input_tokens": 111,
+      "output_tokens": 215
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728970405d5e3a06b1d3d650f0fc414a0e965c499c24c40",
+    "system_fingerprint": "",
+    "latency_s": 3.743,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      }
+    ],
+    "raw": {
+      "id": "021790728970405d5e3a06b1d3d650f0fc414a0e965c499c24c40",
+      "object": "chat.completion",
+      "created": 1790728973,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 215,
+        "total_tokens": 326,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 208
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 111,
+        "prompt_cache_hit_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 208
+        },
+        "input_tokens": 111,
+        "output_tokens": 215
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "相差 **30天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese likely. Need compute days between 2026-04-22 and 2026-05-22. Need determine inclusive? \"两个日期相差多少天\" Usually difference between dates = May22 - Apr22 = 30 days? Let's calculate: April has 30 days. From Apr22 to May22: remaining Apr after Apr22: Apr23-30 =8 days? Actually Apr22 to Apr30 inclusive 9 days, but difference in dates: Apr22 00:00 to May22 00:00 = 30 days (since Apr22->Apr23 1, ... Apr30? Let's do: April 22 to April 30 =8 days (23,24,25,26,27,28,29,30) then May1-22 =22 days total 30 days. Yes difference =30 days. Need maybe mention if including both dates would be 31 days? But typical \"相差多少天\" = 30. Answer concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

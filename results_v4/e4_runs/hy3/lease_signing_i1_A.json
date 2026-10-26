@@ -1,0 +1,269 @@
+{
+  "cell": {
+    "cell_id": "lease_signing_i1::A",
+    "route": "hy3",
+    "kind": "lease_signing_i1",
+    "task": "A",
+    "ref_date": "2026-05-22",
+    "event_date": "2026-04-22",
+    "prompt": "事件日期是 2026-04-22。参考日期是 2026-05-22。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 4月22日 到 4月30日 还有：30 - 22 = 8天。\n- 从 5月1日 到 5月22日 有：22天。\n- 总相差天数：8 + 22 = 30天。\n\n（或者简单理解：从4月22日到5月22日刚好是一个月，而4月是小月，有30天，因此相差30天。）",
+    "reasoning_content": "用户问：事件日期是 2026-04-22，参考日期是 2026-05-22。两个日期相差多少天？\n事件日期：2026年4月22日\n参考日期：2026年5月22日\n我们需要计算两个日期之间相差的天数。\n从4月22日到5月22日，刚好是一个月。\n4月有30天。\n从4月22日到4月30日：30 - 22 = 8天。\n然后从5月1日到5月22日：22天。\n总共相差：8 + 22 = 30天。\n或者，直接看日期，4月22日到5月22日，因为4月有30天，所以刚好是30天。\n验证：2026年不是闰年（2026/4 = 506.5，不能整除），所以2月有28天，但4月是30天，所以4月22日到5月22日是30天。\n相差天数是30天。\n如果算上头尾，比如4月22日到4月23日相差1天，那么4月22日到5月22日相差30天。\n所以答案应该是30天。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 375,
+      "total_tokens": 415,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 252
+      }
+    },
+    "model": "hy3",
+    "request_id": "6112f099-7abb-4875-9244-8bcaedb313de",
+    "system_fingerprint": "",
+    "latency_s": 4.369,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.12
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.674
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.987
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.145
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.971
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.809
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.366
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.004
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.414
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.585
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.327
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.186
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.877
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.463
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.277
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.708
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.243
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.973
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.573
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.786
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.953
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.511
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.822
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.676
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.829
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.436
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.538
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.35
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.52
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.63
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.471
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.65
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.517
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.369
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "两个日期相差 **30天**。\n\n**计算过程：**\n- 2026年4月有30天。\n- 从 4月22日 到 4月30日 还有：30 - 22 = 8天。\n- 从 5月1日 到 5月22日 有：22天。\n- 总相差天数：8 + 22 = 30天。\n\n（或者简单理解：从4月22日到5月22日刚好是一个月，而4月是小月，有30天，因此相差30天。）",
+            "reasoning_content": "用户问：事件日期是 2026-04-22，参考日期是 2026-05-22。两个日期相差多少天？\n事件日期：2026年4月22日\n参考日期：2026年5月22日\n我们需要计算两个日期之间相差的天数。\n从4月22日到5月22日，刚好是一个月。\n4月有30天。\n从4月22日到4月30日：30 - 22 = 8天。\n然后从5月1日到5月22日：22天。\n总共相差：8 + 22 = 30天。\n或者，直接看日期，4月22日到5月22日，因为4月有30天，所以刚好是30天。\n验证：2026年不是闰年（2026/4 = 506.5，不能整除），所以2月有28天，但4月是30天，所以4月22日到5月22日是30天。\n相差天数是30天。\n如果算上头尾，比如4月22日到4月23日相差1天，那么4月22日到5月22日相差30天。\n所以答案应该是30天。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790728885,
+      "id": "6112f099-7abb-4875-9244-8bcaedb313de",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 375,
+        "total_tokens": 415,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 252
+        }
+      }
+    }
+  }
+}

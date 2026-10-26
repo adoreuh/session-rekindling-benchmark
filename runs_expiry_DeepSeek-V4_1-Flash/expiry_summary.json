@@ -1,0 +1,73 @@
+[
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 389,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "de9e8d90c82d5d66ec03e9070b62c49526d53e7abbda92fd496b3a708f4a132a"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "6484901ad5fbb760b2ac858527638751d3494a0c1e373251eae566e4666c7bae",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "69641ccb5b971d6406bbb745e6477cb46dcdcfbec555737b44daa15eee0e7d24"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "DeepSeek-V4.1-Flash",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "14fe3c1f882811d140fdfcc7bc11fd919bb8d2ec8611092219dbf836071b9779",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 28.3
+  }
+]

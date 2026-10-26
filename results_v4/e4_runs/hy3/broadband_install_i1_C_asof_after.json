@@ -1,0 +1,84 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::C_asof_after",
+    "route": "hy3",
+    "kind": "broadband_install_i1",
+    "task": "C_asof_after",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "用户问：截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-05-20\n- 事项日期：2026-04-20\n- 2026-04-20 在 2026-05-20 之前，也就是说这个日期已经过去了（已经发生了或者已经过期了）。\n- 问题问：还应该被当作\"将要发生\"（即将来发生）来对待吗？\n- 因为 2026-04-20 已经在 2026-05-20 之前，所以它不是\"将要发生\"的，而是\"已经发生\"或\"已过期的\"。\n- 所以不应该被当作\"将要发生\"来对待。\n- 答案应该是\"否\"。\n\n只需要回答\"是\"或\"否\"。\n所以回答：否。",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 52,
+      "completion_tokens": 208,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 205
+      }
+    },
+    "model": "hy3",
+    "request_id": "f271b92a-edaf-4468-b31a-3b19de2f95ce",
+    "system_fingerprint": "",
+    "latency_s": 2.389,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.23
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.071
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.982
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.389
+      }
+    ],
+    "raw": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "否",
+            "reasoning_content": "用户问：截至 2026-05-20，2026-04-20 的这个已排定事项还应该被当作\"将要发生\"来对待吗？回答\"是\"或\"否\"。\n\n分析：\n- 当前日期（截至）：2026-05-20\n- 事项日期：2026-04-20\n- 2026-04-20 在 2026-05-20 之前，也就是说这个日期已经过去了（已经发生了或者已经过期了）。\n- 问题问：还应该被当作\"将要发生\"（即将来发生）来对待吗？\n- 因为 2026-04-20 已经在 2026-05-20 之前，所以它不是\"将要发生\"的，而是\"已经发生\"或\"已过期的\"。\n- 所以不应该被当作\"将要发生\"来对待。\n- 答案应该是\"否\"。\n\n只需要回答\"是\"或\"否\"。\n所以回答：否。",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1790727994,
+      "id": "f271b92a-edaf-4468-b31a-3b19de2f95ce",
+      "model": "hy3",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 208,
+        "total_tokens": 260,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 205
+        }
+      }
+    }
+  }
+}

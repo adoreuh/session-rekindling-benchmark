@@ -1,0 +1,16 @@
+{
+  "branch_count": 1,
+  "corpus_digest": "2388d2c1258cea304800e06059cec688600ecc80c290bcc0072eaeb18152a19d",
+  "experiment_id": "expiry-hy3-visa_interview_i1-post-natural",
+  "model": {
+    "api_key_env": "VELA_API_KEY",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": null,
+    "model": "hy3",
+    "provider": "openai_compatible",
+    "temperature": 0.0
+  },
+  "prompt_digest": "0026a620ee509a952884937032339ff472e22c5fefce989e573782fe921bd729",
+  "schedule_digest": "b85d571610863b5a3afca0e3a128e33d0b1af1893165eca70626328b78b973a1",
+  "spec_digest": "98290a8d1c6b95b49b1d309fb6aa3cbeedd563219e05fb831901607f6e110ff2"
+}

@@ -1,0 +1,1180 @@
+[
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 681,
+        "branch_id": "probe",
+        "delivered": [
+          "employment_checkup_i1_original_confirmation",
+          "employment_checkup_i1_preparation_notes",
+          "employment_checkup_i1_unrelated_invitation",
+          "employment_checkup_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "b64e55256f5c43f534d4ee52814f6880b98b306008b49698d2388ebcc851d027"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "6415436526d1211a5adf6fbc78fb78c5a42d53a52fcf8c9ad652f3153faa09dc",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "employment_checkup_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "e042bb69bf133fbc01e98ad5e8247cf84b7245f339833a7d19641c4edf6507cf",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        34
+      ],
+      "parent_prefix_digests": [
+        "b3ea4c250f355d4d0b974c6e4e63155188767f176ae2560997b9121e189104c1"
+      ]
+    },
+    "profile": "employment_checkup_i1",
+    "route": "hy3",
+    "schedule_digest": "dd101c4f7ae81491dfeab5f0bb1a4d9bebfcff440d30a8bdb6eaa4f683de1ba0",
+    "spec_digest": "92fcc532c5b55ddc7b01c9e4098b72d5f8590a2cdaf2c01273fc33003fe9727c",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 36.9
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 563,
+        "branch_id": "probe",
+        "delivered": [
+          "broadband_install_i1_original_confirmation",
+          "broadband_install_i1_preparation_notes",
+          "broadband_install_i1_unrelated_invitation",
+          "broadband_install_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "ef9e5d9cd7d95f6f2580a8244c40aeb97a86c269597130789c0f253347f0b7b5",
+          "884fb70ad26c2801e73875f05729033cec596b5f3ae5fc0afc0504cfd36674ec"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "afee47c3618f3f5539cd3d033c13a42fddafa0440a60524f75e1d4e3c5be041e",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "broadband_install_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "6d957eced4b6f33174f394223c71c35bdc5e21e59e012feab3116c2a281638da",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "835aa3d41a380c55f5df2cd104074915b098fc2cd79b6361846c0b8a6d88e8e5"
+      ]
+    },
+    "profile": "broadband_install_i1",
+    "route": "hy3",
+    "schedule_digest": "e52d92c04aaa14c61c87dc568b660abf23b033f5071624aac6ddd84b1060f2bf",
+    "spec_digest": "5cba35e41679b835f296f82660ebb15807750a936e295bd43e8eea99f52c1a6f",
+    "target_instant": "2026-04-19T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 27.4
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 546,
+        "branch_id": "probe",
+        "delivered": [
+          "furniture_measure_i1_original_confirmation",
+          "furniture_measure_i1_preparation_notes",
+          "furniture_measure_i1_unrelated_invitation",
+          "furniture_measure_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "1326c1e70a247ad443674c6fbbf0a10d547d77c9eefb149b77cc443f615347fb",
+          "313293d79695af56cec2edaa45efca137f8fb87871c192ac7fdf46254d538526"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "138c12bb1d9073d5e672b57257f69fde17c724d8f551877e4b08e5230aa97f96",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "furniture_measure_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "0905f92bd9b9b562117c0fa1c9c5a96bb85e1a3a0a84bc67471f224a06524ef0",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "140b8059e51d0aa3eb5a886b869b1170b4b86b7df49eb8ddbcbffa6eb5078cb9"
+      ]
+    },
+    "profile": "furniture_measure_i1",
+    "route": "hy3",
+    "schedule_digest": "ca1d7853685a06326b3675ba089acfb001a2f051cdf217d2a671bb22243da634",
+    "spec_digest": "2fd04bd648fab239fd23ac9b2ada416d18288258dc9743d7d21cdf5c5bd7c3ad",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 42.2
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 486,
+        "branch_id": "probe",
+        "delivered": [
+          "furniture_measure_i1_original_confirmation",
+          "furniture_measure_i1_preparation_notes",
+          "furniture_measure_i1_unrelated_invitation",
+          "furniture_measure_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "90023a979f35b1349e6658c4867f79f24a50d490135247bf9a937f0977b7aeb5",
+          "2b2d242db804f0990a9aef5714fb72810bcf26ffdd06fc902571025b772dcae4"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "138c12bb1d9073d5e672b57257f69fde17c724d8f551877e4b08e5230aa97f96",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "furniture_measure_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "ce4e84e3f8286b24734334beccc46632073c370b3fba5c46ed99ef9ac6cb01c3",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "0a2fc9739ba21cd1025a13087cf8d1168a0b0d94a2b3989a428b425e1d3d9133"
+      ]
+    },
+    "profile": "furniture_measure_i1",
+    "route": "hy3",
+    "schedule_digest": "ca1d7853685a06326b3675ba089acfb001a2f051cdf217d2a671bb22243da634",
+    "spec_digest": "ef087bd6f9723a7df76f5760ed5dfee1cb8ba50288dc8cac28ac76bf404de220",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 34.9
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 633,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "330707b934834d92d9c5ae0dea8b6c67e1d7d35e95635c2d5aa051a0c141ce74"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "46a09b2da7112638c231ca37b2eece3314e4d0ae8935be009932265222625c22",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        34
+      ],
+      "parent_prefix_digests": [
+        "ef9b87140dc02a71d39c45e3807b67d778ec6974f65ff5a958dc632125deddcf"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "34307f4d139a517ce05d1abc335afea60bfda3f6e010a901a9a41098739e40c5",
+    "target_instant": "2026-04-21T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 28.7
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 533,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "23ac8fd4ca740a57397f869ec12929daa35e867bf602a7f356f8796d47ee2f59",
+          "89faca56c7dc0e9ebef7586e0b9d8edfc8644ea8e0c1a0c8d4e4578cf1da2005"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "65322490d71df83ea20de972142695ca14e11f85dc1b6258a51e909a4e68284b",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "350dcd1f19aa1d5f867cf7edcae5916ac8c1f82e6e3774cbc989ce671138039e"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "c0e39aa4697033e728cacafc2437bb4a754e92bec874d2a7d6e0510929356046",
+    "target_instant": "2026-04-21T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 27.9
+  },
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 664,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "cac809093ce47800b37f126efe3d8788de35f1fa00a02fe5cc6e3801d995434e"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "32d77e3fcf27637d2b209a941c802b10efc218dcf246eeb13a1529ded2bd3698",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        34
+      ],
+      "parent_prefix_digests": [
+        "4420ccff94d853dde2d20c72e640b401baba8b457c6c35cbc591013c14d1f50a"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "ba3d258bfd62b901002d638bbfffbdb0743df059c25d33bf7d81c931fc78fe34",
+    "target_instant": "2026-05-22T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 27.9
+  },
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 533,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "23ac8fd4ca740a57397f869ec12929daa35e867bf602a7f356f8796d47ee2f59",
+          "4fed3c27c50742d532ceb153db6f2a5c1490e72d498a34e2c71165d91063071c"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "377bd55ecf4ca565000ebfd65fbd3984d1160bf06f2da5ecb290f054747f59e1",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "830c756318a3da8fb2f0b4589b5bd3a0d0f8387e531646072ad85f7dd0f1bcd8"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "8eb6ab886faa78874126939ae6fd40dbcae3e7ca04df2ec7030ce1515cbc54f3",
+    "target_instant": "2026-05-22T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 39.5
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 630,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "18803c4e877011250040e89d02c2e09749235dca9064f90f3ce2f4a0ff121ed7"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "21a4364797e71e2605deb1932c9e626fbcfc77ef0c24fee9a0b8567fdc197622",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "a73da7b9afd139a851d94f4690c35d3cae1953f01afcde453857a8e5ba257fa9"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "80d6386541009444d2ac64c49839494985e4bac55749f846d1fed14a6a6ea2a0",
+    "target_instant": "2026-08-20T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 33.2
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 510,
+        "branch_id": "probe",
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "23ac8fd4ca740a57397f869ec12929daa35e867bf602a7f356f8796d47ee2f59"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "lease_signing_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "8e41c0669f64b4fd736be64799994b6cad8c151faaa52de64c320c68329a3f5d",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "14ff947d7168df00692a846f83be872fd06f7fd5b35b927a1c94e3e88294e603"
+      ]
+    },
+    "profile": "lease_signing_i1",
+    "route": "hy3",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "spec_digest": "998e6d06947ad196f10c99dfc8d0411b826e8e28056a1f41cf00a27fa659dc71",
+    "target_instant": "2026-08-20T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 31.0
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 619,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "07ff60ecf2bc1b5bceb8d9ac0035678a1d7f8083255f5b7ff6e9bea85105c001"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "adbd03477ae4e05674308cf25df27436da0ea3077f9c5c8ccffb28ba0b75e3f9",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "2160a472bc038e2b3085bbf05548cda5ca68b38a5e2509e2c5fda4fce7b4340b"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "6faf1110c418c83e924834d5c46bc3961222b5acd5e62b1955987b7682d7faba",
+    "target_instant": "2026-05-05T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 26.6
+  },
+  {
+    "arm": "pre",
+    "branches": [
+      {
+        "answer_len": 598,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "61ddaa2d18d2856638bbe7087960e6af30c1307b973b270d783668aca3f14477",
+          "8c083199776edf0a88a7f55e3d94fcfcc35dd598563df851b1eeaab47559fd54"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "186fe9c3ca3ebc378defbd343aa9461a98e3c9056ac4788ca7ff826e0623c582",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "fe29740a173bb70f174a459a7bc6dfe8ea4c781a626adac6750ec4de12fef8f0"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "e1ae4d72255905e1710dbeb0e64f38e0436f6ce62c89dc033c4f615f46184cc8",
+    "target_instant": "2026-05-05T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 28.9
+  },
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 736,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "37dda40f3242d2096e158324bb740d5c8dee9853c74924e822a7736f8de38b02"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "6eac964be4dc5f64043458ea38ef0a12b24fa608dbcec4c6b9b0d70294c837de",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        34
+      ],
+      "parent_prefix_digests": [
+        "c35fa993f14ec05ea5e1485014e0a9fb5dc6d0ad550e7ccc68ee0e210527c6f6"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "21ab380685defc6a1f88fc78877160312df58fd370fded034fa13ddacd976c0c",
+    "target_instant": "2026-06-05T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 48.8
+  },
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 449,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "61ddaa2d18d2856638bbe7087960e6af30c1307b973b270d783668aca3f14477",
+          "ae32e8e479ee2d226a2e498cbf46b349ee31e58860bf73463860b7bd6b15e963"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "659c55bfaa2e5eae9ef0be26ca307dd6d1e81a201262f8649dfede57233b9fc1",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "b14c274f8794081d43b3e1799358af03a12b11d1adab6153ad499b389b4958b2"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "76e06f581ab085eb93b43631bb3d1ddde94778808b7a778e8371ce0fa945b527",
+    "target_instant": "2026-06-05T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 29.8
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 549,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "de9e8d90c82d5d66ec03e9070b62c49526d53e7abbda92fd496b3a708f4a132a"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "1762ea18e5f231fe158b38385b8c9331ea6269ea1e02e0a729296692581305d3",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "71e167c6325b43bc4f99e1da04a41d1a2211dc29b0c4970acd73b6ef0798b297"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "23e448f3b3d0d31980a1b3eb509b5f8aada2a34cb182ffc289f7dc53896b1579",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 43.7
+  },
+  {
+    "arm": "late",
+    "branches": [
+      {
+        "answer_len": 526,
+        "branch_id": "probe",
+        "delivered": [
+          "car_maintenance_i1_original_confirmation",
+          "car_maintenance_i1_preparation_notes",
+          "car_maintenance_i1_unrelated_invitation",
+          "car_maintenance_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "61ddaa2d18d2856638bbe7087960e6af30c1307b973b270d783668aca3f14477"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "ac579b31fd01cae67922b6d11c1f1afdb88ebe63486779ee87dae34a7e327375",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "car_maintenance_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "a7c6fbe5df8661c0979002cf920a3c2adaf9137767d17723a56fedbf302e8a36",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        33
+      ],
+      "parent_prefix_digests": [
+        "d16052a159ba758f927cddda66e1d607d6f86c61cef6cf7a6d4e015a929579fe"
+      ]
+    },
+    "profile": "car_maintenance_i1",
+    "route": "hy3",
+    "schedule_digest": "20d96dc5adafe508e6cbeb593159b8653228ad68aca859d60f33fde30bc1a42d",
+    "spec_digest": "6ab17af90e82eafbb010fc263e818d79974563f5f8429acc8ee229912c7f51cf",
+    "target_instant": "2026-09-03T09:00:00+08:00",
+    "visibility": "natural",
+    "wall_seconds": 22.2
+  }
+]

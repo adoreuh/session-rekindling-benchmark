@@ -1,0 +1,142 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "A",
+    "ref_date": "2026-06-05",
+    "event_date": "2026-05-06",
+    "prompt": "事件日期是 2026-05-06。参考日期是 2026-06-05。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "相差 30 天。",
+    "reasoning_content": "We need answer in Chinese. Need compute days between 2026-05-06 and 2026-06-05. Need determine inclusive? User asks \"两个日期相差多少天？\" Usually difference between dates: from May 6 to June 5. Need calculate. 2026 not leap? 2026/4=506.5, no. May has 31 days. From May 6 to June 5: May 6 to May 31 =25 days? Let's compute: May 6 to May 7 =1, ... May 31 is 25 days after May 6? May 6 + 25 = May 31. Then June 5 = May 31 +5 =30 days. So difference 30 days. If include both endpoints? \"相差\" usually absolute difference 30 days. Need answer.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 184,
+      "total_tokens": 295,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 111,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "input_tokens": 111,
+      "output_tokens": 184
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790728292800807aee62071c6276565fb8410c8c5179a9194b",
+    "system_fingerprint": "",
+    "latency_s": 2.468,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      }
+    ],
+    "raw": {
+      "id": "021790728292800807aee62071c6276565fb8410c8c5179a9194b",
+      "object": "chat.completion",
+      "created": 1790728295,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 184,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 111,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "input_tokens": 111,
+        "output_tokens": 184
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "相差 30 天。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compute days between 2026-05-06 and 2026-06-05. Need determine inclusive? User asks \"两个日期相差多少天？\" Usually difference between dates: from May 6 to June 5. Need calculate. 2026 not leap? 2026/4=506.5, no. May has 31 days. From May 6 to June 5: May 6 to May 31 =25 days? Let's compute: May 6 to May 7 =1, ... May 31 is 25 days after May 6? May 6 + 25 = May 31. Then June 5 = May 31 +5 =30 days. So difference 30 days. If include both endpoints? \"相差\" usually absolute difference 30 days. Need answer."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

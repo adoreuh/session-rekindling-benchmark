@@ -1,0 +1,92 @@
+{
+  "cell": {
+    "cell_id": "broadband_install_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "broadband_install_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "相差 **30天**。",
+    "reasoning_content": "We need answer in Chinese. Need compute days between 2026-04-20 and 2026-05-20. From Apr 20 to May 20 exactly 30 days? April has 30 days, so Apr20 to Apr30 =10 days, May1-20=20, total30. If inclusive? \"相差多少天\" usually difference = 30 days. Need answer concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 91,
+      "total_tokens": 202,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 111,
+      "prompt_cache_hit_tokens": 0,
+      "input_tokens": 111,
+      "output_tokens": 91
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "chatcmpl-5fa4bde2-85d1-9a5c-b9bc-abeed7e18931",
+    "system_fingerprint": "",
+    "latency_s": 2.079,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      }
+    ],
+    "raw": {
+      "id": "chatcmpl-5fa4bde2-85d1-9a5c-b9bc-abeed7e18931",
+      "object": "chat.completion",
+      "created": 1790728066,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 91,
+        "total_tokens": 202,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 84
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 84
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 111,
+        "prompt_cache_hit_tokens": 0,
+        "input_tokens": 111,
+        "output_tokens": 91
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "相差 **30天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese. Need compute days between 2026-04-20 and 2026-05-20. From Apr 20 to May 20 exactly 30 days? April has 30 days, so Apr20 to Apr30 =10 days, May1-20=20, total30. If inclusive? \"相差多少天\" usually difference = 30 days. Need answer concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

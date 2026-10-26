@@ -1,0 +1,417 @@
+{
+  "cell": {
+    "cell_id": "visa_interview_i1::A",
+    "route": "DeepSeek-V4-Flash",
+    "kind": "visa_interview_i1",
+    "task": "A",
+    "ref_date": "2026-05-20",
+    "event_date": "2026-04-20",
+    "prompt": "事件日期是 2026-04-20。参考日期是 2026-05-20。两个日期相差多少天？",
+    "gold": "30"
+  },
+  "response": {
+    "content": "2026-04-20 到 2026-05-20 相差 **30 天**。",
+    "reasoning_content": "We need answer in Chinese likely. Need compute days between 2026-04-20 and 2026-05-20. Need consider inclusive? \"两个日期相差多少天\" usually difference in days = from Apr 20 to May 20 is 30 days (April has 30 days, Apr 20 to Apr 30 =10 days? Let's calculate: April 20 to May 20: remaining April days after 20th: Apr21-Apr30 =10 days? Actually date difference = May20 - Apr20 = 30 days if treating dates as points. April has 30 days so from Apr20 to May20 exactly 30. If inclusive count including both start/end would be 31, but \"相差\" means difference, 30. Need answer concise.",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 188,
+      "total_tokens": 299,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_miss_tokens": 111,
+      "prompt_cache_hit_tokens": 0,
+      "input_tokens": 111,
+      "output_tokens": 188
+    },
+    "model": "DeepSeek-V4-Flash-0731",
+    "request_id": "021790729546286807aee62071c6276565fb8410c8c517967dad2",
+    "system_fingerprint": "",
+    "latency_s": 2.96,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.079
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.338
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.588
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.066
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.087
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.666
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.529
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.461
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.669
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.468
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.46
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.635
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.211
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.725
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 5.541
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.812
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.859
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.353
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.932
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.579
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.426
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.834
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.217
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.497
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.687
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.556
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.146
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.657
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.608
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.898
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.081
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.176
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.097
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.53
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.655
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.928
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.855
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.747
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.743
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.764
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.168
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.49
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.042
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.954
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.514
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.929
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.105
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.752
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.624
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.552
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.092
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.376
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.754
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.782
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.755
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.947
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.023
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.131
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.914
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.387
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.495
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.238
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.16
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.96
+      }
+    ],
+    "raw": {
+      "id": "021790729546286807aee62071c6276565fb8410c8c517967dad2",
+      "object": "chat.completion",
+      "created": 1790729548,
+      "model": "DeepSeek-V4-Flash-0731",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 188,
+        "total_tokens": 299,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 164
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 164
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_miss_tokens": 111,
+        "prompt_cache_hit_tokens": 0,
+        "input_tokens": 111,
+        "output_tokens": 188
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "2026-04-20 到 2026-05-20 相差 **30 天**。",
+            "role": "assistant",
+            "reasoning_content": "We need answer in Chinese likely. Need compute days between 2026-04-20 and 2026-05-20. Need consider inclusive? \"两个日期相差多少天\" usually difference in days = from Apr 20 to May 20 is 30 days (April has 30 days, Apr 20 to Apr 30 =10 days? Let's calculate: April 20 to May 20: remaining April days after 20th: Apr21-Apr30 =10 days? Actually date difference = May20 - Apr20 = 30 days if treating dates as points. April has 30 days so from Apr20 to May20 exactly 30. If inclusive count including both start/end would be 31, but \"相差\" means difference, 30. Need answer concise."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

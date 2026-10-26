@@ -1,0 +1,152 @@
+{
+  "cell": {
+    "cell_id": "employment_checkup_i1::B_future",
+    "route": "DeepSeek-V4.1-Flash",
+    "kind": "employment_checkup_i1",
+    "task": "B_future",
+    "ref_date": "2026-04-21",
+    "event_date": "2026-05-06",
+    "prompt": "某事项定于 2026-05-06 举行。参考日期是 2026-04-21。该事项的预定日期已经过去了吗？回答\"是\"或\"否\"。",
+    "gold": "否"
+  },
+  "response": {
+    "content": "否",
+    "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-05-06 has passed relative to reference date 2026-04-21. Obviously future. Answer 否. Need only \"是\" or \"否\".",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 72,
+      "completion_tokens": 49,
+      "total_tokens": 121,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 72,
+      "input_tokens": 72,
+      "output_tokens": 49
+    },
+    "model": "DeepSeek-Flash",
+    "request_id": "021790728287415d5e3a06b1d3d650f0fc414a0e965c499e412ee",
+    "system_fingerprint": "",
+    "latency_s": 1.737,
+    "attempts": 1,
+    "attempt_log": [
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.051
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.485
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.58
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 4.691
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.048
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 2.767
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.633
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.184
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.819
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.924
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 3.478
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.73
+      },
+      {
+        "attempt": 1,
+        "ok": true,
+        "latency_s": 1.737
+      }
+    ],
+    "raw": {
+      "id": "021790728287415d5e3a06b1d3d650f0fc414a0e965c499e412ee",
+      "object": "chat.completion",
+      "created": 1790728288,
+      "model": "DeepSeek-Flash",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 49,
+        "total_tokens": 121,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 72,
+        "input_tokens": 72,
+        "output_tokens": 49
+      },
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "否",
+            "role": "assistant",
+            "reasoning_content": "We need answer Chinese. Need determine if scheduled date 2026-05-06 has passed relative to reference date 2026-04-21. Obviously future. Answer 否. Need only \"是\" or \"否\"."
+          },
+          "refs": null,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "service_tier": null
+        }
+      ]
+    }
+  }
+}

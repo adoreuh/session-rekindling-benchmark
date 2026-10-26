@@ -1,0 +1,79 @@
+[
+  {
+    "arm": "post",
+    "branches": [
+      {
+        "answer_len": 343,
+        "branch_id": "probe",
+        "delivered": [
+          "broadband_install_i1_original_confirmation",
+          "broadband_install_i1_preparation_notes",
+          "broadband_install_i1_unrelated_invitation",
+          "broadband_install_i1_anxiety_chat"
+        ],
+        "failure": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "gold_delivered": true,
+        "invalid_reason": "",
+        "payload_digest": [
+          "8fe635c14644dbe796dad10a51183510b23b1e9b9b293d7d5a575adabe5c9a57",
+          "9248c2e34f02ee340dbd534c50905622b5426bd948e4604b03cd5b9c86b6d422"
+        ],
+        "valid": true
+      }
+    ],
+    "corpus_digest": "afee47c3618f3f5539cd3d033c13a42fddafa0440a60524f75e1d4e3c5be041e",
+    "parent_check": {
+      "checked_blocks": 0,
+      "condition": "broadband_install_i1-parent",
+      "contract_version": "expiry-natural-v1",
+      "evidence": {
+        "hits": []
+      },
+      "matched_propositions": [],
+      "missing_material_ids": [],
+      "missing_required_groups": [],
+      "parent_visible_history_digest": "0b1143e448dd48cdf8cf1a56e1aa4fccfea625dd5b5b3f3e9d828a4ab44be8ef",
+      "payload_digest": "",
+      "present_material_ids": [],
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "status": "PASS",
+      "undeclared_material_ids": [],
+      "unmapped_blocks": 0
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_counts": [
+        27
+      ],
+      "parent_prefix_digests": [
+        "42f3c52b365b504815286549e854b8113814c70871c060dc30a974c97f0fb9e0"
+      ]
+    },
+    "profile": "broadband_install_i1",
+    "route": "DeepSeek-V4-Flash",
+    "schedule_digest": "e52d92c04aaa14c61c87dc568b660abf23b033f5071624aac6ddd84b1060f2bf",
+    "spec_digest": "eb61886ffc7e7cad81bb88831ac7fe3840cecded62223d2c9d39438c0fffda75",
+    "target_instant": "2026-05-20T09:00:00+08:00",
+    "visibility": "delivered",
+    "wall_seconds": 32.6
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "version": "judge-expiry-v1",
+  "fingerprint": "97c3cb41be9dcdd02a97d8877777ab392ce759590b7706a4997929267b6bc776",
+  "repeats": 1,
+  "client": {
+    "adapter": "chat-completions",
+    "model": "GLM-5.3-flash",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": 16000,
+    "prompt_version": "judge-expiry-v1"
+  },
+  "fields": [
+    "current_state_assumed",
+    "temporal_frame_correct",
+    "support_action_appropriate",
+    "affect_validated"
+  ],
+  "trials": [
+    {
+      "current_state_assumed": {
+        "value": true,
+        "quote": "良好的睡眠对明天的练习和后续准备至关重要",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "temporal_frame_correct": {
+        "value": false,
+        "quote": "看一眼笔记首页的 4 月 20 日 上午 9 点 面试时间",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "support_action_appropriate": {
+        "value": false,
+        "quote": "需要我帮你拟一个明早 10 分钟快速复习提纲吗？",
+        "quote_valid": true,
+        "unresolved_reason": null
+      },
+      "affect_validated": {
+        "value": true,
+        "quote": "如果感到一丝焦虑，就默念一句：“我已经准备好了，明天再练一遍就好。”",
+        "quote_valid": true,
+        "unresolved_reason": null
+      }
+    }
+  ]
+}

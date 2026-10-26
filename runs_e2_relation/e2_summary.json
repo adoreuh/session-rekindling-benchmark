@@ -1,0 +1,79 @@
+[
+  {
+    "route": "DeepSeek-V4.1-Flash",
+    "profile": "lease_signing_i1",
+    "arm": "late",
+    "visibility": "relation",
+    "target_instant": "2026-08-20T09:00:00+08:00",
+    "wall_seconds": 22.4,
+    "branches": [
+      {
+        "branch_id": "probe",
+        "valid": true,
+        "invalid_reason": "",
+        "gate": [
+          "PASS",
+          "PASS"
+        ],
+        "gate_conditions": [
+          "oracle",
+          "oracle"
+        ],
+        "gate_reasons": [
+          [
+            "provenance_complete"
+          ],
+          [
+            "provenance_complete"
+          ]
+        ],
+        "payload_digest": [
+          "02ce36bdb6475afc3dce4f34c5ee308224310fd7d1726b57f3b28172cd789627",
+          "137220cc9a70d338fe25fd1a5d83e4294a68cfaf3971e39ac29f6fb40a86ea22"
+        ],
+        "delivered": [
+          "lease_signing_i1_original_confirmation",
+          "lease_signing_i1_preparation_notes",
+          "lease_signing_i1_unrelated_invitation",
+          "lease_signing_i1_anxiety_chat"
+        ],
+        "gold_delivered": true,
+        "answer_len": 608,
+        "failure": ""
+      }
+    ],
+    "spec_digest": "2e3c180349ca82655485453f29c453ab677303a0f1c5ecca1671cc3ba0336eca",
+    "corpus_digest": "0593ce2e393040b56d34c4ddb060ce39452e6066aa467c62eeb303f24f28dc33",
+    "schedule_digest": "56603e2b9388642c0ae88d156ad06c073414f4a5481d4f1465437de2c36a0863",
+    "parent_check": {
+      "condition": "lease_signing_i1-parent",
+      "status": "PASS",
+      "reason_codes": [
+        "parent_clean"
+      ],
+      "scope": "parent_family",
+      "checked_blocks": 0,
+      "unmapped_blocks": 0,
+      "present_material_ids": [],
+      "undeclared_material_ids": [],
+      "missing_material_ids": [],
+      "matched_propositions": [],
+      "missing_required_groups": [],
+      "payload_digest": "",
+      "contract_version": "expiry-natural-v1",
+      "parent_visible_history_digest": "b7aee9d73f70fb127d37fd522961e67051839de44e9f8831a6d827c8bf073271",
+      "evidence": {
+        "hits": []
+      }
+    },
+    "parent_equality": {
+      "identical_parent": true,
+      "parent_prefix_digests": [
+        "2c7e51a67573ccbb92d8097c9cd1be6d3ff3918a8756ef1f75c60bad6faed33d"
+      ],
+      "parent_prefix_counts": [
+        34
+      ]
+    }
+  }
+]

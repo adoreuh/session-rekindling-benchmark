@@ -1,0 +1,26 @@
+{
+  "corpus_digest": "2388d2c1258cea304800e06059cec688600ecc80c290bcc0072eaeb18152a19d",
+  "enabled_tools": [
+    "world_time"
+  ],
+  "memory_wrapper_digest": "b05c2fbb161588a0add66ba849e16e31e94d657a5e319589eba3c94ec4539b49",
+  "model_identity": {
+    "api_key_env": "VELA_API_KEY",
+    "base_url": "__REDACTED_BASE_URL__",
+    "max_tokens": null,
+    "model": "DeepSeek-V4-Flash",
+    "provider": "openai_compatible",
+    "temperature": 0.0
+  },
+  "note_lifetime": "turn_scoped",
+  "phase_top_k": {
+    "prefix": 3,
+    "probe": 4
+  },
+  "prompt_digest": "0026a620ee509a952884937032339ff472e22c5fefce989e573782fe921bd729",
+  "protocol_version": "vela-lab-protocol-v0.4",
+  "request_params": {},
+  "schedule_digest": "b85d571610863b5a3afca0e3a128e33d0b1af1893165eca70626328b78b973a1",
+  "tool_budget": 8,
+  "tool_schemas_digest": "41a87261312c6e91770d7453c5a49f862a2b8949e958b7ca9bdc3521edeabed8"
+}
